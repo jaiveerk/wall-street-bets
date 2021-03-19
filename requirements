@@ -1,0 +1,10 @@
+Just a noteapad for now - legitimate requirements.txt will be made later
+
+lxml
+
+os
+praw
+pandas
+time
+datetime
+yfinance

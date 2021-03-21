@@ -5,6 +5,10 @@ from time import sleep
 from datetime import date, datetime, timedelta
 import yfinance as yf
 from ftplib import FTP
+from tqdm import tqdm
+import string
+from psaw import PushshiftAPI
+
 
 
 
@@ -15,7 +19,11 @@ def getTickers():
         if(ticker[:6] == 'Symbol'):
             return
         else:
-            tickers.append(ticker.split('|')[0])
+            stringSplit = ticker.split('|')
+            tickerName = stringSplit[0]
+            equityName = stringSplit[1].split('-')[0][:-1] # get the company name and remove the space before the dash
+            equityName = equityName.translate(str.maketrans('', '', string.punctuation)) # remove punctuation from name
+            tickers.append((tickerName, equityName))
 
 
     with FTP('ftp.nasdaqtrader.com') as ftp:
@@ -24,7 +32,7 @@ def getTickers():
         # ftp.retrlines('LIST')
         test = ftp.retrlines('RETR nasdaqlisted.txt', processTicker)
     
-    return tickers
+    return tickers[:-1] # remove performance description
 
 def getPosts(lim=900, mode="w"):  
     
@@ -33,20 +41,30 @@ def getPosts(lim=900, mode="w"):
     # might not actually pick up anything, but worth a shot? For instance, unlikely that "Microsoft Corporation" will be in a post
     # but between short name and ticker I think we should get just about everything... no way to isolate the common name right? Hard to make a general solution that would work for both
     # "Microsoft Corporation" and "Papa John's Pizza"
-    nasdaqTickers = [(ticker, yf.Ticker(ticker.upper()).info['shortName']) for ticker in nasdaqTickers] # make (ticker, name) tuples
-
-    print("Ticker information processed")
-
 
     sub_dict = {
-        'ticker': [], 'selftext': [], 'title': [], 'id': [], 'sorted_by': [],
-        'num_comments': [], 'score': [], 'upvote_ratio': [], 'ups': [], 'downs': [], 'is_saved': [], 'is_distinguished': [], 'link_flair_text': [], 'is_locked': [], 'is_self': [], 'signal': []}
+        'ticker': [], 'selftext': [], 'title': [], 'id': [],
+        'num_comments': [], 'score': [], 'upvote_ratio': [], 'ups': [], 'downs': [], 'is_distinguished': [], 'link_flair_text': [], 'is_locked': [], 'is_self': [], 'signal': []}
     
     # gonna need to toString the date arguments?
     csv = 'data/posts.csv'
 
-    # Specify a sorting method - new
-    subreddit = reddit.subreddit("wallstreetbets").new(limit=lim)
+    # # ---------------------- USING PRAW ----------------------------- # 
+    # # Specify a sorting method - new
+    # subreddit = reddit.subreddit("wallstreetbets").new(limit=lim)
+
+    # # ---------------------------------------------------------------- #
+
+    # ---------------------- USING PSAW ------------------------------ #
+    desiredAttributes = ['selftext','title', 'title', 'id', 'num_comments', 'score', 'upvote_ratio', 'ups', 'downs', 'distinguished', 'link_flair_text', 'locked', 'is_self']
+    twentyDaysAgo = date.today() + timedelta(days=-20)
+    end_epoch=int(datetime.combine(twentyDaysAgo, datetime.min.time()).timestamp())
+    subreddit = list(api.search_submissions(before=end_epoch,
+                            subreddit='wallstreetbets',
+                            filter=desiredAttributes,
+                            limit=1000))
+
+    # ----------------------------------------------------------------- #
 
     # Set csv_loaded to True if csv exists (can't evaluate truth on a dataframe)
     df, csv_loaded = (pd.read_csv(csv), 1) if isfile(csv) else ('', 0)
@@ -56,20 +74,24 @@ def getPosts(lim=900, mode="w"):
 
     print(f'Collecting information from r/wallstreetbets...')
 
+    postCounter = 0
     for post in subreddit:
+        postCounter += 1
         # Check if post.id is in df and set to True if df is empty
         isUnique = post.id not in set(df['id']) if csv_loaded else True
+        postCreatedDate = date.fromtimestamp(post.created_utc)
 
-        if not isUnique or not post.link_flair_text: # ignore if we've processed already or if no flair 
+        if not isUnique or not post.link_flair_text: # ignore if we've processed already or if no flair
             continue
 
 
         # check title and post body for mention of ticker or company name
         contentString = post.selftext.lower() + post.title.lower()
+
    
 
         for tuple in nasdaqTickers:
-            if tuple[0] in contentString or tuple[1] in contentString: # if a ticker we know of is in this post, let's add a row for it to our CSV
+            if tuple[0].lower() in contentString or tuple[1].lower() in contentString: # if a ticker we know of is in this post, let's add a row for it to our CSV
                 sub_dict['ticker'].append(tuple[0])
                 sub_dict['selftext'].append(post.selftext.lower())
                 sub_dict['title'].append(post.title.lower())
@@ -79,7 +101,6 @@ def getPosts(lim=900, mode="w"):
                 sub_dict['upvote_ratio'].append(post.upvote_ratio)
                 sub_dict['ups'].append(post.ups)
                 sub_dict['downs'].append(post.downs)
-                sub_dict['is_saved'].append(post.saved)
                 sub_dict['is_distinguished'].append(post.distinguished)
                 sub_dict['link_flair_text'].append(post.link_flair_text)
                 sub_dict['is_locked'].append(post.locked)
@@ -90,8 +111,6 @@ def getPosts(lim=900, mode="w"):
                 ticker = yf.Ticker(tuple[0])
 
                 # get differences in prices
-                postCreatedDate = date.fromtimestamp(post.created_utc)
-
                 tenDaysPrior = postCreatedDate + timedelta(days=-10)
                 tenDaysLater = postCreatedDate + timedelta(days=10)
 
@@ -125,8 +144,13 @@ def getPosts(lim=900, mode="w"):
                 priorOpeningPrice = histPriorDate['Open'].array[0]
                 laterClosingPrice = histLaterDate['Close'].array[0]
 
+
                 priceDifference = laterClosingPrice - priorOpeningPrice
                 percentageChange = priceDifference / priorOpeningPrice
+
+                print(f"Prior price was {priorOpeningPrice}, later price was {laterClosingPrice}, delta was {percentageChange}")
+
+
 
 
                 # calculate growth rate
@@ -155,8 +179,20 @@ def getPosts(lim=900, mode="w"):
             f'{len(new_df)} posts were collected but they were not '
             f'added to {csv} because mode was set to "{mode}" instead of w')
 
+    print(f'postCounter was {postCounter}')
 
 if __name__ == "__main__":
-    # creates Reddit API instance
-    reddit = praw.Reddit()
-    getPosts()
+    
+    # # ----------------- USING PRAW -------------------
+    # # creates Reddit API instance
+    # reddit = praw.Reddit()
+    # # ------------------------------------------------
+
+    # ---------------- USING PSAW --------------------
+    r = praw.Reddit()
+    api = PushshiftAPI(r)
+
+    # ------------------------------------------------
+
+
+    getPosts(lim=10000)

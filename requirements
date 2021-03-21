@@ -8,3 +8,6 @@ pandas
 time
 datetime
 yfinance
+
+html5lib
+bs4

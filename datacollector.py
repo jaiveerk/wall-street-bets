@@ -16,14 +16,16 @@ def getTickers():
     tickers = []
 
     def processTicker(ticker):
+
         if(ticker[:6] == 'Symbol'):
             return
         else:
             stringSplit = ticker.split('|')
             tickerName = stringSplit[0]
-            equityName = stringSplit[1].split('-')[0][:-1] # get the company name and remove the space before the dash
-            equityName = equityName.translate(str.maketrans('', '', string.punctuation)) # remove punctuation from name
-            tickers.append((tickerName, equityName))
+            if tickerName == 'EDIT' or tickerName == 'HA' or tickerName == 'PSA' or tickerName == 'DD': # we're gonna ignore tickers that look like words
+                return
+            
+            tickers.append(tickerName)
 
 
     with FTP('ftp.nasdaqtrader.com') as ftp:
@@ -49,11 +51,6 @@ def getPosts(lim=900, mode="w"):
     # gonna need to toString the date arguments?
     csv = 'data/posts.csv'
 
-    # # ---------------------- USING PRAW ----------------------------- # 
-    # # Specify a sorting method - new
-    # subreddit = reddit.subreddit("wallstreetbets").new(limit=lim)
-
-    # # ---------------------------------------------------------------- #
 
     # ---------------------- USING PSAW ------------------------------ #
     desiredAttributes = ['selftext','title', 'title', 'id', 'num_comments', 'score', 'upvote_ratio', 'ups', 'downs', 'distinguished', 'link_flair_text', 'locked', 'is_self']
@@ -75,7 +72,8 @@ def getPosts(lim=900, mode="w"):
     print(f'Collecting information from r/wallstreetbets...')
 
     postCounter = 0
-    for post in subreddit:
+    for i in tqdm(range(len(subreddit))):
+        post = subreddit[i]
         postCounter += 1
         # Check if post.id is in df and set to True if df is empty
         isUnique = post.id not in set(df['id']) if csv_loaded else True
@@ -86,15 +84,22 @@ def getPosts(lim=900, mode="w"):
 
 
         # check title and post body for mention of ticker or company name
-        contentString = post.selftext.lower() + post.title.lower()
+        contentString = post.title + " " + post.selftext
+        contentString = contentString.translate(str.maketrans('', '', string.punctuation))
 
-   
+        contentStringSplit = contentString.split(" ")
+        if contentStringSplit[-1] == 'removed' or contentStringSplit[-1] == 'deleted':
+            contentStringSplit = contentStringSplit[:-1]
 
-        for tuple in nasdaqTickers:
-            if tuple[0].lower() in contentString or tuple[1].lower() in contentString: # if a ticker we know of is in this post, let's add a row for it to our CSV
-                sub_dict['ticker'].append(tuple[0])
-                sub_dict['selftext'].append(post.selftext.lower())
-                sub_dict['title'].append(post.title.lower())
+        for tickerName in nasdaqTickers:
+            if tickerName in contentStringSplit: # if a ticker we know of is in this post, let's add a row for it to our CSV
+                
+                print(f'Processing post: {contentString}')
+                print(f'Found ticker: {tickerName}')
+
+                sub_dict['ticker'].append(tickerName)
+                sub_dict['selftext'].append(post.selftext)
+                sub_dict['title'].append(post.title)
                 sub_dict['id'].append(post.id)
                 sub_dict['num_comments'].append(post.num_comments)
                 sub_dict['score'].append(post.score)
@@ -108,7 +113,7 @@ def getPosts(lim=900, mode="w"):
 
                 # now, let's figure out the signal
                 dateWindow = 20
-                ticker = yf.Ticker(tuple[0])
+                ticker = yf.Ticker(tickerName)
 
                 # get differences in prices
                 tenDaysPrior = postCreatedDate + timedelta(days=-10)
@@ -182,17 +187,8 @@ def getPosts(lim=900, mode="w"):
     print(f'postCounter was {postCounter}')
 
 if __name__ == "__main__":
-    
-    # # ----------------- USING PRAW -------------------
-    # # creates Reddit API instance
-    # reddit = praw.Reddit()
-    # # ------------------------------------------------
-
     # ---------------- USING PSAW --------------------
     r = praw.Reddit()
     api = PushshiftAPI(r)
-
-    # ------------------------------------------------
-
 
     getPosts(lim=10000)

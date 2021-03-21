@@ -1,1 +1,1991 @@
-ticker,selftext,title,id,sorted_by,num_comments,score,upvote_ratio,ups,downs,is_saved,is_distinguished,link_flair_text,is_locked,is_self,signal
+ticker,selftext,title,id,num_comments,score,upvote_ratio,ups,downs,is_distinguished,link_flair_text,is_locked,is_self,signal
+CLVS,[removed],CLVS,lu7hzt,0,1,1.0,1,0,,Discussion,False,True,-1
+NVAX,[removed],NVAX,lu7e8c,0,1,1.0,1,0,,Discussion,False,True,-1
+FTFT,[removed],This week is going to pop back up after the sell off! FTFT is a buy this week!,lu71r1,0,3,1.0,3,0,,Gain,False,True,-1
+KMPH,,How do you guys feel about KMPH and what they are saying?,lu6es6,1,1,1.0,1,0,,Discussion,False,False,-1
+MSTR,[removed],Why I'm betting $250k on MicroStrategy ($MSTR),lu6e7x,0,1,1.0,1,0,,DD,False,True,-1
+ON,[removed],HOW A PIZZA AND POODLE-DOG WILL CAUSE THE SHORTSQUEEZE ON MONDAY,lu645i,0,0,0.5,0,0,,Meme,False,True,-1
+SNDL,[deleted],$SNDL Draw your own conclusion from this chart. Great setup in my opinion.,lu5t6q,1,0,0.5,0,0,,Chart,False,False,-1
+WORX,,How do I scoop $WORX at $0?,lu5t02,0,1,1.0,1,0,,Discussion,False,False,-1
+VS,[removed],One of my favorite moments from the Congressional Hearing... Brad Sherman VS Citadel CEO Kenneth Griffin,lu54ti,1,1,1.0,1,0,,Discussion,False,True,-1
+SND,[removed],SND,lu4v9h,0,1,1.0,1,0,,YOLO,False,True,-1
+ON,[removed],IM A WATCHER ON THE WALL!!,lu4u19,0,1,1.0,1,0,,Discussion,False,True,-1
+ON,[deleted],"Seeing signs at Walmart from the chimp above 🌞, HANG ON APES. 💎 🦍",lu4k57,0,1,0.67,1,0,,Meme,False,False,-1
+ON,,"Seeing signs at Walmart from the chimp above 🌞 , HANG ON APES 💎 🦍",lu4g0y,1,10,0.78,10,0,,Meme,False,False,-1
+CRWD,"# 🐸 is getting ready to leap.
+
+This is my first DD post so I would appreciate any feedback and criticism of assumptions I am making here. But I thing that JFrog is setup for a good run in the next few months and here is why.
+
+# What do they do?
+
+Their main product is JFrog Artifactory which is a universal repository for software binaries (runnable code) and it also serves as a mirror repository - local copies of Open Source Software. They also offer JFrog X-Ray that scans those Open Source libraries for malware/vulnerabilities). This is one of the most critical cogs in the software sausage factory, Artifactory is comparable to a walk in refrigerator, with the mirror repo it adds the loading dock, with X-Ray it also helps to ensure food safety.
+
+**You may have heard of the Solarwinds attack and if you have been following it heard that it is described as a “supply chain vulnerability” attack. In my professional opinion, the toolset JFrog offers is the best available to combat this kind of threat and will stand to benefit from the need to increase cyber security.** That is why I am very much a Bullfrog 🐂🐸. If there is interest, I will do a deeper dive into this aspect at another time but for this initial one, this is the huge surge in demand for their capabilities and the need for going beyond the basics is my thesis why this company is positioned to do very, very well going forward.
+
+# Company background
+
+They were founded in 2008 and there main product has been Artifactory ever since. It has only 1 direct competitor with similar scope, Sonatype Nexus, but Artifactory is better and cheaper. Sonatype started as a plugin for Artifactory that does something similar to X-Ray before X-Ray existed, then they copycatted the Universal Repo, so JFrog hit back with X-Ray. I have used both of these products over the years (since 2013) and I have worked in environments without, Artifactory improves developer productivity a lot and it secures company Intellectual Property.
+
+Their product is used by most of the Fortune 500 companies. This includes **Google, AWS, Microsoft, IBM, and Facebook. These companies trust this product to keep their crown jewels (the software that runs their entire companies) safe**. That should tell you something about how good it is. They have over 90% renewal rate of their customers.
+
+They acquired Shippable in 2019 which basically lets them offer the whole sausage factory. Though the area where this competes is very competitive with some very good products that are Open Source.
+
+Their focus lately has been on offering a SaaS model to complement their on prem offering and make adoption easier. This should also grow their revenue a lot because it will make it easier to buy the total package instead of just the most basic.
+
+They went public in late 2020 but it was very low key since they came out the same day as Snowflake.
+
+# Financials
+
+I am including a couple of Comps here based on the segment they operate in. Atlassian (TEAM) makes Jira, Confluence, and Trello which are used by most software teams for managing requirements and agile software Team collaboration. I picked them as a comp because I view them as a developer productivity tool that you need around the same time you start needing Artifactory. Crowdstrike (CRWD) is another best in class cybersecurity company that comes into play as you are in operations protecting and detecting threats as your application is running.
+
+* As a high growth software company, unsurprisingly their GAAP earnings are negative. Surprisingly to me though, they are very minor and they have even had 1 quarter of profitability.
+   * FROG: -$0.1861
+   * CRWD: -$0.4763
+   * TEAM: -$4.9355
+* Their market cap
+   * FROG: $4.9 B
+   * CRWD: $47.8 B
+   * TEAM: $59.4 B
+* Their forward P/E Ratio
+   * FROG: 615
+   * CRWD: 771
+   * TEAM: 173
+* They don’t have any long term debt
+* Their current ratio (short term assets/short term debt) is 5.3
+* Their margin is over 80%
+* Revenue is growing 44% YOY
+
+# Ownership
+
+65% owned by insiders and institutions
+
+Most of that ownership is insiders because there are only 5 ETFs (including an ARK Index Fund) that own it.
+
+Their final lockup was just released on 2/16 after their earnings and insiders have through 3/13 to sell before they go back into lockup. This is similar to what happened with Palantir recently, but it seems like most of them have sold what they are going to sell.
+
+# TL;DR
+
+They have a great product and have cornered a growing market they invented which has high barriers to entry. They are well managed and have good financials as well.
+
+# Positions
+
+420 shares and 61 options, I am planning to get 8 more options on Monday. If you haven't guessed yet, I like the stock. You can check my post history to see some YOLO posts from earlier this week. I will post another update when I am fully loaded with 420/69 to ride this 🚀
+
+My EOY price target is at least $100/share from the current price which is at $53.49 on Friday.
+
+# Fun Frog Fact
+
+In 1992 Frogs were the first vertebrates to have sex in space.
+
+&#x200B;
+
+# Sources
+
+The company's website
+
+[https://jfrog.com](https://jfrog.com)
+
+For research on financials I have used the Shwab's site, but you need to be a customer to access.
+
+[https://client.schwab.com/secure/cc/research/stocks/stocks.html?path=/research/Client/Stocks/Summary&symbol=FROG](https://client.schwab.com/secure/cc/research/stocks/stocks.html?path=/research/Client/Stocks/Summary&symbol=FROG)
+
+Some Pre-IPO DD I read about their financials
+
+[https://techcrunch.com/2020/08/31/frugal-startups-should-pay-attention-to-how-jfrogs-ipo-prices/](https://techcrunch.com/2020/08/31/frugal-startups-should-pay-attention-to-how-jfrogs-ipo-prices/)
+
+The Quarterly Earnings Call from 2/11/2021
+
+[https://investors.jfrog.com/events/event-details/jfrogs-fourth-quarter-fiscal-2020-financial-results-conference-call](https://investors.jfrog.com/events/event-details/jfrogs-fourth-quarter-fiscal-2020-financial-results-conference-call)
+
+SEC To View their S-1 and 10K
+
+[https://www.sec.gov/cgi-bin/browse-edgar?CIK=1800667&owner=exclude](https://www.sec.gov/cgi-bin/browse-edgar?CIK=1800667&owner=exclude)
+
+Their competitor's website (they are a private company)
+
+[https://www.sonatype.com](https://www.sonatype.com)
+
+Crunchbase for them and their competitor
+
+[https://www.crunchbase.com/organization/jfrog-ltd](https://www.crunchbase.com/organization/jfrog-ltd)
+
+[https://www.crunchbase.com/organization/sonatype](https://www.crunchbase.com/organization/sonatype)
+
+&#x200B;
+
+Most of the info about what they do and some of their background comes from my experience as a customer/user of both their product and their competitive products for 8 years, I have seen both of them grow from early on.
+
+&#x200B;
+
+Edit: added sources and updated some formatting",🐸🐸 JFrog $FROG DD - A great software company with a lot of room for growth. 🐸🐸,lu46g7,47,12,0.56,12,0,,DD,False,True,-1
+FROG,"# 🐸 is getting ready to leap.
+
+This is my first DD post so I would appreciate any feedback and criticism of assumptions I am making here. But I thing that JFrog is setup for a good run in the next few months and here is why.
+
+# What do they do?
+
+Their main product is JFrog Artifactory which is a universal repository for software binaries (runnable code) and it also serves as a mirror repository - local copies of Open Source Software. They also offer JFrog X-Ray that scans those Open Source libraries for malware/vulnerabilities). This is one of the most critical cogs in the software sausage factory, Artifactory is comparable to a walk in refrigerator, with the mirror repo it adds the loading dock, with X-Ray it also helps to ensure food safety.
+
+**You may have heard of the Solarwinds attack and if you have been following it heard that it is described as a “supply chain vulnerability” attack. In my professional opinion, the toolset JFrog offers is the best available to combat this kind of threat and will stand to benefit from the need to increase cyber security.** That is why I am very much a Bullfrog 🐂🐸. If there is interest, I will do a deeper dive into this aspect at another time but for this initial one, this is the huge surge in demand for their capabilities and the need for going beyond the basics is my thesis why this company is positioned to do very, very well going forward.
+
+# Company background
+
+They were founded in 2008 and there main product has been Artifactory ever since. It has only 1 direct competitor with similar scope, Sonatype Nexus, but Artifactory is better and cheaper. Sonatype started as a plugin for Artifactory that does something similar to X-Ray before X-Ray existed, then they copycatted the Universal Repo, so JFrog hit back with X-Ray. I have used both of these products over the years (since 2013) and I have worked in environments without, Artifactory improves developer productivity a lot and it secures company Intellectual Property.
+
+Their product is used by most of the Fortune 500 companies. This includes **Google, AWS, Microsoft, IBM, and Facebook. These companies trust this product to keep their crown jewels (the software that runs their entire companies) safe**. That should tell you something about how good it is. They have over 90% renewal rate of their customers.
+
+They acquired Shippable in 2019 which basically lets them offer the whole sausage factory. Though the area where this competes is very competitive with some very good products that are Open Source.
+
+Their focus lately has been on offering a SaaS model to complement their on prem offering and make adoption easier. This should also grow their revenue a lot because it will make it easier to buy the total package instead of just the most basic.
+
+They went public in late 2020 but it was very low key since they came out the same day as Snowflake.
+
+# Financials
+
+I am including a couple of Comps here based on the segment they operate in. Atlassian (TEAM) makes Jira, Confluence, and Trello which are used by most software teams for managing requirements and agile software Team collaboration. I picked them as a comp because I view them as a developer productivity tool that you need around the same time you start needing Artifactory. Crowdstrike (CRWD) is another best in class cybersecurity company that comes into play as you are in operations protecting and detecting threats as your application is running.
+
+* As a high growth software company, unsurprisingly their GAAP earnings are negative. Surprisingly to me though, they are very minor and they have even had 1 quarter of profitability.
+   * FROG: -$0.1861
+   * CRWD: -$0.4763
+   * TEAM: -$4.9355
+* Their market cap
+   * FROG: $4.9 B
+   * CRWD: $47.8 B
+   * TEAM: $59.4 B
+* Their forward P/E Ratio
+   * FROG: 615
+   * CRWD: 771
+   * TEAM: 173
+* They don’t have any long term debt
+* Their current ratio (short term assets/short term debt) is 5.3
+* Their margin is over 80%
+* Revenue is growing 44% YOY
+
+# Ownership
+
+65% owned by insiders and institutions
+
+Most of that ownership is insiders because there are only 5 ETFs (including an ARK Index Fund) that own it.
+
+Their final lockup was just released on 2/16 after their earnings and insiders have through 3/13 to sell before they go back into lockup. This is similar to what happened with Palantir recently, but it seems like most of them have sold what they are going to sell.
+
+# TL;DR
+
+They have a great product and have cornered a growing market they invented which has high barriers to entry. They are well managed and have good financials as well.
+
+# Positions
+
+420 shares and 61 options, I am planning to get 8 more options on Monday. If you haven't guessed yet, I like the stock. You can check my post history to see some YOLO posts from earlier this week. I will post another update when I am fully loaded with 420/69 to ride this 🚀
+
+My EOY price target is at least $100/share from the current price which is at $53.49 on Friday.
+
+# Fun Frog Fact
+
+In 1992 Frogs were the first vertebrates to have sex in space.
+
+&#x200B;
+
+# Sources
+
+The company's website
+
+[https://jfrog.com](https://jfrog.com)
+
+For research on financials I have used the Shwab's site, but you need to be a customer to access.
+
+[https://client.schwab.com/secure/cc/research/stocks/stocks.html?path=/research/Client/Stocks/Summary&symbol=FROG](https://client.schwab.com/secure/cc/research/stocks/stocks.html?path=/research/Client/Stocks/Summary&symbol=FROG)
+
+Some Pre-IPO DD I read about their financials
+
+[https://techcrunch.com/2020/08/31/frugal-startups-should-pay-attention-to-how-jfrogs-ipo-prices/](https://techcrunch.com/2020/08/31/frugal-startups-should-pay-attention-to-how-jfrogs-ipo-prices/)
+
+The Quarterly Earnings Call from 2/11/2021
+
+[https://investors.jfrog.com/events/event-details/jfrogs-fourth-quarter-fiscal-2020-financial-results-conference-call](https://investors.jfrog.com/events/event-details/jfrogs-fourth-quarter-fiscal-2020-financial-results-conference-call)
+
+SEC To View their S-1 and 10K
+
+[https://www.sec.gov/cgi-bin/browse-edgar?CIK=1800667&owner=exclude](https://www.sec.gov/cgi-bin/browse-edgar?CIK=1800667&owner=exclude)
+
+Their competitor's website (they are a private company)
+
+[https://www.sonatype.com](https://www.sonatype.com)
+
+Crunchbase for them and their competitor
+
+[https://www.crunchbase.com/organization/jfrog-ltd](https://www.crunchbase.com/organization/jfrog-ltd)
+
+[https://www.crunchbase.com/organization/sonatype](https://www.crunchbase.com/organization/sonatype)
+
+&#x200B;
+
+Most of the info about what they do and some of their background comes from my experience as a customer/user of both their product and their competitive products for 8 years, I have seen both of them grow from early on.
+
+&#x200B;
+
+Edit: added sources and updated some formatting",🐸🐸 JFrog $FROG DD - A great software company with a lot of room for growth. 🐸🐸,lu46g7,47,12,0.56,12,0,,DD,False,True,-1
+TEAM,"# 🐸 is getting ready to leap.
+
+This is my first DD post so I would appreciate any feedback and criticism of assumptions I am making here. But I thing that JFrog is setup for a good run in the next few months and here is why.
+
+# What do they do?
+
+Their main product is JFrog Artifactory which is a universal repository for software binaries (runnable code) and it also serves as a mirror repository - local copies of Open Source Software. They also offer JFrog X-Ray that scans those Open Source libraries for malware/vulnerabilities). This is one of the most critical cogs in the software sausage factory, Artifactory is comparable to a walk in refrigerator, with the mirror repo it adds the loading dock, with X-Ray it also helps to ensure food safety.
+
+**You may have heard of the Solarwinds attack and if you have been following it heard that it is described as a “supply chain vulnerability” attack. In my professional opinion, the toolset JFrog offers is the best available to combat this kind of threat and will stand to benefit from the need to increase cyber security.** That is why I am very much a Bullfrog 🐂🐸. If there is interest, I will do a deeper dive into this aspect at another time but for this initial one, this is the huge surge in demand for their capabilities and the need for going beyond the basics is my thesis why this company is positioned to do very, very well going forward.
+
+# Company background
+
+They were founded in 2008 and there main product has been Artifactory ever since. It has only 1 direct competitor with similar scope, Sonatype Nexus, but Artifactory is better and cheaper. Sonatype started as a plugin for Artifactory that does something similar to X-Ray before X-Ray existed, then they copycatted the Universal Repo, so JFrog hit back with X-Ray. I have used both of these products over the years (since 2013) and I have worked in environments without, Artifactory improves developer productivity a lot and it secures company Intellectual Property.
+
+Their product is used by most of the Fortune 500 companies. This includes **Google, AWS, Microsoft, IBM, and Facebook. These companies trust this product to keep their crown jewels (the software that runs their entire companies) safe**. That should tell you something about how good it is. They have over 90% renewal rate of their customers.
+
+They acquired Shippable in 2019 which basically lets them offer the whole sausage factory. Though the area where this competes is very competitive with some very good products that are Open Source.
+
+Their focus lately has been on offering a SaaS model to complement their on prem offering and make adoption easier. This should also grow their revenue a lot because it will make it easier to buy the total package instead of just the most basic.
+
+They went public in late 2020 but it was very low key since they came out the same day as Snowflake.
+
+# Financials
+
+I am including a couple of Comps here based on the segment they operate in. Atlassian (TEAM) makes Jira, Confluence, and Trello which are used by most software teams for managing requirements and agile software Team collaboration. I picked them as a comp because I view them as a developer productivity tool that you need around the same time you start needing Artifactory. Crowdstrike (CRWD) is another best in class cybersecurity company that comes into play as you are in operations protecting and detecting threats as your application is running.
+
+* As a high growth software company, unsurprisingly their GAAP earnings are negative. Surprisingly to me though, they are very minor and they have even had 1 quarter of profitability.
+   * FROG: -$0.1861
+   * CRWD: -$0.4763
+   * TEAM: -$4.9355
+* Their market cap
+   * FROG: $4.9 B
+   * CRWD: $47.8 B
+   * TEAM: $59.4 B
+* Their forward P/E Ratio
+   * FROG: 615
+   * CRWD: 771
+   * TEAM: 173
+* They don’t have any long term debt
+* Their current ratio (short term assets/short term debt) is 5.3
+* Their margin is over 80%
+* Revenue is growing 44% YOY
+
+# Ownership
+
+65% owned by insiders and institutions
+
+Most of that ownership is insiders because there are only 5 ETFs (including an ARK Index Fund) that own it.
+
+Their final lockup was just released on 2/16 after their earnings and insiders have through 3/13 to sell before they go back into lockup. This is similar to what happened with Palantir recently, but it seems like most of them have sold what they are going to sell.
+
+# TL;DR
+
+They have a great product and have cornered a growing market they invented which has high barriers to entry. They are well managed and have good financials as well.
+
+# Positions
+
+420 shares and 61 options, I am planning to get 8 more options on Monday. If you haven't guessed yet, I like the stock. You can check my post history to see some YOLO posts from earlier this week. I will post another update when I am fully loaded with 420/69 to ride this 🚀
+
+My EOY price target is at least $100/share from the current price which is at $53.49 on Friday.
+
+# Fun Frog Fact
+
+In 1992 Frogs were the first vertebrates to have sex in space.
+
+&#x200B;
+
+# Sources
+
+The company's website
+
+[https://jfrog.com](https://jfrog.com)
+
+For research on financials I have used the Shwab's site, but you need to be a customer to access.
+
+[https://client.schwab.com/secure/cc/research/stocks/stocks.html?path=/research/Client/Stocks/Summary&symbol=FROG](https://client.schwab.com/secure/cc/research/stocks/stocks.html?path=/research/Client/Stocks/Summary&symbol=FROG)
+
+Some Pre-IPO DD I read about their financials
+
+[https://techcrunch.com/2020/08/31/frugal-startups-should-pay-attention-to-how-jfrogs-ipo-prices/](https://techcrunch.com/2020/08/31/frugal-startups-should-pay-attention-to-how-jfrogs-ipo-prices/)
+
+The Quarterly Earnings Call from 2/11/2021
+
+[https://investors.jfrog.com/events/event-details/jfrogs-fourth-quarter-fiscal-2020-financial-results-conference-call](https://investors.jfrog.com/events/event-details/jfrogs-fourth-quarter-fiscal-2020-financial-results-conference-call)
+
+SEC To View their S-1 and 10K
+
+[https://www.sec.gov/cgi-bin/browse-edgar?CIK=1800667&owner=exclude](https://www.sec.gov/cgi-bin/browse-edgar?CIK=1800667&owner=exclude)
+
+Their competitor's website (they are a private company)
+
+[https://www.sonatype.com](https://www.sonatype.com)
+
+Crunchbase for them and their competitor
+
+[https://www.crunchbase.com/organization/jfrog-ltd](https://www.crunchbase.com/organization/jfrog-ltd)
+
+[https://www.crunchbase.com/organization/sonatype](https://www.crunchbase.com/organization/sonatype)
+
+&#x200B;
+
+Most of the info about what they do and some of their background comes from my experience as a customer/user of both their product and their competitive products for 8 years, I have seen both of them grow from early on.
+
+&#x200B;
+
+Edit: added sources and updated some formatting",🐸🐸 JFrog $FROG DD - A great software company with a lot of room for growth. 🐸🐸,lu46g7,47,12,0.56,12,0,,DD,False,True,-1
+FROG,[removed],JFrog $FROG DD - A great software company with a lot of room for growth.,lu427g,0,1,1.0,1,0,,DD,False,True,-1
+CDC,,“A very concerning shift”- CDC warns of COVID uptick... AKA FRX will leave the station Monday.,lu3tig,0,1,1.0,1,0,,Discussion,False,False,1
+STAY,[deleted],STAY STRONG APES. GONNA BE A ROCKY WEEK 💎 🙌 🦍,lu3pzt,0,1,1.0,1,0,,Meme,False,False,1
+RIDE,[deleted],STAY STRONG APES THIS WEEK IS GONNA BE A BUMPY RIDE 💎 🙌 🦍,lu3ors,0,1,1.0,1,0,,Meme,False,False,-1
+STAY,[deleted],STAY STRONG APES THIS WEEK IS GONNA BE A BUMPY RIDE 💎 🙌 🦍,lu3ors,0,1,1.0,1,0,,Meme,False,False,1
+SP,,"Buffett is shitting on bond investors. Maybe, just maybe, we will finally see S&P 500 outperform long term treasury bonds after this two decade of underperformance against the bond market.",lu3leb,1,1,1.0,1,0,,Discussion,False,False,1
+SP,[deleted],"Buffett is shitting on bond investors. Maybe, just maybe, we will finally see S&P 500 outperform long term treasury bonds after this two decade of underperformance against the bond market.",lu3ix5,0,1,1.0,1,0,,News,False,False,1
+AGTC,[removed],AGTC,lu3flu,0,1,1.0,1,0,,YOLO,False,True,-1
+VIAC,,VIAC: A Short Story YOLO Update,lu39iw,21,22,0.83,22,0,,YOLO,False,False,1
+CAR,,You never had your CAR...,lu38bf,0,1,1.0,1,0,,Meme,False,False,1
+LOVE,,God bless ALL YOU APES I LOVE YOU $AMC . IM NOT FUCKING SELLING🚀,lu35io,188,2064,0.92,2064,0,,Gain,False,False,1
+FB,"Hello Apes,  
+This is one of my first posts and am going to try to make this a weekly thing to help you apes and autists out. 
+
+Hedgefunds and asset management firms have these analysts preparing all these market forecasts all the time. I feel like us apes could come together to defeat the hedgies by putting all our thoughts together and getting a sense of how the market might look like in the near future. So we can get tendies! Who wants tendies? I want tendies!
+
+Please note this is not financial advice. I am not a financial advisor. I am just an ape. This is purely for education purpose. Please consult a financial advisor not me.
+
+You all must be wondering, what the hell is going on in the market lately? Why are stonks down? Where are my tendies?
+
+Well Apes, apparently there are these things called bonds. JPOW sells these things at auctions and people buy them! Can you believe it? People actually buy things other than stonks.
+
+Lately these bond traders have been very worried that things are getting back to normal! There's $1.9 trillion on its way and that means tendies! Tendies for everyone! And that means prices of things might go up. And if that happens then Fed might have to raise interest rates to keep the prices from getting out of control!
+
+These genuis bond traders have ultra paper hands and they were expecting rates to rise in 2023. But they are afriad they might go up in 2022! Oh lawd! Have mercy.
+
+If interest rates go up. It means stonks go down! Witchcraft! These bond traders are scared and pooping their pants. No one is buying, which is driving the prices of some of these bonds down. means yields are rising! Rising yields oh no!  Everyone is panicking and cashing out.
+
+So bond traders are all looking at JPOW like what you gonna do. You gonna keep running that printer or stop? JPOW is like. Whatever YOLO. But bond traders are not convinced. They feel like JPOW like a cheating boyfriend is lying and will probably backstab them and raise rates.
+
+So bond traders don't wknow what to do. They are panicking. Scared and running around like chickens without heads. All this fear is spreading into the stock market and people are selling their stocks.
+
+Stocks are down! Stocks are down! Stocks are down!
+
+So what's ahead? Well Feb's job report is out on FRIDAY. If the numbers look good Thats Bad! Good means bad because it means things are getting back to normal. No! Bond traders don't want things to get back to normal. If numbers are bad Thats good! Because that means less risk of higher rates.
+
+Good is bad and bad is Good!  What in the world is going on?!?
+
+Well - All you need to know is JPOW is speaking on Thursday. Everyone will be watching. If he says something stupid... Stonks will go down. So lets hope he doesn't say anything stupid. Job reports out on Friday. If report is good then more red! 
+
+Also - Expect some more red if bond traders panic a bit more and drag the stocks down. If there is fear in the market then fewer insitutions will buy stuff. Apes are still buying. So keep buying and keep holding those diamond hands. Don't paper hand! Hold Strong! Let the insitution paper hand. If we keep holding. The market will stabilize in the next week or so. If we buy that means more tendies.
+
+All the best Apes. Just remember, expect turbulence ahead. But it will pass in a week or so. As soon as those stimulus cheques hit the streets, there will be tendies! Glorious tendies.
+
+Apes:  
+What is Queen Cathie doing:   
+Investors took out $1 billion out of her funds last week. People are pancking. Queen Cathie is staying calm and Diamond Handing (Bought): Palantir, Twitter, Square, Paypal, Signify Health, Baidu, JD, Tesla, Spotify. 
+
+She is Paper-Handing (Sold): Apple, FB, Snap, Alibaba, Salesforce, Amazon, Alphabet, Roku
+
+vs.
+
+Hedgies:   
+Paul Singer: ""Crash is coming! Can't wait to say I told you so!""  
+
+
+Let's see who wins in the next couple of weeks. If you thougth last week was volatile. Just wait till you see whats in store for the next couple of weeks!
+
+Apes Strong -  If you disagree or have any questions, feel free to msg me or leave a comment. Thanks!",Weekly Market Forecast - 2021-02-27 YOLO Capital,lu2tkc,23,21,0.73,21,0,,Discussion,False,True,-1
+JD,"Hello Apes,  
+This is one of my first posts and am going to try to make this a weekly thing to help you apes and autists out. 
+
+Hedgefunds and asset management firms have these analysts preparing all these market forecasts all the time. I feel like us apes could come together to defeat the hedgies by putting all our thoughts together and getting a sense of how the market might look like in the near future. So we can get tendies! Who wants tendies? I want tendies!
+
+Please note this is not financial advice. I am not a financial advisor. I am just an ape. This is purely for education purpose. Please consult a financial advisor not me.
+
+You all must be wondering, what the hell is going on in the market lately? Why are stonks down? Where are my tendies?
+
+Well Apes, apparently there are these things called bonds. JPOW sells these things at auctions and people buy them! Can you believe it? People actually buy things other than stonks.
+
+Lately these bond traders have been very worried that things are getting back to normal! There's $1.9 trillion on its way and that means tendies! Tendies for everyone! And that means prices of things might go up. And if that happens then Fed might have to raise interest rates to keep the prices from getting out of control!
+
+These genuis bond traders have ultra paper hands and they were expecting rates to rise in 2023. But they are afriad they might go up in 2022! Oh lawd! Have mercy.
+
+If interest rates go up. It means stonks go down! Witchcraft! These bond traders are scared and pooping their pants. No one is buying, which is driving the prices of some of these bonds down. means yields are rising! Rising yields oh no!  Everyone is panicking and cashing out.
+
+So bond traders are all looking at JPOW like what you gonna do. You gonna keep running that printer or stop? JPOW is like. Whatever YOLO. But bond traders are not convinced. They feel like JPOW like a cheating boyfriend is lying and will probably backstab them and raise rates.
+
+So bond traders don't wknow what to do. They are panicking. Scared and running around like chickens without heads. All this fear is spreading into the stock market and people are selling their stocks.
+
+Stocks are down! Stocks are down! Stocks are down!
+
+So what's ahead? Well Feb's job report is out on FRIDAY. If the numbers look good Thats Bad! Good means bad because it means things are getting back to normal. No! Bond traders don't want things to get back to normal. If numbers are bad Thats good! Because that means less risk of higher rates.
+
+Good is bad and bad is Good!  What in the world is going on?!?
+
+Well - All you need to know is JPOW is speaking on Thursday. Everyone will be watching. If he says something stupid... Stonks will go down. So lets hope he doesn't say anything stupid. Job reports out on Friday. If report is good then more red! 
+
+Also - Expect some more red if bond traders panic a bit more and drag the stocks down. If there is fear in the market then fewer insitutions will buy stuff. Apes are still buying. So keep buying and keep holding those diamond hands. Don't paper hand! Hold Strong! Let the insitution paper hand. If we keep holding. The market will stabilize in the next week or so. If we buy that means more tendies.
+
+All the best Apes. Just remember, expect turbulence ahead. But it will pass in a week or so. As soon as those stimulus cheques hit the streets, there will be tendies! Glorious tendies.
+
+Apes:  
+What is Queen Cathie doing:   
+Investors took out $1 billion out of her funds last week. People are pancking. Queen Cathie is staying calm and Diamond Handing (Bought): Palantir, Twitter, Square, Paypal, Signify Health, Baidu, JD, Tesla, Spotify. 
+
+She is Paper-Handing (Sold): Apple, FB, Snap, Alibaba, Salesforce, Amazon, Alphabet, Roku
+
+vs.
+
+Hedgies:   
+Paul Singer: ""Crash is coming! Can't wait to say I told you so!""  
+
+
+Let's see who wins in the next couple of weeks. If you thougth last week was volatile. Just wait till you see whats in store for the next couple of weeks!
+
+Apes Strong -  If you disagree or have any questions, feel free to msg me or leave a comment. Thanks!",Weekly Market Forecast - 2021-02-27 YOLO Capital,lu2tkc,23,21,0.73,21,0,,Discussion,False,True,-1
+REAL,[removed],The REAL Victory of the $GME Saga,lu2qwj,0,2,1.0,2,0,,Discussion,False,True,-1
+VERY,[removed],"GME. No video, no meme, no bullshit. REQUESTING A VERY SPECIAL MOD OR SMOOTH BRAIN TO HELP OUT!",lu2mkc,32,14,0.79,14,0,,Discussion,False,True,1
+GAIN,[removed],!!!LETS MAKE A DIFFERENCE AND GAIN THE RIGHT RECOGNITION !! $ONTX,lu2jxo,0,1,1.0,1,0,,DD,False,True,1
+ONTX,[removed],!!!LETS MAKE A DIFFERENCE AND GAIN THE RIGHT RECOGNITION !! $ONTX,lu2jxo,0,1,1.0,1,0,,DD,False,True,-1
+ONTX,[removed],we need apes on this $ONTX !!!!LETS FIGHT BIG PHARMA!!!,lu2ik6,1,1,1.0,1,0,,Discussion,False,True,-1
+NEXT,,GUYANA IS THE NEXT DUBAI ~ Oil is going nowhere but UP 🚀💥,lu2eb3,3,1,1.0,1,0,,Discussion,False,False,-1
+ACST,[removed],YOLO ACST to the moon,lu2e2n,2,1,1.0,1,0,,YOLO,False,True,-1
+VERU,[removed],VERU IS THE BIOTECH LOCK OF THE YEAR!!! 👍💰,lu2cbe,0,1,1.0,1,0,,Discussion,False,True,-1
+VUZI,[removed],"VUZI, PLTR, and CCIV ready for breakouts? Your thoughts??",lu291a,0,1,1.0,1,0,,Discussion,False,True,-1
+ACST,[removed],YOLO! ACST to the moon,lu26r6,3,1,1.0,1,0,,YOLO,False,True,-1
+CAN,,WE CAN EVEN GET IT MORE SQUOZED THAN VW IN 2008 !! I TRUST IN YOU DIAMOND HANDED APES 💎💎🦍 let‘s make unforgettable history. I LOVE THE STONK❤️🚀,lu202v,1,2,1.0,2,0,,Chart,False,False,1
+LOVE,,WE CAN EVEN GET IT MORE SQUOZED THAN VW IN 2008 !! I TRUST IN YOU DIAMOND HANDED APES 💎💎🦍 let‘s make unforgettable history. I LOVE THE STONK❤️🚀,lu202v,1,2,1.0,2,0,,Chart,False,False,1
+SNDL,[removed],Anyone in SNDL?,lu1z9j,0,1,1.0,1,0,,Discussion,False,True,-1
+CAN,,WE CAN EVEN GET IT MORE SQUOZED THEN VW IN 2008 RETARDS! I TRUST IN YOU DIAMOND HANDED APES 💎 I LOVE THE STONK 🦍 let‘s make unforgettable history.,lu1y2f,0,1,1.0,1,0,,Chart,False,False,1
+LOVE,,WE CAN EVEN GET IT MORE SQUOZED THEN VW IN 2008 RETARDS! I TRUST IN YOU DIAMOND HANDED APES 💎 I LOVE THE STONK 🦍 let‘s make unforgettable history.,lu1y2f,0,1,1.0,1,0,,Chart,False,False,1
+AAPL,"**UPDATE: 3/4**
+
+EPD I like the stock. 
+
+Don’t like much else. 
+
+🚨 **9:25 AM: JEROME ON SOME BULLSHIT TAKE PROFITS** 🚨 
+
+**3/4 ANOTHER UPDATE 7:15 AM: OIL CALL FLOW WAS CORRECT OPEC+ MEGA BOOOLISH RHETORIC LEAKING BUY BUY BUY**
+
+**3/4 update:** Most profits taken on EPD when it went above 23. All those calls went ITM this week. Chillin now while awaiting Powell
+
+**Another 3/3 update**
+
+Taking oil profits and sitting the rest of the day out, going to read up a bit on current index price action and see whatsup tomorrow.  I’ll post anything interesting I find. 
+
+**Clarification**: not selling EPD
+
+**3/3 mid day update:**
+
+Looks like the EPD call and 3/2 oil Update were on the right track. Holding off on buying any of the tech for Rambo rn while letting those run. Closed out any ded tech. 
+
+**Night shift RAMBO update 3/2**
+
+All the news coming out about OPEC+ is bearish, but I keep on seeing repeat OTM 3/19 call buying on all oil tickers.  *My spidey sense tingles*. 
+
+**The State of our DD: Update 3/2**
+
+Shitty market movement but nothing unexpected on our underlyings. Tech zoomed Monday— DOCU was a one day hold, but **remember to check the events scheduled on ones like CRM and NVDA for when you want to enter**. These are volatile times for tech and we’re playing pops. 
+
+**We got concerning news on Energy with Saudi’s saying they’ll loosen oil supply**. Tomorrow is the ESG portion of EPD and XOM is having an investor day— I’m going to let XOM movement determine if I am scared or not since it will be a litmus for Thursday EPD event. 
+
+BIDU doing its thing let’s hope it keeps up. CRM sucks ass as always but it’s the schedule I’m gonna play, not the stonk. 
+
+So far I am okay with things have played out after a big Monday, and luckily we have far dates on deez bitches
+
+****
+
+[Welcome back to the casino](https://i.imgur.com/rWUea2Z.jpg). 
+
+**Last week’s 1x-to-multi-baggers:** SPOT SNAP BA 
+**Last week’s losers: BIDU XPEV**
+
+**On a milk carton but our family still has hope**: JD
+
+*I use Barchart and TOS for general flow, but use Unusual Whales scanner for most of my UOA picks. Shoutout to them for giving permission to use screenshots and such that I’m playing.* 
+
+**UPDATE: DOCU CEO** speaking at Morgan Stanly TMT conference Monday AM. [This 300c 3/5 came through last week](https://i.imgur.com/dD2cqVp.jpg). Suicidal strike, but I like the sentiment. 
+
+****
+
+When the shit hits the fan and the indexes are falling, I'm in the lab trying to spot the bullish diamonds in the rough.  **Why?  Because the moment I buy a put, we are going to new all-time highs**.  I just know it.  So, I've had to work a little harder to pull out the calls, and I'm happy for those of you that got the SPOT, SNAP, and BA tendies from last week's DD.  XPEV was kind of weird too--I guess I need to take buy American.  Honestly, I'll take 3.5/5 for picks on a bloody week any day, though.
+
+**Please remember**: When things are this volatile, **choose your entries after market action seems to pick a direction AFTER the first hour of the day**, minimum, unless we're playing a specific event.  The difference between a failing play and a 30% intraday play can literally be the difference between buying at open, or buying two hours later. And don't get greedy--this is guerilla warfare right now.  Take your pop profits, unless you have PDT restriction in which case go tighter to the strike, and much longer than the whale.  **If you can’t afford it, don’t play it.** There are opportunities every day. 
+
+Anyway, I want to go in a little different direction this week, as something interesting stood out to me.  Ready? Let's roll.
+
+****
+
+**1.	The SPOT Whale: Anatomy of a carcass**
+
+On Monday, as I dined on SPOT tendies while the world burned around me, I was struck with a sense of unease amidst the clinking of champagne glasses.  On Sunday afternoon after the DD was written, some further research revealed that, at **8 AM on Monday 2/22, SPOT was hosting an “investor day”**.  Investor day was indeed the whale's bet, and boy did it pay off with that 8% intraday pop.
+
+I hadn't heard the term investor day or analyst day thrown around in tech for a bit, so my spidey sense was tingling.
+
+Then, the next interesting hits came.  Last week's Whales to Watch had SNAP picked as another play to follow based on OTM call activity and repeat betting.  On Tuesday and Wednesday, amidst the storm, SNAP indeed went nuts with intraday pops.  TWTR, which I'd made a note of the week prior, had the same activity.  **What was the seemingly invisible string tying these three tech plays together?  Investor/analyst days.**
+
+It was time to get to work.
+
+****
+
+**2.	The investigation**
+
+I wanted to see if these investor and analyst days were a recycled and growing phenonemon or something we just haven't paid much attention to.  The results were interesting in two ways.
+
+1) [SNAP](https://investor.snap.com/overview/default.aspx) [SPOT](https://investors.spotify.com/home/default.aspx) and [TWTR](https://investor.twitterinc.com/events-and-presentations/default.aspx) **investor relations pages show these events in 2021, but not in 2020 or 2019**.  Earnings? Sure.  Annual meetings? Indubitably.  Conferences? Yes.  Investor/analyst days?  Nay.  Small sample size obviously, but coming from these three within the same quarter after not having hosted any of these events over the past two years--I'd call it significant.
+
+2) **SNAP SPOT and TWTR investor/analyst days all came shortly after their Earnings Reports** (this is important later).  SNAP ER was 2/4, Investor Day was 2/23.  SPOT ER was 2/5, Investor Day was 2/22.  TWTR ER 2/9, Analyst Day was 2/25.
+
+*All three* of these tickers had OTM Whale bets with expirations the week of the investor/analyst events.  *All three* of these came within a month of their ER.  *All three* of these pumped due to events specifically designed to do just that--pump. 
+
+*NOTE: I did some quick searching of recent pumped tech, and PYPL employed the same strategy.  No ""investor day"" in 2020, yet after their ER on 2/3/21 they hosted an investor day on 2/11*
+
+These companies may as well have held up neon fucking signs that said ""WE ARE HAVING A VIRTUAL EVENT WHERE WE ARE GOING TO PAUMP OUR BRAINS OUT"".
+
+****
+
+**3.	Defining RAMBO**
+
+As I continued to poke around I saw more and more similar examples.  **Simple searches of OTM whale activity for specific dates on the tickers, which is then checked against the upcoming investor relations, conferences, and meetings on their corporate sites, gives valuable input for what may be brewing.**
+
+I also saw that [Morgan Stanley is hosting its annual Technology, Media, and Telecom conference](https://esn.net/morgan-stanley-technology-media-and-telecom-conference-march-1-2021/). Among others, our favorite FSLY is set to present 😬 😉.
+
+**Given that these plays coincide with investor relations, meetings/conferences, and are blatant pumps, I’ll refer to it as RAMBO: Relations and Meeting Buy Opportunities.**
+
+****
+
+**4. Theorizing recent increases of RAMBO** 
+
+**What stuck out to me was that these recent tech RAMBOs were scheduled to come shortly after their earnings reports**.  SPOT, if you're going to change the world with podcasts in Sierra Leone or whatever, *why not* announce it during the ER you had a couple weeks priorbefore?  **The same can be asked of others like PYPL, SNAP, TWTR, etc.**
+
+**My theory is that the current ER environment—where your stock plummets unless your forward guidance calls for a 10,000% estimate beat, means that companies are working around these unrealistic expectations by saving their best news for afterwards**.  In a way, they are hedging against their own reporting with news coming out during a less volatile time.  After seeing the success of this manuever this past week, I wouldn't be surprised if we witnessed a new normal where earnings reports are almost always scheduled with a traling investor day, analyst day, or key meeting/conference. 
+
+**5. So what am I saying?**
+
+I'm saying that, given the volatile environment around earnings reports and troubling market conditions, **we are likely to see an uptrend in OTM whale calls coinciding with RAMBO, separate from earnings reports**.  One of the first things I will be doing when I see a call flow or whale activity that I like is check it against the companies' investor relations page and seeing what events they may be taking advantage of.
+
+**Hunting for RAMBO: Picks I’ll test this on (in light of JNJ vaccine this weekend, wait on price action to settle for Tech calls)**
+
+[EPD](https://i.imgur.com/U18rGpb.jpg) 🚀 🚀 
+
+Dipping a toe in with this nice, boring, boomer midstream oil giant.  They pay a fat ass dividend yield of 8.3% but let's be real--I couldn't care less about that because this DD is about the hunt for glory, not my retirement income.
+
+The real opportunity is in the fact that, on Friday, two separate bets were placed for EPD in the near future, including a 23c for 3/26.  [They coincided with upcoming RAMBO, as EPD is holding an investor day on March 4th, with an ESG discussion preceding it on March 3rd](https://www.enterpriseproducts.com/investors/presentations).  They are also holding a Q and A session to field questions from both events.
+
+You know who else scheduled a Q and A to discuss their investor day?  SPOT did last week.  I see this as a confidence move, and I see the whale probably thinking their little investor daycould, potentially, be newsworthy.  I'll roll the dice here but keep it safe, and drop if the news is a dud.  As a side note, though, oil is just a good long term play for 2021.  My XOM and RDS leaps have been puh-rinting.
+
+As always pick a good entry point.
+
+[BIDU](https://i.imgur.com/G5XaBOD.jpg) 🚀 🚀 
+
+**EDIT**: the BIDU stock split isn’t the traditional one folks go crazy for but is instead a pre-HK listing split with a neutral effect (affect? Whatever. ) on NASDAQ share prices . Whales and call flow likely related to the HK listing more so than split benefits outright 
+
+Yeah yeah I know, I will be shilling BIDU to the grave.  But, I saw some more interesting call activity on them (it never stops), and a nice little 420 3/26c that piqued my interest.  **I hopped over to the investor relations page looking for summadat RAMBO and found this**:
+
+>BEIJING, Jan. 22, 2021 /PRNewswire/ -- Baidu, Inc. (Nasdaq: BIDU) (""Baidu"" or the ""Company""), a leading Internet platform and AI company, today announced that it will hold an extraordinary general meeting of shareholders (the ""EGM"") at 11:00 a.m. on March 1, 2021 (Beijing time) at the address of No. 10 Shangdi 10th Street, Haidian District, Beijing, the People's Republic of China.
+A proposal of changing the Company's authorized share capital by one-to-eighty subdivision of shares (""Share Subdivision"") will be submitted to Baidu's shareholders to be considered and voted upon at the EGM.
+
+Yes, that's right. BIDU is voting on a stock split Monday.  This is also coming ahead of their HK listing to happen soon.  Do I need to remind you what happens in the lead up to a company's split date?  Remember TSLA?  Remember AAPL?  Well, this ain't ether of those lol, but I like the news and dammit, I like the stock!  Can I tell you exactly what they do?  NO.  Can I tell you how much of my life savings is going in?  ALOT.
+
+[CRM](https://i.imgur.com/25AMtPg.jpg) 🚀 😬 
+
+CRM has been beaten to within an inch of its life recently, and you know I love a good falling knife.  Outside of that nearing bottom, though, they've got an interesting slate of speaking arrangements lined up with this 4/9 275c.  [They're trotting out every executive they have for shilling this coming week, alone](https://investor.salesforce.com/events-and-presentations/default.aspx).  I'll play it a little safer, a little longer, but I'm in for fishing the bottom here.
+
+[ZNGA](https://i.imgur.com/cTLGZLk.jpg) 🚀 😬 
+
+Whale came through with a conservative bet, but I'll be curious to see what they have to say at upcoming conferences after their CEO essentially begged for somebody to buy them out after ER lol (not really, but yeah kinda).  [They're speaking at the Morgan Stanley Tech Conference on March 5th, 8:25 AM PST](https://investor.zynga.com/news-releases/news-release-details/zynga-present-morgan-stanley-technology-media-telecom-conference)
+
+[NVDA](https://i.imgur.com/TFrRmTn.jpg) 🚀 🚀 
+
+I'm as sick of hearing about the damn chip shortage as you are, but NVDA has their annual investor day coming up on 4/12 and calls are starting to trickle in.  Going to feel out this tech dip then probably go with some call spreads near the 600 range for May--outright call premiums are just insane for this ticker, I don't care how rich you are.
+
+**Ticker I just like this week**: **JNJ** because I’m a bandwagon hopper 🤷🏿‍♂️  and **PDD** ER lotto gamble
+
+****
+
+**TLDR**:
+Check the investor relations page if you use call flow or Unusual Options Activity scanners, as a lot of newsworthy positive developments seem to be shared via satellite events recently, not during ER.  Investor day is the new earnings report.
+
+I like tickers: **EPD BIDU CRM ZNGA JNJ NVDA**. All long, on dips, and buying in tandem with the above mentioned special datesj",🐳 🪓 Whales to Watch 3/1 Special: Hunting for RAMBO,lu1r4b,56,135,0.92,135,0,,DD,False,True,-1
+BIDU,"**UPDATE: 3/4**
+
+EPD I like the stock. 
+
+Don’t like much else. 
+
+🚨 **9:25 AM: JEROME ON SOME BULLSHIT TAKE PROFITS** 🚨 
+
+**3/4 ANOTHER UPDATE 7:15 AM: OIL CALL FLOW WAS CORRECT OPEC+ MEGA BOOOLISH RHETORIC LEAKING BUY BUY BUY**
+
+**3/4 update:** Most profits taken on EPD when it went above 23. All those calls went ITM this week. Chillin now while awaiting Powell
+
+**Another 3/3 update**
+
+Taking oil profits and sitting the rest of the day out, going to read up a bit on current index price action and see whatsup tomorrow.  I’ll post anything interesting I find. 
+
+**Clarification**: not selling EPD
+
+**3/3 mid day update:**
+
+Looks like the EPD call and 3/2 oil Update were on the right track. Holding off on buying any of the tech for Rambo rn while letting those run. Closed out any ded tech. 
+
+**Night shift RAMBO update 3/2**
+
+All the news coming out about OPEC+ is bearish, but I keep on seeing repeat OTM 3/19 call buying on all oil tickers.  *My spidey sense tingles*. 
+
+**The State of our DD: Update 3/2**
+
+Shitty market movement but nothing unexpected on our underlyings. Tech zoomed Monday— DOCU was a one day hold, but **remember to check the events scheduled on ones like CRM and NVDA for when you want to enter**. These are volatile times for tech and we’re playing pops. 
+
+**We got concerning news on Energy with Saudi’s saying they’ll loosen oil supply**. Tomorrow is the ESG portion of EPD and XOM is having an investor day— I’m going to let XOM movement determine if I am scared or not since it will be a litmus for Thursday EPD event. 
+
+BIDU doing its thing let’s hope it keeps up. CRM sucks ass as always but it’s the schedule I’m gonna play, not the stonk. 
+
+So far I am okay with things have played out after a big Monday, and luckily we have far dates on deez bitches
+
+****
+
+[Welcome back to the casino](https://i.imgur.com/rWUea2Z.jpg). 
+
+**Last week’s 1x-to-multi-baggers:** SPOT SNAP BA 
+**Last week’s losers: BIDU XPEV**
+
+**On a milk carton but our family still has hope**: JD
+
+*I use Barchart and TOS for general flow, but use Unusual Whales scanner for most of my UOA picks. Shoutout to them for giving permission to use screenshots and such that I’m playing.* 
+
+**UPDATE: DOCU CEO** speaking at Morgan Stanly TMT conference Monday AM. [This 300c 3/5 came through last week](https://i.imgur.com/dD2cqVp.jpg). Suicidal strike, but I like the sentiment. 
+
+****
+
+When the shit hits the fan and the indexes are falling, I'm in the lab trying to spot the bullish diamonds in the rough.  **Why?  Because the moment I buy a put, we are going to new all-time highs**.  I just know it.  So, I've had to work a little harder to pull out the calls, and I'm happy for those of you that got the SPOT, SNAP, and BA tendies from last week's DD.  XPEV was kind of weird too--I guess I need to take buy American.  Honestly, I'll take 3.5/5 for picks on a bloody week any day, though.
+
+**Please remember**: When things are this volatile, **choose your entries after market action seems to pick a direction AFTER the first hour of the day**, minimum, unless we're playing a specific event.  The difference between a failing play and a 30% intraday play can literally be the difference between buying at open, or buying two hours later. And don't get greedy--this is guerilla warfare right now.  Take your pop profits, unless you have PDT restriction in which case go tighter to the strike, and much longer than the whale.  **If you can’t afford it, don’t play it.** There are opportunities every day. 
+
+Anyway, I want to go in a little different direction this week, as something interesting stood out to me.  Ready? Let's roll.
+
+****
+
+**1.	The SPOT Whale: Anatomy of a carcass**
+
+On Monday, as I dined on SPOT tendies while the world burned around me, I was struck with a sense of unease amidst the clinking of champagne glasses.  On Sunday afternoon after the DD was written, some further research revealed that, at **8 AM on Monday 2/22, SPOT was hosting an “investor day”**.  Investor day was indeed the whale's bet, and boy did it pay off with that 8% intraday pop.
+
+I hadn't heard the term investor day or analyst day thrown around in tech for a bit, so my spidey sense was tingling.
+
+Then, the next interesting hits came.  Last week's Whales to Watch had SNAP picked as another play to follow based on OTM call activity and repeat betting.  On Tuesday and Wednesday, amidst the storm, SNAP indeed went nuts with intraday pops.  TWTR, which I'd made a note of the week prior, had the same activity.  **What was the seemingly invisible string tying these three tech plays together?  Investor/analyst days.**
+
+It was time to get to work.
+
+****
+
+**2.	The investigation**
+
+I wanted to see if these investor and analyst days were a recycled and growing phenonemon or something we just haven't paid much attention to.  The results were interesting in two ways.
+
+1) [SNAP](https://investor.snap.com/overview/default.aspx) [SPOT](https://investors.spotify.com/home/default.aspx) and [TWTR](https://investor.twitterinc.com/events-and-presentations/default.aspx) **investor relations pages show these events in 2021, but not in 2020 or 2019**.  Earnings? Sure.  Annual meetings? Indubitably.  Conferences? Yes.  Investor/analyst days?  Nay.  Small sample size obviously, but coming from these three within the same quarter after not having hosted any of these events over the past two years--I'd call it significant.
+
+2) **SNAP SPOT and TWTR investor/analyst days all came shortly after their Earnings Reports** (this is important later).  SNAP ER was 2/4, Investor Day was 2/23.  SPOT ER was 2/5, Investor Day was 2/22.  TWTR ER 2/9, Analyst Day was 2/25.
+
+*All three* of these tickers had OTM Whale bets with expirations the week of the investor/analyst events.  *All three* of these came within a month of their ER.  *All three* of these pumped due to events specifically designed to do just that--pump. 
+
+*NOTE: I did some quick searching of recent pumped tech, and PYPL employed the same strategy.  No ""investor day"" in 2020, yet after their ER on 2/3/21 they hosted an investor day on 2/11*
+
+These companies may as well have held up neon fucking signs that said ""WE ARE HAVING A VIRTUAL EVENT WHERE WE ARE GOING TO PAUMP OUR BRAINS OUT"".
+
+****
+
+**3.	Defining RAMBO**
+
+As I continued to poke around I saw more and more similar examples.  **Simple searches of OTM whale activity for specific dates on the tickers, which is then checked against the upcoming investor relations, conferences, and meetings on their corporate sites, gives valuable input for what may be brewing.**
+
+I also saw that [Morgan Stanley is hosting its annual Technology, Media, and Telecom conference](https://esn.net/morgan-stanley-technology-media-and-telecom-conference-march-1-2021/). Among others, our favorite FSLY is set to present 😬 😉.
+
+**Given that these plays coincide with investor relations, meetings/conferences, and are blatant pumps, I’ll refer to it as RAMBO: Relations and Meeting Buy Opportunities.**
+
+****
+
+**4. Theorizing recent increases of RAMBO** 
+
+**What stuck out to me was that these recent tech RAMBOs were scheduled to come shortly after their earnings reports**.  SPOT, if you're going to change the world with podcasts in Sierra Leone or whatever, *why not* announce it during the ER you had a couple weeks priorbefore?  **The same can be asked of others like PYPL, SNAP, TWTR, etc.**
+
+**My theory is that the current ER environment—where your stock plummets unless your forward guidance calls for a 10,000% estimate beat, means that companies are working around these unrealistic expectations by saving their best news for afterwards**.  In a way, they are hedging against their own reporting with news coming out during a less volatile time.  After seeing the success of this manuever this past week, I wouldn't be surprised if we witnessed a new normal where earnings reports are almost always scheduled with a traling investor day, analyst day, or key meeting/conference. 
+
+**5. So what am I saying?**
+
+I'm saying that, given the volatile environment around earnings reports and troubling market conditions, **we are likely to see an uptrend in OTM whale calls coinciding with RAMBO, separate from earnings reports**.  One of the first things I will be doing when I see a call flow or whale activity that I like is check it against the companies' investor relations page and seeing what events they may be taking advantage of.
+
+**Hunting for RAMBO: Picks I’ll test this on (in light of JNJ vaccine this weekend, wait on price action to settle for Tech calls)**
+
+[EPD](https://i.imgur.com/U18rGpb.jpg) 🚀 🚀 
+
+Dipping a toe in with this nice, boring, boomer midstream oil giant.  They pay a fat ass dividend yield of 8.3% but let's be real--I couldn't care less about that because this DD is about the hunt for glory, not my retirement income.
+
+The real opportunity is in the fact that, on Friday, two separate bets were placed for EPD in the near future, including a 23c for 3/26.  [They coincided with upcoming RAMBO, as EPD is holding an investor day on March 4th, with an ESG discussion preceding it on March 3rd](https://www.enterpriseproducts.com/investors/presentations).  They are also holding a Q and A session to field questions from both events.
+
+You know who else scheduled a Q and A to discuss their investor day?  SPOT did last week.  I see this as a confidence move, and I see the whale probably thinking their little investor daycould, potentially, be newsworthy.  I'll roll the dice here but keep it safe, and drop if the news is a dud.  As a side note, though, oil is just a good long term play for 2021.  My XOM and RDS leaps have been puh-rinting.
+
+As always pick a good entry point.
+
+[BIDU](https://i.imgur.com/G5XaBOD.jpg) 🚀 🚀 
+
+**EDIT**: the BIDU stock split isn’t the traditional one folks go crazy for but is instead a pre-HK listing split with a neutral effect (affect? Whatever. ) on NASDAQ share prices . Whales and call flow likely related to the HK listing more so than split benefits outright 
+
+Yeah yeah I know, I will be shilling BIDU to the grave.  But, I saw some more interesting call activity on them (it never stops), and a nice little 420 3/26c that piqued my interest.  **I hopped over to the investor relations page looking for summadat RAMBO and found this**:
+
+>BEIJING, Jan. 22, 2021 /PRNewswire/ -- Baidu, Inc. (Nasdaq: BIDU) (""Baidu"" or the ""Company""), a leading Internet platform and AI company, today announced that it will hold an extraordinary general meeting of shareholders (the ""EGM"") at 11:00 a.m. on March 1, 2021 (Beijing time) at the address of No. 10 Shangdi 10th Street, Haidian District, Beijing, the People's Republic of China.
+A proposal of changing the Company's authorized share capital by one-to-eighty subdivision of shares (""Share Subdivision"") will be submitted to Baidu's shareholders to be considered and voted upon at the EGM.
+
+Yes, that's right. BIDU is voting on a stock split Monday.  This is also coming ahead of their HK listing to happen soon.  Do I need to remind you what happens in the lead up to a company's split date?  Remember TSLA?  Remember AAPL?  Well, this ain't ether of those lol, but I like the news and dammit, I like the stock!  Can I tell you exactly what they do?  NO.  Can I tell you how much of my life savings is going in?  ALOT.
+
+[CRM](https://i.imgur.com/25AMtPg.jpg) 🚀 😬 
+
+CRM has been beaten to within an inch of its life recently, and you know I love a good falling knife.  Outside of that nearing bottom, though, they've got an interesting slate of speaking arrangements lined up with this 4/9 275c.  [They're trotting out every executive they have for shilling this coming week, alone](https://investor.salesforce.com/events-and-presentations/default.aspx).  I'll play it a little safer, a little longer, but I'm in for fishing the bottom here.
+
+[ZNGA](https://i.imgur.com/cTLGZLk.jpg) 🚀 😬 
+
+Whale came through with a conservative bet, but I'll be curious to see what they have to say at upcoming conferences after their CEO essentially begged for somebody to buy them out after ER lol (not really, but yeah kinda).  [They're speaking at the Morgan Stanley Tech Conference on March 5th, 8:25 AM PST](https://investor.zynga.com/news-releases/news-release-details/zynga-present-morgan-stanley-technology-media-telecom-conference)
+
+[NVDA](https://i.imgur.com/TFrRmTn.jpg) 🚀 🚀 
+
+I'm as sick of hearing about the damn chip shortage as you are, but NVDA has their annual investor day coming up on 4/12 and calls are starting to trickle in.  Going to feel out this tech dip then probably go with some call spreads near the 600 range for May--outright call premiums are just insane for this ticker, I don't care how rich you are.
+
+**Ticker I just like this week**: **JNJ** because I’m a bandwagon hopper 🤷🏿‍♂️  and **PDD** ER lotto gamble
+
+****
+
+**TLDR**:
+Check the investor relations page if you use call flow or Unusual Options Activity scanners, as a lot of newsworthy positive developments seem to be shared via satellite events recently, not during ER.  Investor day is the new earnings report.
+
+I like tickers: **EPD BIDU CRM ZNGA JNJ NVDA**. All long, on dips, and buying in tandem with the above mentioned special datesj",🐳 🪓 Whales to Watch 3/1 Special: Hunting for RAMBO,lu1r4b,56,135,0.92,135,0,,DD,False,True,-1
+DOCU,"**UPDATE: 3/4**
+
+EPD I like the stock. 
+
+Don’t like much else. 
+
+🚨 **9:25 AM: JEROME ON SOME BULLSHIT TAKE PROFITS** 🚨 
+
+**3/4 ANOTHER UPDATE 7:15 AM: OIL CALL FLOW WAS CORRECT OPEC+ MEGA BOOOLISH RHETORIC LEAKING BUY BUY BUY**
+
+**3/4 update:** Most profits taken on EPD when it went above 23. All those calls went ITM this week. Chillin now while awaiting Powell
+
+**Another 3/3 update**
+
+Taking oil profits and sitting the rest of the day out, going to read up a bit on current index price action and see whatsup tomorrow.  I’ll post anything interesting I find. 
+
+**Clarification**: not selling EPD
+
+**3/3 mid day update:**
+
+Looks like the EPD call and 3/2 oil Update were on the right track. Holding off on buying any of the tech for Rambo rn while letting those run. Closed out any ded tech. 
+
+**Night shift RAMBO update 3/2**
+
+All the news coming out about OPEC+ is bearish, but I keep on seeing repeat OTM 3/19 call buying on all oil tickers.  *My spidey sense tingles*. 
+
+**The State of our DD: Update 3/2**
+
+Shitty market movement but nothing unexpected on our underlyings. Tech zoomed Monday— DOCU was a one day hold, but **remember to check the events scheduled on ones like CRM and NVDA for when you want to enter**. These are volatile times for tech and we’re playing pops. 
+
+**We got concerning news on Energy with Saudi’s saying they’ll loosen oil supply**. Tomorrow is the ESG portion of EPD and XOM is having an investor day— I’m going to let XOM movement determine if I am scared or not since it will be a litmus for Thursday EPD event. 
+
+BIDU doing its thing let’s hope it keeps up. CRM sucks ass as always but it’s the schedule I’m gonna play, not the stonk. 
+
+So far I am okay with things have played out after a big Monday, and luckily we have far dates on deez bitches
+
+****
+
+[Welcome back to the casino](https://i.imgur.com/rWUea2Z.jpg). 
+
+**Last week’s 1x-to-multi-baggers:** SPOT SNAP BA 
+**Last week’s losers: BIDU XPEV**
+
+**On a milk carton but our family still has hope**: JD
+
+*I use Barchart and TOS for general flow, but use Unusual Whales scanner for most of my UOA picks. Shoutout to them for giving permission to use screenshots and such that I’m playing.* 
+
+**UPDATE: DOCU CEO** speaking at Morgan Stanly TMT conference Monday AM. [This 300c 3/5 came through last week](https://i.imgur.com/dD2cqVp.jpg). Suicidal strike, but I like the sentiment. 
+
+****
+
+When the shit hits the fan and the indexes are falling, I'm in the lab trying to spot the bullish diamonds in the rough.  **Why?  Because the moment I buy a put, we are going to new all-time highs**.  I just know it.  So, I've had to work a little harder to pull out the calls, and I'm happy for those of you that got the SPOT, SNAP, and BA tendies from last week's DD.  XPEV was kind of weird too--I guess I need to take buy American.  Honestly, I'll take 3.5/5 for picks on a bloody week any day, though.
+
+**Please remember**: When things are this volatile, **choose your entries after market action seems to pick a direction AFTER the first hour of the day**, minimum, unless we're playing a specific event.  The difference between a failing play and a 30% intraday play can literally be the difference between buying at open, or buying two hours later. And don't get greedy--this is guerilla warfare right now.  Take your pop profits, unless you have PDT restriction in which case go tighter to the strike, and much longer than the whale.  **If you can’t afford it, don’t play it.** There are opportunities every day. 
+
+Anyway, I want to go in a little different direction this week, as something interesting stood out to me.  Ready? Let's roll.
+
+****
+
+**1.	The SPOT Whale: Anatomy of a carcass**
+
+On Monday, as I dined on SPOT tendies while the world burned around me, I was struck with a sense of unease amidst the clinking of champagne glasses.  On Sunday afternoon after the DD was written, some further research revealed that, at **8 AM on Monday 2/22, SPOT was hosting an “investor day”**.  Investor day was indeed the whale's bet, and boy did it pay off with that 8% intraday pop.
+
+I hadn't heard the term investor day or analyst day thrown around in tech for a bit, so my spidey sense was tingling.
+
+Then, the next interesting hits came.  Last week's Whales to Watch had SNAP picked as another play to follow based on OTM call activity and repeat betting.  On Tuesday and Wednesday, amidst the storm, SNAP indeed went nuts with intraday pops.  TWTR, which I'd made a note of the week prior, had the same activity.  **What was the seemingly invisible string tying these three tech plays together?  Investor/analyst days.**
+
+It was time to get to work.
+
+****
+
+**2.	The investigation**
+
+I wanted to see if these investor and analyst days were a recycled and growing phenonemon or something we just haven't paid much attention to.  The results were interesting in two ways.
+
+1) [SNAP](https://investor.snap.com/overview/default.aspx) [SPOT](https://investors.spotify.com/home/default.aspx) and [TWTR](https://investor.twitterinc.com/events-and-presentations/default.aspx) **investor relations pages show these events in 2021, but not in 2020 or 2019**.  Earnings? Sure.  Annual meetings? Indubitably.  Conferences? Yes.  Investor/analyst days?  Nay.  Small sample size obviously, but coming from these three within the same quarter after not having hosted any of these events over the past two years--I'd call it significant.
+
+2) **SNAP SPOT and TWTR investor/analyst days all came shortly after their Earnings Reports** (this is important later).  SNAP ER was 2/4, Investor Day was 2/23.  SPOT ER was 2/5, Investor Day was 2/22.  TWTR ER 2/9, Analyst Day was 2/25.
+
+*All three* of these tickers had OTM Whale bets with expirations the week of the investor/analyst events.  *All three* of these came within a month of their ER.  *All three* of these pumped due to events specifically designed to do just that--pump. 
+
+*NOTE: I did some quick searching of recent pumped tech, and PYPL employed the same strategy.  No ""investor day"" in 2020, yet after their ER on 2/3/21 they hosted an investor day on 2/11*
+
+These companies may as well have held up neon fucking signs that said ""WE ARE HAVING A VIRTUAL EVENT WHERE WE ARE GOING TO PAUMP OUR BRAINS OUT"".
+
+****
+
+**3.	Defining RAMBO**
+
+As I continued to poke around I saw more and more similar examples.  **Simple searches of OTM whale activity for specific dates on the tickers, which is then checked against the upcoming investor relations, conferences, and meetings on their corporate sites, gives valuable input for what may be brewing.**
+
+I also saw that [Morgan Stanley is hosting its annual Technology, Media, and Telecom conference](https://esn.net/morgan-stanley-technology-media-and-telecom-conference-march-1-2021/). Among others, our favorite FSLY is set to present 😬 😉.
+
+**Given that these plays coincide with investor relations, meetings/conferences, and are blatant pumps, I’ll refer to it as RAMBO: Relations and Meeting Buy Opportunities.**
+
+****
+
+**4. Theorizing recent increases of RAMBO** 
+
+**What stuck out to me was that these recent tech RAMBOs were scheduled to come shortly after their earnings reports**.  SPOT, if you're going to change the world with podcasts in Sierra Leone or whatever, *why not* announce it during the ER you had a couple weeks priorbefore?  **The same can be asked of others like PYPL, SNAP, TWTR, etc.**
+
+**My theory is that the current ER environment—where your stock plummets unless your forward guidance calls for a 10,000% estimate beat, means that companies are working around these unrealistic expectations by saving their best news for afterwards**.  In a way, they are hedging against their own reporting with news coming out during a less volatile time.  After seeing the success of this manuever this past week, I wouldn't be surprised if we witnessed a new normal where earnings reports are almost always scheduled with a traling investor day, analyst day, or key meeting/conference. 
+
+**5. So what am I saying?**
+
+I'm saying that, given the volatile environment around earnings reports and troubling market conditions, **we are likely to see an uptrend in OTM whale calls coinciding with RAMBO, separate from earnings reports**.  One of the first things I will be doing when I see a call flow or whale activity that I like is check it against the companies' investor relations page and seeing what events they may be taking advantage of.
+
+**Hunting for RAMBO: Picks I’ll test this on (in light of JNJ vaccine this weekend, wait on price action to settle for Tech calls)**
+
+[EPD](https://i.imgur.com/U18rGpb.jpg) 🚀 🚀 
+
+Dipping a toe in with this nice, boring, boomer midstream oil giant.  They pay a fat ass dividend yield of 8.3% but let's be real--I couldn't care less about that because this DD is about the hunt for glory, not my retirement income.
+
+The real opportunity is in the fact that, on Friday, two separate bets were placed for EPD in the near future, including a 23c for 3/26.  [They coincided with upcoming RAMBO, as EPD is holding an investor day on March 4th, with an ESG discussion preceding it on March 3rd](https://www.enterpriseproducts.com/investors/presentations).  They are also holding a Q and A session to field questions from both events.
+
+You know who else scheduled a Q and A to discuss their investor day?  SPOT did last week.  I see this as a confidence move, and I see the whale probably thinking their little investor daycould, potentially, be newsworthy.  I'll roll the dice here but keep it safe, and drop if the news is a dud.  As a side note, though, oil is just a good long term play for 2021.  My XOM and RDS leaps have been puh-rinting.
+
+As always pick a good entry point.
+
+[BIDU](https://i.imgur.com/G5XaBOD.jpg) 🚀 🚀 
+
+**EDIT**: the BIDU stock split isn’t the traditional one folks go crazy for but is instead a pre-HK listing split with a neutral effect (affect? Whatever. ) on NASDAQ share prices . Whales and call flow likely related to the HK listing more so than split benefits outright 
+
+Yeah yeah I know, I will be shilling BIDU to the grave.  But, I saw some more interesting call activity on them (it never stops), and a nice little 420 3/26c that piqued my interest.  **I hopped over to the investor relations page looking for summadat RAMBO and found this**:
+
+>BEIJING, Jan. 22, 2021 /PRNewswire/ -- Baidu, Inc. (Nasdaq: BIDU) (""Baidu"" or the ""Company""), a leading Internet platform and AI company, today announced that it will hold an extraordinary general meeting of shareholders (the ""EGM"") at 11:00 a.m. on March 1, 2021 (Beijing time) at the address of No. 10 Shangdi 10th Street, Haidian District, Beijing, the People's Republic of China.
+A proposal of changing the Company's authorized share capital by one-to-eighty subdivision of shares (""Share Subdivision"") will be submitted to Baidu's shareholders to be considered and voted upon at the EGM.
+
+Yes, that's right. BIDU is voting on a stock split Monday.  This is also coming ahead of their HK listing to happen soon.  Do I need to remind you what happens in the lead up to a company's split date?  Remember TSLA?  Remember AAPL?  Well, this ain't ether of those lol, but I like the news and dammit, I like the stock!  Can I tell you exactly what they do?  NO.  Can I tell you how much of my life savings is going in?  ALOT.
+
+[CRM](https://i.imgur.com/25AMtPg.jpg) 🚀 😬 
+
+CRM has been beaten to within an inch of its life recently, and you know I love a good falling knife.  Outside of that nearing bottom, though, they've got an interesting slate of speaking arrangements lined up with this 4/9 275c.  [They're trotting out every executive they have for shilling this coming week, alone](https://investor.salesforce.com/events-and-presentations/default.aspx).  I'll play it a little safer, a little longer, but I'm in for fishing the bottom here.
+
+[ZNGA](https://i.imgur.com/cTLGZLk.jpg) 🚀 😬 
+
+Whale came through with a conservative bet, but I'll be curious to see what they have to say at upcoming conferences after their CEO essentially begged for somebody to buy them out after ER lol (not really, but yeah kinda).  [They're speaking at the Morgan Stanley Tech Conference on March 5th, 8:25 AM PST](https://investor.zynga.com/news-releases/news-release-details/zynga-present-morgan-stanley-technology-media-telecom-conference)
+
+[NVDA](https://i.imgur.com/TFrRmTn.jpg) 🚀 🚀 
+
+I'm as sick of hearing about the damn chip shortage as you are, but NVDA has their annual investor day coming up on 4/12 and calls are starting to trickle in.  Going to feel out this tech dip then probably go with some call spreads near the 600 range for May--outright call premiums are just insane for this ticker, I don't care how rich you are.
+
+**Ticker I just like this week**: **JNJ** because I’m a bandwagon hopper 🤷🏿‍♂️  and **PDD** ER lotto gamble
+
+****
+
+**TLDR**:
+Check the investor relations page if you use call flow or Unusual Options Activity scanners, as a lot of newsworthy positive developments seem to be shared via satellite events recently, not during ER.  Investor day is the new earnings report.
+
+I like tickers: **EPD BIDU CRM ZNGA JNJ NVDA**. All long, on dips, and buying in tandem with the above mentioned special datesj",🐳 🪓 Whales to Watch 3/1 Special: Hunting for RAMBO,lu1r4b,56,135,0.92,135,0,,DD,False,True,-1
+NVDA,"**UPDATE: 3/4**
+
+EPD I like the stock. 
+
+Don’t like much else. 
+
+🚨 **9:25 AM: JEROME ON SOME BULLSHIT TAKE PROFITS** 🚨 
+
+**3/4 ANOTHER UPDATE 7:15 AM: OIL CALL FLOW WAS CORRECT OPEC+ MEGA BOOOLISH RHETORIC LEAKING BUY BUY BUY**
+
+**3/4 update:** Most profits taken on EPD when it went above 23. All those calls went ITM this week. Chillin now while awaiting Powell
+
+**Another 3/3 update**
+
+Taking oil profits and sitting the rest of the day out, going to read up a bit on current index price action and see whatsup tomorrow.  I’ll post anything interesting I find. 
+
+**Clarification**: not selling EPD
+
+**3/3 mid day update:**
+
+Looks like the EPD call and 3/2 oil Update were on the right track. Holding off on buying any of the tech for Rambo rn while letting those run. Closed out any ded tech. 
+
+**Night shift RAMBO update 3/2**
+
+All the news coming out about OPEC+ is bearish, but I keep on seeing repeat OTM 3/19 call buying on all oil tickers.  *My spidey sense tingles*. 
+
+**The State of our DD: Update 3/2**
+
+Shitty market movement but nothing unexpected on our underlyings. Tech zoomed Monday— DOCU was a one day hold, but **remember to check the events scheduled on ones like CRM and NVDA for when you want to enter**. These are volatile times for tech and we’re playing pops. 
+
+**We got concerning news on Energy with Saudi’s saying they’ll loosen oil supply**. Tomorrow is the ESG portion of EPD and XOM is having an investor day— I’m going to let XOM movement determine if I am scared or not since it will be a litmus for Thursday EPD event. 
+
+BIDU doing its thing let’s hope it keeps up. CRM sucks ass as always but it’s the schedule I’m gonna play, not the stonk. 
+
+So far I am okay with things have played out after a big Monday, and luckily we have far dates on deez bitches
+
+****
+
+[Welcome back to the casino](https://i.imgur.com/rWUea2Z.jpg). 
+
+**Last week’s 1x-to-multi-baggers:** SPOT SNAP BA 
+**Last week’s losers: BIDU XPEV**
+
+**On a milk carton but our family still has hope**: JD
+
+*I use Barchart and TOS for general flow, but use Unusual Whales scanner for most of my UOA picks. Shoutout to them for giving permission to use screenshots and such that I’m playing.* 
+
+**UPDATE: DOCU CEO** speaking at Morgan Stanly TMT conference Monday AM. [This 300c 3/5 came through last week](https://i.imgur.com/dD2cqVp.jpg). Suicidal strike, but I like the sentiment. 
+
+****
+
+When the shit hits the fan and the indexes are falling, I'm in the lab trying to spot the bullish diamonds in the rough.  **Why?  Because the moment I buy a put, we are going to new all-time highs**.  I just know it.  So, I've had to work a little harder to pull out the calls, and I'm happy for those of you that got the SPOT, SNAP, and BA tendies from last week's DD.  XPEV was kind of weird too--I guess I need to take buy American.  Honestly, I'll take 3.5/5 for picks on a bloody week any day, though.
+
+**Please remember**: When things are this volatile, **choose your entries after market action seems to pick a direction AFTER the first hour of the day**, minimum, unless we're playing a specific event.  The difference between a failing play and a 30% intraday play can literally be the difference between buying at open, or buying two hours later. And don't get greedy--this is guerilla warfare right now.  Take your pop profits, unless you have PDT restriction in which case go tighter to the strike, and much longer than the whale.  **If you can’t afford it, don’t play it.** There are opportunities every day. 
+
+Anyway, I want to go in a little different direction this week, as something interesting stood out to me.  Ready? Let's roll.
+
+****
+
+**1.	The SPOT Whale: Anatomy of a carcass**
+
+On Monday, as I dined on SPOT tendies while the world burned around me, I was struck with a sense of unease amidst the clinking of champagne glasses.  On Sunday afternoon after the DD was written, some further research revealed that, at **8 AM on Monday 2/22, SPOT was hosting an “investor day”**.  Investor day was indeed the whale's bet, and boy did it pay off with that 8% intraday pop.
+
+I hadn't heard the term investor day or analyst day thrown around in tech for a bit, so my spidey sense was tingling.
+
+Then, the next interesting hits came.  Last week's Whales to Watch had SNAP picked as another play to follow based on OTM call activity and repeat betting.  On Tuesday and Wednesday, amidst the storm, SNAP indeed went nuts with intraday pops.  TWTR, which I'd made a note of the week prior, had the same activity.  **What was the seemingly invisible string tying these three tech plays together?  Investor/analyst days.**
+
+It was time to get to work.
+
+****
+
+**2.	The investigation**
+
+I wanted to see if these investor and analyst days were a recycled and growing phenonemon or something we just haven't paid much attention to.  The results were interesting in two ways.
+
+1) [SNAP](https://investor.snap.com/overview/default.aspx) [SPOT](https://investors.spotify.com/home/default.aspx) and [TWTR](https://investor.twitterinc.com/events-and-presentations/default.aspx) **investor relations pages show these events in 2021, but not in 2020 or 2019**.  Earnings? Sure.  Annual meetings? Indubitably.  Conferences? Yes.  Investor/analyst days?  Nay.  Small sample size obviously, but coming from these three within the same quarter after not having hosted any of these events over the past two years--I'd call it significant.
+
+2) **SNAP SPOT and TWTR investor/analyst days all came shortly after their Earnings Reports** (this is important later).  SNAP ER was 2/4, Investor Day was 2/23.  SPOT ER was 2/5, Investor Day was 2/22.  TWTR ER 2/9, Analyst Day was 2/25.
+
+*All three* of these tickers had OTM Whale bets with expirations the week of the investor/analyst events.  *All three* of these came within a month of their ER.  *All three* of these pumped due to events specifically designed to do just that--pump. 
+
+*NOTE: I did some quick searching of recent pumped tech, and PYPL employed the same strategy.  No ""investor day"" in 2020, yet after their ER on 2/3/21 they hosted an investor day on 2/11*
+
+These companies may as well have held up neon fucking signs that said ""WE ARE HAVING A VIRTUAL EVENT WHERE WE ARE GOING TO PAUMP OUR BRAINS OUT"".
+
+****
+
+**3.	Defining RAMBO**
+
+As I continued to poke around I saw more and more similar examples.  **Simple searches of OTM whale activity for specific dates on the tickers, which is then checked against the upcoming investor relations, conferences, and meetings on their corporate sites, gives valuable input for what may be brewing.**
+
+I also saw that [Morgan Stanley is hosting its annual Technology, Media, and Telecom conference](https://esn.net/morgan-stanley-technology-media-and-telecom-conference-march-1-2021/). Among others, our favorite FSLY is set to present 😬 😉.
+
+**Given that these plays coincide with investor relations, meetings/conferences, and are blatant pumps, I’ll refer to it as RAMBO: Relations and Meeting Buy Opportunities.**
+
+****
+
+**4. Theorizing recent increases of RAMBO** 
+
+**What stuck out to me was that these recent tech RAMBOs were scheduled to come shortly after their earnings reports**.  SPOT, if you're going to change the world with podcasts in Sierra Leone or whatever, *why not* announce it during the ER you had a couple weeks priorbefore?  **The same can be asked of others like PYPL, SNAP, TWTR, etc.**
+
+**My theory is that the current ER environment—where your stock plummets unless your forward guidance calls for a 10,000% estimate beat, means that companies are working around these unrealistic expectations by saving their best news for afterwards**.  In a way, they are hedging against their own reporting with news coming out during a less volatile time.  After seeing the success of this manuever this past week, I wouldn't be surprised if we witnessed a new normal where earnings reports are almost always scheduled with a traling investor day, analyst day, or key meeting/conference. 
+
+**5. So what am I saying?**
+
+I'm saying that, given the volatile environment around earnings reports and troubling market conditions, **we are likely to see an uptrend in OTM whale calls coinciding with RAMBO, separate from earnings reports**.  One of the first things I will be doing when I see a call flow or whale activity that I like is check it against the companies' investor relations page and seeing what events they may be taking advantage of.
+
+**Hunting for RAMBO: Picks I’ll test this on (in light of JNJ vaccine this weekend, wait on price action to settle for Tech calls)**
+
+[EPD](https://i.imgur.com/U18rGpb.jpg) 🚀 🚀 
+
+Dipping a toe in with this nice, boring, boomer midstream oil giant.  They pay a fat ass dividend yield of 8.3% but let's be real--I couldn't care less about that because this DD is about the hunt for glory, not my retirement income.
+
+The real opportunity is in the fact that, on Friday, two separate bets were placed for EPD in the near future, including a 23c for 3/26.  [They coincided with upcoming RAMBO, as EPD is holding an investor day on March 4th, with an ESG discussion preceding it on March 3rd](https://www.enterpriseproducts.com/investors/presentations).  They are also holding a Q and A session to field questions from both events.
+
+You know who else scheduled a Q and A to discuss their investor day?  SPOT did last week.  I see this as a confidence move, and I see the whale probably thinking their little investor daycould, potentially, be newsworthy.  I'll roll the dice here but keep it safe, and drop if the news is a dud.  As a side note, though, oil is just a good long term play for 2021.  My XOM and RDS leaps have been puh-rinting.
+
+As always pick a good entry point.
+
+[BIDU](https://i.imgur.com/G5XaBOD.jpg) 🚀 🚀 
+
+**EDIT**: the BIDU stock split isn’t the traditional one folks go crazy for but is instead a pre-HK listing split with a neutral effect (affect? Whatever. ) on NASDAQ share prices . Whales and call flow likely related to the HK listing more so than split benefits outright 
+
+Yeah yeah I know, I will be shilling BIDU to the grave.  But, I saw some more interesting call activity on them (it never stops), and a nice little 420 3/26c that piqued my interest.  **I hopped over to the investor relations page looking for summadat RAMBO and found this**:
+
+>BEIJING, Jan. 22, 2021 /PRNewswire/ -- Baidu, Inc. (Nasdaq: BIDU) (""Baidu"" or the ""Company""), a leading Internet platform and AI company, today announced that it will hold an extraordinary general meeting of shareholders (the ""EGM"") at 11:00 a.m. on March 1, 2021 (Beijing time) at the address of No. 10 Shangdi 10th Street, Haidian District, Beijing, the People's Republic of China.
+A proposal of changing the Company's authorized share capital by one-to-eighty subdivision of shares (""Share Subdivision"") will be submitted to Baidu's shareholders to be considered and voted upon at the EGM.
+
+Yes, that's right. BIDU is voting on a stock split Monday.  This is also coming ahead of their HK listing to happen soon.  Do I need to remind you what happens in the lead up to a company's split date?  Remember TSLA?  Remember AAPL?  Well, this ain't ether of those lol, but I like the news and dammit, I like the stock!  Can I tell you exactly what they do?  NO.  Can I tell you how much of my life savings is going in?  ALOT.
+
+[CRM](https://i.imgur.com/25AMtPg.jpg) 🚀 😬 
+
+CRM has been beaten to within an inch of its life recently, and you know I love a good falling knife.  Outside of that nearing bottom, though, they've got an interesting slate of speaking arrangements lined up with this 4/9 275c.  [They're trotting out every executive they have for shilling this coming week, alone](https://investor.salesforce.com/events-and-presentations/default.aspx).  I'll play it a little safer, a little longer, but I'm in for fishing the bottom here.
+
+[ZNGA](https://i.imgur.com/cTLGZLk.jpg) 🚀 😬 
+
+Whale came through with a conservative bet, but I'll be curious to see what they have to say at upcoming conferences after their CEO essentially begged for somebody to buy them out after ER lol (not really, but yeah kinda).  [They're speaking at the Morgan Stanley Tech Conference on March 5th, 8:25 AM PST](https://investor.zynga.com/news-releases/news-release-details/zynga-present-morgan-stanley-technology-media-telecom-conference)
+
+[NVDA](https://i.imgur.com/TFrRmTn.jpg) 🚀 🚀 
+
+I'm as sick of hearing about the damn chip shortage as you are, but NVDA has their annual investor day coming up on 4/12 and calls are starting to trickle in.  Going to feel out this tech dip then probably go with some call spreads near the 600 range for May--outright call premiums are just insane for this ticker, I don't care how rich you are.
+
+**Ticker I just like this week**: **JNJ** because I’m a bandwagon hopper 🤷🏿‍♂️  and **PDD** ER lotto gamble
+
+****
+
+**TLDR**:
+Check the investor relations page if you use call flow or Unusual Options Activity scanners, as a lot of newsworthy positive developments seem to be shared via satellite events recently, not during ER.  Investor day is the new earnings report.
+
+I like tickers: **EPD BIDU CRM ZNGA JNJ NVDA**. All long, on dips, and buying in tandem with the above mentioned special datesj",🐳 🪓 Whales to Watch 3/1 Special: Hunting for RAMBO,lu1r4b,56,135,0.92,135,0,,DD,False,True,-1
+ON,"**UPDATE: 3/4**
+
+EPD I like the stock. 
+
+Don’t like much else. 
+
+🚨 **9:25 AM: JEROME ON SOME BULLSHIT TAKE PROFITS** 🚨 
+
+**3/4 ANOTHER UPDATE 7:15 AM: OIL CALL FLOW WAS CORRECT OPEC+ MEGA BOOOLISH RHETORIC LEAKING BUY BUY BUY**
+
+**3/4 update:** Most profits taken on EPD when it went above 23. All those calls went ITM this week. Chillin now while awaiting Powell
+
+**Another 3/3 update**
+
+Taking oil profits and sitting the rest of the day out, going to read up a bit on current index price action and see whatsup tomorrow.  I’ll post anything interesting I find. 
+
+**Clarification**: not selling EPD
+
+**3/3 mid day update:**
+
+Looks like the EPD call and 3/2 oil Update were on the right track. Holding off on buying any of the tech for Rambo rn while letting those run. Closed out any ded tech. 
+
+**Night shift RAMBO update 3/2**
+
+All the news coming out about OPEC+ is bearish, but I keep on seeing repeat OTM 3/19 call buying on all oil tickers.  *My spidey sense tingles*. 
+
+**The State of our DD: Update 3/2**
+
+Shitty market movement but nothing unexpected on our underlyings. Tech zoomed Monday— DOCU was a one day hold, but **remember to check the events scheduled on ones like CRM and NVDA for when you want to enter**. These are volatile times for tech and we’re playing pops. 
+
+**We got concerning news on Energy with Saudi’s saying they’ll loosen oil supply**. Tomorrow is the ESG portion of EPD and XOM is having an investor day— I’m going to let XOM movement determine if I am scared or not since it will be a litmus for Thursday EPD event. 
+
+BIDU doing its thing let’s hope it keeps up. CRM sucks ass as always but it’s the schedule I’m gonna play, not the stonk. 
+
+So far I am okay with things have played out after a big Monday, and luckily we have far dates on deez bitches
+
+****
+
+[Welcome back to the casino](https://i.imgur.com/rWUea2Z.jpg). 
+
+**Last week’s 1x-to-multi-baggers:** SPOT SNAP BA 
+**Last week’s losers: BIDU XPEV**
+
+**On a milk carton but our family still has hope**: JD
+
+*I use Barchart and TOS for general flow, but use Unusual Whales scanner for most of my UOA picks. Shoutout to them for giving permission to use screenshots and such that I’m playing.* 
+
+**UPDATE: DOCU CEO** speaking at Morgan Stanly TMT conference Monday AM. [This 300c 3/5 came through last week](https://i.imgur.com/dD2cqVp.jpg). Suicidal strike, but I like the sentiment. 
+
+****
+
+When the shit hits the fan and the indexes are falling, I'm in the lab trying to spot the bullish diamonds in the rough.  **Why?  Because the moment I buy a put, we are going to new all-time highs**.  I just know it.  So, I've had to work a little harder to pull out the calls, and I'm happy for those of you that got the SPOT, SNAP, and BA tendies from last week's DD.  XPEV was kind of weird too--I guess I need to take buy American.  Honestly, I'll take 3.5/5 for picks on a bloody week any day, though.
+
+**Please remember**: When things are this volatile, **choose your entries after market action seems to pick a direction AFTER the first hour of the day**, minimum, unless we're playing a specific event.  The difference between a failing play and a 30% intraday play can literally be the difference between buying at open, or buying two hours later. And don't get greedy--this is guerilla warfare right now.  Take your pop profits, unless you have PDT restriction in which case go tighter to the strike, and much longer than the whale.  **If you can’t afford it, don’t play it.** There are opportunities every day. 
+
+Anyway, I want to go in a little different direction this week, as something interesting stood out to me.  Ready? Let's roll.
+
+****
+
+**1.	The SPOT Whale: Anatomy of a carcass**
+
+On Monday, as I dined on SPOT tendies while the world burned around me, I was struck with a sense of unease amidst the clinking of champagne glasses.  On Sunday afternoon after the DD was written, some further research revealed that, at **8 AM on Monday 2/22, SPOT was hosting an “investor day”**.  Investor day was indeed the whale's bet, and boy did it pay off with that 8% intraday pop.
+
+I hadn't heard the term investor day or analyst day thrown around in tech for a bit, so my spidey sense was tingling.
+
+Then, the next interesting hits came.  Last week's Whales to Watch had SNAP picked as another play to follow based on OTM call activity and repeat betting.  On Tuesday and Wednesday, amidst the storm, SNAP indeed went nuts with intraday pops.  TWTR, which I'd made a note of the week prior, had the same activity.  **What was the seemingly invisible string tying these three tech plays together?  Investor/analyst days.**
+
+It was time to get to work.
+
+****
+
+**2.	The investigation**
+
+I wanted to see if these investor and analyst days were a recycled and growing phenonemon or something we just haven't paid much attention to.  The results were interesting in two ways.
+
+1) [SNAP](https://investor.snap.com/overview/default.aspx) [SPOT](https://investors.spotify.com/home/default.aspx) and [TWTR](https://investor.twitterinc.com/events-and-presentations/default.aspx) **investor relations pages show these events in 2021, but not in 2020 or 2019**.  Earnings? Sure.  Annual meetings? Indubitably.  Conferences? Yes.  Investor/analyst days?  Nay.  Small sample size obviously, but coming from these three within the same quarter after not having hosted any of these events over the past two years--I'd call it significant.
+
+2) **SNAP SPOT and TWTR investor/analyst days all came shortly after their Earnings Reports** (this is important later).  SNAP ER was 2/4, Investor Day was 2/23.  SPOT ER was 2/5, Investor Day was 2/22.  TWTR ER 2/9, Analyst Day was 2/25.
+
+*All three* of these tickers had OTM Whale bets with expirations the week of the investor/analyst events.  *All three* of these came within a month of their ER.  *All three* of these pumped due to events specifically designed to do just that--pump. 
+
+*NOTE: I did some quick searching of recent pumped tech, and PYPL employed the same strategy.  No ""investor day"" in 2020, yet after their ER on 2/3/21 they hosted an investor day on 2/11*
+
+These companies may as well have held up neon fucking signs that said ""WE ARE HAVING A VIRTUAL EVENT WHERE WE ARE GOING TO PAUMP OUR BRAINS OUT"".
+
+****
+
+**3.	Defining RAMBO**
+
+As I continued to poke around I saw more and more similar examples.  **Simple searches of OTM whale activity for specific dates on the tickers, which is then checked against the upcoming investor relations, conferences, and meetings on their corporate sites, gives valuable input for what may be brewing.**
+
+I also saw that [Morgan Stanley is hosting its annual Technology, Media, and Telecom conference](https://esn.net/morgan-stanley-technology-media-and-telecom-conference-march-1-2021/). Among others, our favorite FSLY is set to present 😬 😉.
+
+**Given that these plays coincide with investor relations, meetings/conferences, and are blatant pumps, I’ll refer to it as RAMBO: Relations and Meeting Buy Opportunities.**
+
+****
+
+**4. Theorizing recent increases of RAMBO** 
+
+**What stuck out to me was that these recent tech RAMBOs were scheduled to come shortly after their earnings reports**.  SPOT, if you're going to change the world with podcasts in Sierra Leone or whatever, *why not* announce it during the ER you had a couple weeks priorbefore?  **The same can be asked of others like PYPL, SNAP, TWTR, etc.**
+
+**My theory is that the current ER environment—where your stock plummets unless your forward guidance calls for a 10,000% estimate beat, means that companies are working around these unrealistic expectations by saving their best news for afterwards**.  In a way, they are hedging against their own reporting with news coming out during a less volatile time.  After seeing the success of this manuever this past week, I wouldn't be surprised if we witnessed a new normal where earnings reports are almost always scheduled with a traling investor day, analyst day, or key meeting/conference. 
+
+**5. So what am I saying?**
+
+I'm saying that, given the volatile environment around earnings reports and troubling market conditions, **we are likely to see an uptrend in OTM whale calls coinciding with RAMBO, separate from earnings reports**.  One of the first things I will be doing when I see a call flow or whale activity that I like is check it against the companies' investor relations page and seeing what events they may be taking advantage of.
+
+**Hunting for RAMBO: Picks I’ll test this on (in light of JNJ vaccine this weekend, wait on price action to settle for Tech calls)**
+
+[EPD](https://i.imgur.com/U18rGpb.jpg) 🚀 🚀 
+
+Dipping a toe in with this nice, boring, boomer midstream oil giant.  They pay a fat ass dividend yield of 8.3% but let's be real--I couldn't care less about that because this DD is about the hunt for glory, not my retirement income.
+
+The real opportunity is in the fact that, on Friday, two separate bets were placed for EPD in the near future, including a 23c for 3/26.  [They coincided with upcoming RAMBO, as EPD is holding an investor day on March 4th, with an ESG discussion preceding it on March 3rd](https://www.enterpriseproducts.com/investors/presentations).  They are also holding a Q and A session to field questions from both events.
+
+You know who else scheduled a Q and A to discuss their investor day?  SPOT did last week.  I see this as a confidence move, and I see the whale probably thinking their little investor daycould, potentially, be newsworthy.  I'll roll the dice here but keep it safe, and drop if the news is a dud.  As a side note, though, oil is just a good long term play for 2021.  My XOM and RDS leaps have been puh-rinting.
+
+As always pick a good entry point.
+
+[BIDU](https://i.imgur.com/G5XaBOD.jpg) 🚀 🚀 
+
+**EDIT**: the BIDU stock split isn’t the traditional one folks go crazy for but is instead a pre-HK listing split with a neutral effect (affect? Whatever. ) on NASDAQ share prices . Whales and call flow likely related to the HK listing more so than split benefits outright 
+
+Yeah yeah I know, I will be shilling BIDU to the grave.  But, I saw some more interesting call activity on them (it never stops), and a nice little 420 3/26c that piqued my interest.  **I hopped over to the investor relations page looking for summadat RAMBO and found this**:
+
+>BEIJING, Jan. 22, 2021 /PRNewswire/ -- Baidu, Inc. (Nasdaq: BIDU) (""Baidu"" or the ""Company""), a leading Internet platform and AI company, today announced that it will hold an extraordinary general meeting of shareholders (the ""EGM"") at 11:00 a.m. on March 1, 2021 (Beijing time) at the address of No. 10 Shangdi 10th Street, Haidian District, Beijing, the People's Republic of China.
+A proposal of changing the Company's authorized share capital by one-to-eighty subdivision of shares (""Share Subdivision"") will be submitted to Baidu's shareholders to be considered and voted upon at the EGM.
+
+Yes, that's right. BIDU is voting on a stock split Monday.  This is also coming ahead of their HK listing to happen soon.  Do I need to remind you what happens in the lead up to a company's split date?  Remember TSLA?  Remember AAPL?  Well, this ain't ether of those lol, but I like the news and dammit, I like the stock!  Can I tell you exactly what they do?  NO.  Can I tell you how much of my life savings is going in?  ALOT.
+
+[CRM](https://i.imgur.com/25AMtPg.jpg) 🚀 😬 
+
+CRM has been beaten to within an inch of its life recently, and you know I love a good falling knife.  Outside of that nearing bottom, though, they've got an interesting slate of speaking arrangements lined up with this 4/9 275c.  [They're trotting out every executive they have for shilling this coming week, alone](https://investor.salesforce.com/events-and-presentations/default.aspx).  I'll play it a little safer, a little longer, but I'm in for fishing the bottom here.
+
+[ZNGA](https://i.imgur.com/cTLGZLk.jpg) 🚀 😬 
+
+Whale came through with a conservative bet, but I'll be curious to see what they have to say at upcoming conferences after their CEO essentially begged for somebody to buy them out after ER lol (not really, but yeah kinda).  [They're speaking at the Morgan Stanley Tech Conference on March 5th, 8:25 AM PST](https://investor.zynga.com/news-releases/news-release-details/zynga-present-morgan-stanley-technology-media-telecom-conference)
+
+[NVDA](https://i.imgur.com/TFrRmTn.jpg) 🚀 🚀 
+
+I'm as sick of hearing about the damn chip shortage as you are, but NVDA has their annual investor day coming up on 4/12 and calls are starting to trickle in.  Going to feel out this tech dip then probably go with some call spreads near the 600 range for May--outright call premiums are just insane for this ticker, I don't care how rich you are.
+
+**Ticker I just like this week**: **JNJ** because I’m a bandwagon hopper 🤷🏿‍♂️  and **PDD** ER lotto gamble
+
+****
+
+**TLDR**:
+Check the investor relations page if you use call flow or Unusual Options Activity scanners, as a lot of newsworthy positive developments seem to be shared via satellite events recently, not during ER.  Investor day is the new earnings report.
+
+I like tickers: **EPD BIDU CRM ZNGA JNJ NVDA**. All long, on dips, and buying in tandem with the above mentioned special datesj",🐳 🪓 Whales to Watch 3/1 Special: Hunting for RAMBO,lu1r4b,56,135,0.92,135,0,,DD,False,True,-1
+PDD,"**UPDATE: 3/4**
+
+EPD I like the stock. 
+
+Don’t like much else. 
+
+🚨 **9:25 AM: JEROME ON SOME BULLSHIT TAKE PROFITS** 🚨 
+
+**3/4 ANOTHER UPDATE 7:15 AM: OIL CALL FLOW WAS CORRECT OPEC+ MEGA BOOOLISH RHETORIC LEAKING BUY BUY BUY**
+
+**3/4 update:** Most profits taken on EPD when it went above 23. All those calls went ITM this week. Chillin now while awaiting Powell
+
+**Another 3/3 update**
+
+Taking oil profits and sitting the rest of the day out, going to read up a bit on current index price action and see whatsup tomorrow.  I’ll post anything interesting I find. 
+
+**Clarification**: not selling EPD
+
+**3/3 mid day update:**
+
+Looks like the EPD call and 3/2 oil Update were on the right track. Holding off on buying any of the tech for Rambo rn while letting those run. Closed out any ded tech. 
+
+**Night shift RAMBO update 3/2**
+
+All the news coming out about OPEC+ is bearish, but I keep on seeing repeat OTM 3/19 call buying on all oil tickers.  *My spidey sense tingles*. 
+
+**The State of our DD: Update 3/2**
+
+Shitty market movement but nothing unexpected on our underlyings. Tech zoomed Monday— DOCU was a one day hold, but **remember to check the events scheduled on ones like CRM and NVDA for when you want to enter**. These are volatile times for tech and we’re playing pops. 
+
+**We got concerning news on Energy with Saudi’s saying they’ll loosen oil supply**. Tomorrow is the ESG portion of EPD and XOM is having an investor day— I’m going to let XOM movement determine if I am scared or not since it will be a litmus for Thursday EPD event. 
+
+BIDU doing its thing let’s hope it keeps up. CRM sucks ass as always but it’s the schedule I’m gonna play, not the stonk. 
+
+So far I am okay with things have played out after a big Monday, and luckily we have far dates on deez bitches
+
+****
+
+[Welcome back to the casino](https://i.imgur.com/rWUea2Z.jpg). 
+
+**Last week’s 1x-to-multi-baggers:** SPOT SNAP BA 
+**Last week’s losers: BIDU XPEV**
+
+**On a milk carton but our family still has hope**: JD
+
+*I use Barchart and TOS for general flow, but use Unusual Whales scanner for most of my UOA picks. Shoutout to them for giving permission to use screenshots and such that I’m playing.* 
+
+**UPDATE: DOCU CEO** speaking at Morgan Stanly TMT conference Monday AM. [This 300c 3/5 came through last week](https://i.imgur.com/dD2cqVp.jpg). Suicidal strike, but I like the sentiment. 
+
+****
+
+When the shit hits the fan and the indexes are falling, I'm in the lab trying to spot the bullish diamonds in the rough.  **Why?  Because the moment I buy a put, we are going to new all-time highs**.  I just know it.  So, I've had to work a little harder to pull out the calls, and I'm happy for those of you that got the SPOT, SNAP, and BA tendies from last week's DD.  XPEV was kind of weird too--I guess I need to take buy American.  Honestly, I'll take 3.5/5 for picks on a bloody week any day, though.
+
+**Please remember**: When things are this volatile, **choose your entries after market action seems to pick a direction AFTER the first hour of the day**, minimum, unless we're playing a specific event.  The difference between a failing play and a 30% intraday play can literally be the difference between buying at open, or buying two hours later. And don't get greedy--this is guerilla warfare right now.  Take your pop profits, unless you have PDT restriction in which case go tighter to the strike, and much longer than the whale.  **If you can’t afford it, don’t play it.** There are opportunities every day. 
+
+Anyway, I want to go in a little different direction this week, as something interesting stood out to me.  Ready? Let's roll.
+
+****
+
+**1.	The SPOT Whale: Anatomy of a carcass**
+
+On Monday, as I dined on SPOT tendies while the world burned around me, I was struck with a sense of unease amidst the clinking of champagne glasses.  On Sunday afternoon after the DD was written, some further research revealed that, at **8 AM on Monday 2/22, SPOT was hosting an “investor day”**.  Investor day was indeed the whale's bet, and boy did it pay off with that 8% intraday pop.
+
+I hadn't heard the term investor day or analyst day thrown around in tech for a bit, so my spidey sense was tingling.
+
+Then, the next interesting hits came.  Last week's Whales to Watch had SNAP picked as another play to follow based on OTM call activity and repeat betting.  On Tuesday and Wednesday, amidst the storm, SNAP indeed went nuts with intraday pops.  TWTR, which I'd made a note of the week prior, had the same activity.  **What was the seemingly invisible string tying these three tech plays together?  Investor/analyst days.**
+
+It was time to get to work.
+
+****
+
+**2.	The investigation**
+
+I wanted to see if these investor and analyst days were a recycled and growing phenonemon or something we just haven't paid much attention to.  The results were interesting in two ways.
+
+1) [SNAP](https://investor.snap.com/overview/default.aspx) [SPOT](https://investors.spotify.com/home/default.aspx) and [TWTR](https://investor.twitterinc.com/events-and-presentations/default.aspx) **investor relations pages show these events in 2021, but not in 2020 or 2019**.  Earnings? Sure.  Annual meetings? Indubitably.  Conferences? Yes.  Investor/analyst days?  Nay.  Small sample size obviously, but coming from these three within the same quarter after not having hosted any of these events over the past two years--I'd call it significant.
+
+2) **SNAP SPOT and TWTR investor/analyst days all came shortly after their Earnings Reports** (this is important later).  SNAP ER was 2/4, Investor Day was 2/23.  SPOT ER was 2/5, Investor Day was 2/22.  TWTR ER 2/9, Analyst Day was 2/25.
+
+*All three* of these tickers had OTM Whale bets with expirations the week of the investor/analyst events.  *All three* of these came within a month of their ER.  *All three* of these pumped due to events specifically designed to do just that--pump. 
+
+*NOTE: I did some quick searching of recent pumped tech, and PYPL employed the same strategy.  No ""investor day"" in 2020, yet after their ER on 2/3/21 they hosted an investor day on 2/11*
+
+These companies may as well have held up neon fucking signs that said ""WE ARE HAVING A VIRTUAL EVENT WHERE WE ARE GOING TO PAUMP OUR BRAINS OUT"".
+
+****
+
+**3.	Defining RAMBO**
+
+As I continued to poke around I saw more and more similar examples.  **Simple searches of OTM whale activity for specific dates on the tickers, which is then checked against the upcoming investor relations, conferences, and meetings on their corporate sites, gives valuable input for what may be brewing.**
+
+I also saw that [Morgan Stanley is hosting its annual Technology, Media, and Telecom conference](https://esn.net/morgan-stanley-technology-media-and-telecom-conference-march-1-2021/). Among others, our favorite FSLY is set to present 😬 😉.
+
+**Given that these plays coincide with investor relations, meetings/conferences, and are blatant pumps, I’ll refer to it as RAMBO: Relations and Meeting Buy Opportunities.**
+
+****
+
+**4. Theorizing recent increases of RAMBO** 
+
+**What stuck out to me was that these recent tech RAMBOs were scheduled to come shortly after their earnings reports**.  SPOT, if you're going to change the world with podcasts in Sierra Leone or whatever, *why not* announce it during the ER you had a couple weeks priorbefore?  **The same can be asked of others like PYPL, SNAP, TWTR, etc.**
+
+**My theory is that the current ER environment—where your stock plummets unless your forward guidance calls for a 10,000% estimate beat, means that companies are working around these unrealistic expectations by saving their best news for afterwards**.  In a way, they are hedging against their own reporting with news coming out during a less volatile time.  After seeing the success of this manuever this past week, I wouldn't be surprised if we witnessed a new normal where earnings reports are almost always scheduled with a traling investor day, analyst day, or key meeting/conference. 
+
+**5. So what am I saying?**
+
+I'm saying that, given the volatile environment around earnings reports and troubling market conditions, **we are likely to see an uptrend in OTM whale calls coinciding with RAMBO, separate from earnings reports**.  One of the first things I will be doing when I see a call flow or whale activity that I like is check it against the companies' investor relations page and seeing what events they may be taking advantage of.
+
+**Hunting for RAMBO: Picks I’ll test this on (in light of JNJ vaccine this weekend, wait on price action to settle for Tech calls)**
+
+[EPD](https://i.imgur.com/U18rGpb.jpg) 🚀 🚀 
+
+Dipping a toe in with this nice, boring, boomer midstream oil giant.  They pay a fat ass dividend yield of 8.3% but let's be real--I couldn't care less about that because this DD is about the hunt for glory, not my retirement income.
+
+The real opportunity is in the fact that, on Friday, two separate bets were placed for EPD in the near future, including a 23c for 3/26.  [They coincided with upcoming RAMBO, as EPD is holding an investor day on March 4th, with an ESG discussion preceding it on March 3rd](https://www.enterpriseproducts.com/investors/presentations).  They are also holding a Q and A session to field questions from both events.
+
+You know who else scheduled a Q and A to discuss their investor day?  SPOT did last week.  I see this as a confidence move, and I see the whale probably thinking their little investor daycould, potentially, be newsworthy.  I'll roll the dice here but keep it safe, and drop if the news is a dud.  As a side note, though, oil is just a good long term play for 2021.  My XOM and RDS leaps have been puh-rinting.
+
+As always pick a good entry point.
+
+[BIDU](https://i.imgur.com/G5XaBOD.jpg) 🚀 🚀 
+
+**EDIT**: the BIDU stock split isn’t the traditional one folks go crazy for but is instead a pre-HK listing split with a neutral effect (affect? Whatever. ) on NASDAQ share prices . Whales and call flow likely related to the HK listing more so than split benefits outright 
+
+Yeah yeah I know, I will be shilling BIDU to the grave.  But, I saw some more interesting call activity on them (it never stops), and a nice little 420 3/26c that piqued my interest.  **I hopped over to the investor relations page looking for summadat RAMBO and found this**:
+
+>BEIJING, Jan. 22, 2021 /PRNewswire/ -- Baidu, Inc. (Nasdaq: BIDU) (""Baidu"" or the ""Company""), a leading Internet platform and AI company, today announced that it will hold an extraordinary general meeting of shareholders (the ""EGM"") at 11:00 a.m. on March 1, 2021 (Beijing time) at the address of No. 10 Shangdi 10th Street, Haidian District, Beijing, the People's Republic of China.
+A proposal of changing the Company's authorized share capital by one-to-eighty subdivision of shares (""Share Subdivision"") will be submitted to Baidu's shareholders to be considered and voted upon at the EGM.
+
+Yes, that's right. BIDU is voting on a stock split Monday.  This is also coming ahead of their HK listing to happen soon.  Do I need to remind you what happens in the lead up to a company's split date?  Remember TSLA?  Remember AAPL?  Well, this ain't ether of those lol, but I like the news and dammit, I like the stock!  Can I tell you exactly what they do?  NO.  Can I tell you how much of my life savings is going in?  ALOT.
+
+[CRM](https://i.imgur.com/25AMtPg.jpg) 🚀 😬 
+
+CRM has been beaten to within an inch of its life recently, and you know I love a good falling knife.  Outside of that nearing bottom, though, they've got an interesting slate of speaking arrangements lined up with this 4/9 275c.  [They're trotting out every executive they have for shilling this coming week, alone](https://investor.salesforce.com/events-and-presentations/default.aspx).  I'll play it a little safer, a little longer, but I'm in for fishing the bottom here.
+
+[ZNGA](https://i.imgur.com/cTLGZLk.jpg) 🚀 😬 
+
+Whale came through with a conservative bet, but I'll be curious to see what they have to say at upcoming conferences after their CEO essentially begged for somebody to buy them out after ER lol (not really, but yeah kinda).  [They're speaking at the Morgan Stanley Tech Conference on March 5th, 8:25 AM PST](https://investor.zynga.com/news-releases/news-release-details/zynga-present-morgan-stanley-technology-media-telecom-conference)
+
+[NVDA](https://i.imgur.com/TFrRmTn.jpg) 🚀 🚀 
+
+I'm as sick of hearing about the damn chip shortage as you are, but NVDA has their annual investor day coming up on 4/12 and calls are starting to trickle in.  Going to feel out this tech dip then probably go with some call spreads near the 600 range for May--outright call premiums are just insane for this ticker, I don't care how rich you are.
+
+**Ticker I just like this week**: **JNJ** because I’m a bandwagon hopper 🤷🏿‍♂️  and **PDD** ER lotto gamble
+
+****
+
+**TLDR**:
+Check the investor relations page if you use call flow or Unusual Options Activity scanners, as a lot of newsworthy positive developments seem to be shared via satellite events recently, not during ER.  Investor day is the new earnings report.
+
+I like tickers: **EPD BIDU CRM ZNGA JNJ NVDA**. All long, on dips, and buying in tandem with the above mentioned special datesj",🐳 🪓 Whales to Watch 3/1 Special: Hunting for RAMBO,lu1r4b,56,135,0.92,135,0,,DD,False,True,-1
+PYPL,"**UPDATE: 3/4**
+
+EPD I like the stock. 
+
+Don’t like much else. 
+
+🚨 **9:25 AM: JEROME ON SOME BULLSHIT TAKE PROFITS** 🚨 
+
+**3/4 ANOTHER UPDATE 7:15 AM: OIL CALL FLOW WAS CORRECT OPEC+ MEGA BOOOLISH RHETORIC LEAKING BUY BUY BUY**
+
+**3/4 update:** Most profits taken on EPD when it went above 23. All those calls went ITM this week. Chillin now while awaiting Powell
+
+**Another 3/3 update**
+
+Taking oil profits and sitting the rest of the day out, going to read up a bit on current index price action and see whatsup tomorrow.  I’ll post anything interesting I find. 
+
+**Clarification**: not selling EPD
+
+**3/3 mid day update:**
+
+Looks like the EPD call and 3/2 oil Update were on the right track. Holding off on buying any of the tech for Rambo rn while letting those run. Closed out any ded tech. 
+
+**Night shift RAMBO update 3/2**
+
+All the news coming out about OPEC+ is bearish, but I keep on seeing repeat OTM 3/19 call buying on all oil tickers.  *My spidey sense tingles*. 
+
+**The State of our DD: Update 3/2**
+
+Shitty market movement but nothing unexpected on our underlyings. Tech zoomed Monday— DOCU was a one day hold, but **remember to check the events scheduled on ones like CRM and NVDA for when you want to enter**. These are volatile times for tech and we’re playing pops. 
+
+**We got concerning news on Energy with Saudi’s saying they’ll loosen oil supply**. Tomorrow is the ESG portion of EPD and XOM is having an investor day— I’m going to let XOM movement determine if I am scared or not since it will be a litmus for Thursday EPD event. 
+
+BIDU doing its thing let’s hope it keeps up. CRM sucks ass as always but it’s the schedule I’m gonna play, not the stonk. 
+
+So far I am okay with things have played out after a big Monday, and luckily we have far dates on deez bitches
+
+****
+
+[Welcome back to the casino](https://i.imgur.com/rWUea2Z.jpg). 
+
+**Last week’s 1x-to-multi-baggers:** SPOT SNAP BA 
+**Last week’s losers: BIDU XPEV**
+
+**On a milk carton but our family still has hope**: JD
+
+*I use Barchart and TOS for general flow, but use Unusual Whales scanner for most of my UOA picks. Shoutout to them for giving permission to use screenshots and such that I’m playing.* 
+
+**UPDATE: DOCU CEO** speaking at Morgan Stanly TMT conference Monday AM. [This 300c 3/5 came through last week](https://i.imgur.com/dD2cqVp.jpg). Suicidal strike, but I like the sentiment. 
+
+****
+
+When the shit hits the fan and the indexes are falling, I'm in the lab trying to spot the bullish diamonds in the rough.  **Why?  Because the moment I buy a put, we are going to new all-time highs**.  I just know it.  So, I've had to work a little harder to pull out the calls, and I'm happy for those of you that got the SPOT, SNAP, and BA tendies from last week's DD.  XPEV was kind of weird too--I guess I need to take buy American.  Honestly, I'll take 3.5/5 for picks on a bloody week any day, though.
+
+**Please remember**: When things are this volatile, **choose your entries after market action seems to pick a direction AFTER the first hour of the day**, minimum, unless we're playing a specific event.  The difference between a failing play and a 30% intraday play can literally be the difference between buying at open, or buying two hours later. And don't get greedy--this is guerilla warfare right now.  Take your pop profits, unless you have PDT restriction in which case go tighter to the strike, and much longer than the whale.  **If you can’t afford it, don’t play it.** There are opportunities every day. 
+
+Anyway, I want to go in a little different direction this week, as something interesting stood out to me.  Ready? Let's roll.
+
+****
+
+**1.	The SPOT Whale: Anatomy of a carcass**
+
+On Monday, as I dined on SPOT tendies while the world burned around me, I was struck with a sense of unease amidst the clinking of champagne glasses.  On Sunday afternoon after the DD was written, some further research revealed that, at **8 AM on Monday 2/22, SPOT was hosting an “investor day”**.  Investor day was indeed the whale's bet, and boy did it pay off with that 8% intraday pop.
+
+I hadn't heard the term investor day or analyst day thrown around in tech for a bit, so my spidey sense was tingling.
+
+Then, the next interesting hits came.  Last week's Whales to Watch had SNAP picked as another play to follow based on OTM call activity and repeat betting.  On Tuesday and Wednesday, amidst the storm, SNAP indeed went nuts with intraday pops.  TWTR, which I'd made a note of the week prior, had the same activity.  **What was the seemingly invisible string tying these three tech plays together?  Investor/analyst days.**
+
+It was time to get to work.
+
+****
+
+**2.	The investigation**
+
+I wanted to see if these investor and analyst days were a recycled and growing phenonemon or something we just haven't paid much attention to.  The results were interesting in two ways.
+
+1) [SNAP](https://investor.snap.com/overview/default.aspx) [SPOT](https://investors.spotify.com/home/default.aspx) and [TWTR](https://investor.twitterinc.com/events-and-presentations/default.aspx) **investor relations pages show these events in 2021, but not in 2020 or 2019**.  Earnings? Sure.  Annual meetings? Indubitably.  Conferences? Yes.  Investor/analyst days?  Nay.  Small sample size obviously, but coming from these three within the same quarter after not having hosted any of these events over the past two years--I'd call it significant.
+
+2) **SNAP SPOT and TWTR investor/analyst days all came shortly after their Earnings Reports** (this is important later).  SNAP ER was 2/4, Investor Day was 2/23.  SPOT ER was 2/5, Investor Day was 2/22.  TWTR ER 2/9, Analyst Day was 2/25.
+
+*All three* of these tickers had OTM Whale bets with expirations the week of the investor/analyst events.  *All three* of these came within a month of their ER.  *All three* of these pumped due to events specifically designed to do just that--pump. 
+
+*NOTE: I did some quick searching of recent pumped tech, and PYPL employed the same strategy.  No ""investor day"" in 2020, yet after their ER on 2/3/21 they hosted an investor day on 2/11*
+
+These companies may as well have held up neon fucking signs that said ""WE ARE HAVING A VIRTUAL EVENT WHERE WE ARE GOING TO PAUMP OUR BRAINS OUT"".
+
+****
+
+**3.	Defining RAMBO**
+
+As I continued to poke around I saw more and more similar examples.  **Simple searches of OTM whale activity for specific dates on the tickers, which is then checked against the upcoming investor relations, conferences, and meetings on their corporate sites, gives valuable input for what may be brewing.**
+
+I also saw that [Morgan Stanley is hosting its annual Technology, Media, and Telecom conference](https://esn.net/morgan-stanley-technology-media-and-telecom-conference-march-1-2021/). Among others, our favorite FSLY is set to present 😬 😉.
+
+**Given that these plays coincide with investor relations, meetings/conferences, and are blatant pumps, I’ll refer to it as RAMBO: Relations and Meeting Buy Opportunities.**
+
+****
+
+**4. Theorizing recent increases of RAMBO** 
+
+**What stuck out to me was that these recent tech RAMBOs were scheduled to come shortly after their earnings reports**.  SPOT, if you're going to change the world with podcasts in Sierra Leone or whatever, *why not* announce it during the ER you had a couple weeks priorbefore?  **The same can be asked of others like PYPL, SNAP, TWTR, etc.**
+
+**My theory is that the current ER environment—where your stock plummets unless your forward guidance calls for a 10,000% estimate beat, means that companies are working around these unrealistic expectations by saving their best news for afterwards**.  In a way, they are hedging against their own reporting with news coming out during a less volatile time.  After seeing the success of this manuever this past week, I wouldn't be surprised if we witnessed a new normal where earnings reports are almost always scheduled with a traling investor day, analyst day, or key meeting/conference. 
+
+**5. So what am I saying?**
+
+I'm saying that, given the volatile environment around earnings reports and troubling market conditions, **we are likely to see an uptrend in OTM whale calls coinciding with RAMBO, separate from earnings reports**.  One of the first things I will be doing when I see a call flow or whale activity that I like is check it against the companies' investor relations page and seeing what events they may be taking advantage of.
+
+**Hunting for RAMBO: Picks I’ll test this on (in light of JNJ vaccine this weekend, wait on price action to settle for Tech calls)**
+
+[EPD](https://i.imgur.com/U18rGpb.jpg) 🚀 🚀 
+
+Dipping a toe in with this nice, boring, boomer midstream oil giant.  They pay a fat ass dividend yield of 8.3% but let's be real--I couldn't care less about that because this DD is about the hunt for glory, not my retirement income.
+
+The real opportunity is in the fact that, on Friday, two separate bets were placed for EPD in the near future, including a 23c for 3/26.  [They coincided with upcoming RAMBO, as EPD is holding an investor day on March 4th, with an ESG discussion preceding it on March 3rd](https://www.enterpriseproducts.com/investors/presentations).  They are also holding a Q and A session to field questions from both events.
+
+You know who else scheduled a Q and A to discuss their investor day?  SPOT did last week.  I see this as a confidence move, and I see the whale probably thinking their little investor daycould, potentially, be newsworthy.  I'll roll the dice here but keep it safe, and drop if the news is a dud.  As a side note, though, oil is just a good long term play for 2021.  My XOM and RDS leaps have been puh-rinting.
+
+As always pick a good entry point.
+
+[BIDU](https://i.imgur.com/G5XaBOD.jpg) 🚀 🚀 
+
+**EDIT**: the BIDU stock split isn’t the traditional one folks go crazy for but is instead a pre-HK listing split with a neutral effect (affect? Whatever. ) on NASDAQ share prices . Whales and call flow likely related to the HK listing more so than split benefits outright 
+
+Yeah yeah I know, I will be shilling BIDU to the grave.  But, I saw some more interesting call activity on them (it never stops), and a nice little 420 3/26c that piqued my interest.  **I hopped over to the investor relations page looking for summadat RAMBO and found this**:
+
+>BEIJING, Jan. 22, 2021 /PRNewswire/ -- Baidu, Inc. (Nasdaq: BIDU) (""Baidu"" or the ""Company""), a leading Internet platform and AI company, today announced that it will hold an extraordinary general meeting of shareholders (the ""EGM"") at 11:00 a.m. on March 1, 2021 (Beijing time) at the address of No. 10 Shangdi 10th Street, Haidian District, Beijing, the People's Republic of China.
+A proposal of changing the Company's authorized share capital by one-to-eighty subdivision of shares (""Share Subdivision"") will be submitted to Baidu's shareholders to be considered and voted upon at the EGM.
+
+Yes, that's right. BIDU is voting on a stock split Monday.  This is also coming ahead of their HK listing to happen soon.  Do I need to remind you what happens in the lead up to a company's split date?  Remember TSLA?  Remember AAPL?  Well, this ain't ether of those lol, but I like the news and dammit, I like the stock!  Can I tell you exactly what they do?  NO.  Can I tell you how much of my life savings is going in?  ALOT.
+
+[CRM](https://i.imgur.com/25AMtPg.jpg) 🚀 😬 
+
+CRM has been beaten to within an inch of its life recently, and you know I love a good falling knife.  Outside of that nearing bottom, though, they've got an interesting slate of speaking arrangements lined up with this 4/9 275c.  [They're trotting out every executive they have for shilling this coming week, alone](https://investor.salesforce.com/events-and-presentations/default.aspx).  I'll play it a little safer, a little longer, but I'm in for fishing the bottom here.
+
+[ZNGA](https://i.imgur.com/cTLGZLk.jpg) 🚀 😬 
+
+Whale came through with a conservative bet, but I'll be curious to see what they have to say at upcoming conferences after their CEO essentially begged for somebody to buy them out after ER lol (not really, but yeah kinda).  [They're speaking at the Morgan Stanley Tech Conference on March 5th, 8:25 AM PST](https://investor.zynga.com/news-releases/news-release-details/zynga-present-morgan-stanley-technology-media-telecom-conference)
+
+[NVDA](https://i.imgur.com/TFrRmTn.jpg) 🚀 🚀 
+
+I'm as sick of hearing about the damn chip shortage as you are, but NVDA has their annual investor day coming up on 4/12 and calls are starting to trickle in.  Going to feel out this tech dip then probably go with some call spreads near the 600 range for May--outright call premiums are just insane for this ticker, I don't care how rich you are.
+
+**Ticker I just like this week**: **JNJ** because I’m a bandwagon hopper 🤷🏿‍♂️  and **PDD** ER lotto gamble
+
+****
+
+**TLDR**:
+Check the investor relations page if you use call flow or Unusual Options Activity scanners, as a lot of newsworthy positive developments seem to be shared via satellite events recently, not during ER.  Investor day is the new earnings report.
+
+I like tickers: **EPD BIDU CRM ZNGA JNJ NVDA**. All long, on dips, and buying in tandem with the above mentioned special datesj",🐳 🪓 Whales to Watch 3/1 Special: Hunting for RAMBO,lu1r4b,56,135,0.92,135,0,,DD,False,True,-1
+TSLA,"**UPDATE: 3/4**
+
+EPD I like the stock. 
+
+Don’t like much else. 
+
+🚨 **9:25 AM: JEROME ON SOME BULLSHIT TAKE PROFITS** 🚨 
+
+**3/4 ANOTHER UPDATE 7:15 AM: OIL CALL FLOW WAS CORRECT OPEC+ MEGA BOOOLISH RHETORIC LEAKING BUY BUY BUY**
+
+**3/4 update:** Most profits taken on EPD when it went above 23. All those calls went ITM this week. Chillin now while awaiting Powell
+
+**Another 3/3 update**
+
+Taking oil profits and sitting the rest of the day out, going to read up a bit on current index price action and see whatsup tomorrow.  I’ll post anything interesting I find. 
+
+**Clarification**: not selling EPD
+
+**3/3 mid day update:**
+
+Looks like the EPD call and 3/2 oil Update were on the right track. Holding off on buying any of the tech for Rambo rn while letting those run. Closed out any ded tech. 
+
+**Night shift RAMBO update 3/2**
+
+All the news coming out about OPEC+ is bearish, but I keep on seeing repeat OTM 3/19 call buying on all oil tickers.  *My spidey sense tingles*. 
+
+**The State of our DD: Update 3/2**
+
+Shitty market movement but nothing unexpected on our underlyings. Tech zoomed Monday— DOCU was a one day hold, but **remember to check the events scheduled on ones like CRM and NVDA for when you want to enter**. These are volatile times for tech and we’re playing pops. 
+
+**We got concerning news on Energy with Saudi’s saying they’ll loosen oil supply**. Tomorrow is the ESG portion of EPD and XOM is having an investor day— I’m going to let XOM movement determine if I am scared or not since it will be a litmus for Thursday EPD event. 
+
+BIDU doing its thing let’s hope it keeps up. CRM sucks ass as always but it’s the schedule I’m gonna play, not the stonk. 
+
+So far I am okay with things have played out after a big Monday, and luckily we have far dates on deez bitches
+
+****
+
+[Welcome back to the casino](https://i.imgur.com/rWUea2Z.jpg). 
+
+**Last week’s 1x-to-multi-baggers:** SPOT SNAP BA 
+**Last week’s losers: BIDU XPEV**
+
+**On a milk carton but our family still has hope**: JD
+
+*I use Barchart and TOS for general flow, but use Unusual Whales scanner for most of my UOA picks. Shoutout to them for giving permission to use screenshots and such that I’m playing.* 
+
+**UPDATE: DOCU CEO** speaking at Morgan Stanly TMT conference Monday AM. [This 300c 3/5 came through last week](https://i.imgur.com/dD2cqVp.jpg). Suicidal strike, but I like the sentiment. 
+
+****
+
+When the shit hits the fan and the indexes are falling, I'm in the lab trying to spot the bullish diamonds in the rough.  **Why?  Because the moment I buy a put, we are going to new all-time highs**.  I just know it.  So, I've had to work a little harder to pull out the calls, and I'm happy for those of you that got the SPOT, SNAP, and BA tendies from last week's DD.  XPEV was kind of weird too--I guess I need to take buy American.  Honestly, I'll take 3.5/5 for picks on a bloody week any day, though.
+
+**Please remember**: When things are this volatile, **choose your entries after market action seems to pick a direction AFTER the first hour of the day**, minimum, unless we're playing a specific event.  The difference between a failing play and a 30% intraday play can literally be the difference between buying at open, or buying two hours later. And don't get greedy--this is guerilla warfare right now.  Take your pop profits, unless you have PDT restriction in which case go tighter to the strike, and much longer than the whale.  **If you can’t afford it, don’t play it.** There are opportunities every day. 
+
+Anyway, I want to go in a little different direction this week, as something interesting stood out to me.  Ready? Let's roll.
+
+****
+
+**1.	The SPOT Whale: Anatomy of a carcass**
+
+On Monday, as I dined on SPOT tendies while the world burned around me, I was struck with a sense of unease amidst the clinking of champagne glasses.  On Sunday afternoon after the DD was written, some further research revealed that, at **8 AM on Monday 2/22, SPOT was hosting an “investor day”**.  Investor day was indeed the whale's bet, and boy did it pay off with that 8% intraday pop.
+
+I hadn't heard the term investor day or analyst day thrown around in tech for a bit, so my spidey sense was tingling.
+
+Then, the next interesting hits came.  Last week's Whales to Watch had SNAP picked as another play to follow based on OTM call activity and repeat betting.  On Tuesday and Wednesday, amidst the storm, SNAP indeed went nuts with intraday pops.  TWTR, which I'd made a note of the week prior, had the same activity.  **What was the seemingly invisible string tying these three tech plays together?  Investor/analyst days.**
+
+It was time to get to work.
+
+****
+
+**2.	The investigation**
+
+I wanted to see if these investor and analyst days were a recycled and growing phenonemon or something we just haven't paid much attention to.  The results were interesting in two ways.
+
+1) [SNAP](https://investor.snap.com/overview/default.aspx) [SPOT](https://investors.spotify.com/home/default.aspx) and [TWTR](https://investor.twitterinc.com/events-and-presentations/default.aspx) **investor relations pages show these events in 2021, but not in 2020 or 2019**.  Earnings? Sure.  Annual meetings? Indubitably.  Conferences? Yes.  Investor/analyst days?  Nay.  Small sample size obviously, but coming from these three within the same quarter after not having hosted any of these events over the past two years--I'd call it significant.
+
+2) **SNAP SPOT and TWTR investor/analyst days all came shortly after their Earnings Reports** (this is important later).  SNAP ER was 2/4, Investor Day was 2/23.  SPOT ER was 2/5, Investor Day was 2/22.  TWTR ER 2/9, Analyst Day was 2/25.
+
+*All three* of these tickers had OTM Whale bets with expirations the week of the investor/analyst events.  *All three* of these came within a month of their ER.  *All three* of these pumped due to events specifically designed to do just that--pump. 
+
+*NOTE: I did some quick searching of recent pumped tech, and PYPL employed the same strategy.  No ""investor day"" in 2020, yet after their ER on 2/3/21 they hosted an investor day on 2/11*
+
+These companies may as well have held up neon fucking signs that said ""WE ARE HAVING A VIRTUAL EVENT WHERE WE ARE GOING TO PAUMP OUR BRAINS OUT"".
+
+****
+
+**3.	Defining RAMBO**
+
+As I continued to poke around I saw more and more similar examples.  **Simple searches of OTM whale activity for specific dates on the tickers, which is then checked against the upcoming investor relations, conferences, and meetings on their corporate sites, gives valuable input for what may be brewing.**
+
+I also saw that [Morgan Stanley is hosting its annual Technology, Media, and Telecom conference](https://esn.net/morgan-stanley-technology-media-and-telecom-conference-march-1-2021/). Among others, our favorite FSLY is set to present 😬 😉.
+
+**Given that these plays coincide with investor relations, meetings/conferences, and are blatant pumps, I’ll refer to it as RAMBO: Relations and Meeting Buy Opportunities.**
+
+****
+
+**4. Theorizing recent increases of RAMBO** 
+
+**What stuck out to me was that these recent tech RAMBOs were scheduled to come shortly after their earnings reports**.  SPOT, if you're going to change the world with podcasts in Sierra Leone or whatever, *why not* announce it during the ER you had a couple weeks priorbefore?  **The same can be asked of others like PYPL, SNAP, TWTR, etc.**
+
+**My theory is that the current ER environment—where your stock plummets unless your forward guidance calls for a 10,000% estimate beat, means that companies are working around these unrealistic expectations by saving their best news for afterwards**.  In a way, they are hedging against their own reporting with news coming out during a less volatile time.  After seeing the success of this manuever this past week, I wouldn't be surprised if we witnessed a new normal where earnings reports are almost always scheduled with a traling investor day, analyst day, or key meeting/conference. 
+
+**5. So what am I saying?**
+
+I'm saying that, given the volatile environment around earnings reports and troubling market conditions, **we are likely to see an uptrend in OTM whale calls coinciding with RAMBO, separate from earnings reports**.  One of the first things I will be doing when I see a call flow or whale activity that I like is check it against the companies' investor relations page and seeing what events they may be taking advantage of.
+
+**Hunting for RAMBO: Picks I’ll test this on (in light of JNJ vaccine this weekend, wait on price action to settle for Tech calls)**
+
+[EPD](https://i.imgur.com/U18rGpb.jpg) 🚀 🚀 
+
+Dipping a toe in with this nice, boring, boomer midstream oil giant.  They pay a fat ass dividend yield of 8.3% but let's be real--I couldn't care less about that because this DD is about the hunt for glory, not my retirement income.
+
+The real opportunity is in the fact that, on Friday, two separate bets were placed for EPD in the near future, including a 23c for 3/26.  [They coincided with upcoming RAMBO, as EPD is holding an investor day on March 4th, with an ESG discussion preceding it on March 3rd](https://www.enterpriseproducts.com/investors/presentations).  They are also holding a Q and A session to field questions from both events.
+
+You know who else scheduled a Q and A to discuss their investor day?  SPOT did last week.  I see this as a confidence move, and I see the whale probably thinking their little investor daycould, potentially, be newsworthy.  I'll roll the dice here but keep it safe, and drop if the news is a dud.  As a side note, though, oil is just a good long term play for 2021.  My XOM and RDS leaps have been puh-rinting.
+
+As always pick a good entry point.
+
+[BIDU](https://i.imgur.com/G5XaBOD.jpg) 🚀 🚀 
+
+**EDIT**: the BIDU stock split isn’t the traditional one folks go crazy for but is instead a pre-HK listing split with a neutral effect (affect? Whatever. ) on NASDAQ share prices . Whales and call flow likely related to the HK listing more so than split benefits outright 
+
+Yeah yeah I know, I will be shilling BIDU to the grave.  But, I saw some more interesting call activity on them (it never stops), and a nice little 420 3/26c that piqued my interest.  **I hopped over to the investor relations page looking for summadat RAMBO and found this**:
+
+>BEIJING, Jan. 22, 2021 /PRNewswire/ -- Baidu, Inc. (Nasdaq: BIDU) (""Baidu"" or the ""Company""), a leading Internet platform and AI company, today announced that it will hold an extraordinary general meeting of shareholders (the ""EGM"") at 11:00 a.m. on March 1, 2021 (Beijing time) at the address of No. 10 Shangdi 10th Street, Haidian District, Beijing, the People's Republic of China.
+A proposal of changing the Company's authorized share capital by one-to-eighty subdivision of shares (""Share Subdivision"") will be submitted to Baidu's shareholders to be considered and voted upon at the EGM.
+
+Yes, that's right. BIDU is voting on a stock split Monday.  This is also coming ahead of their HK listing to happen soon.  Do I need to remind you what happens in the lead up to a company's split date?  Remember TSLA?  Remember AAPL?  Well, this ain't ether of those lol, but I like the news and dammit, I like the stock!  Can I tell you exactly what they do?  NO.  Can I tell you how much of my life savings is going in?  ALOT.
+
+[CRM](https://i.imgur.com/25AMtPg.jpg) 🚀 😬 
+
+CRM has been beaten to within an inch of its life recently, and you know I love a good falling knife.  Outside of that nearing bottom, though, they've got an interesting slate of speaking arrangements lined up with this 4/9 275c.  [They're trotting out every executive they have for shilling this coming week, alone](https://investor.salesforce.com/events-and-presentations/default.aspx).  I'll play it a little safer, a little longer, but I'm in for fishing the bottom here.
+
+[ZNGA](https://i.imgur.com/cTLGZLk.jpg) 🚀 😬 
+
+Whale came through with a conservative bet, but I'll be curious to see what they have to say at upcoming conferences after their CEO essentially begged for somebody to buy them out after ER lol (not really, but yeah kinda).  [They're speaking at the Morgan Stanley Tech Conference on March 5th, 8:25 AM PST](https://investor.zynga.com/news-releases/news-release-details/zynga-present-morgan-stanley-technology-media-telecom-conference)
+
+[NVDA](https://i.imgur.com/TFrRmTn.jpg) 🚀 🚀 
+
+I'm as sick of hearing about the damn chip shortage as you are, but NVDA has their annual investor day coming up on 4/12 and calls are starting to trickle in.  Going to feel out this tech dip then probably go with some call spreads near the 600 range for May--outright call premiums are just insane for this ticker, I don't care how rich you are.
+
+**Ticker I just like this week**: **JNJ** because I’m a bandwagon hopper 🤷🏿‍♂️  and **PDD** ER lotto gamble
+
+****
+
+**TLDR**:
+Check the investor relations page if you use call flow or Unusual Options Activity scanners, as a lot of newsworthy positive developments seem to be shared via satellite events recently, not during ER.  Investor day is the new earnings report.
+
+I like tickers: **EPD BIDU CRM ZNGA JNJ NVDA**. All long, on dips, and buying in tandem with the above mentioned special datesj",🐳 🪓 Whales to Watch 3/1 Special: Hunting for RAMBO,lu1r4b,56,135,0.92,135,0,,DD,False,True,-1
+ZNGA,"**UPDATE: 3/4**
+
+EPD I like the stock. 
+
+Don’t like much else. 
+
+🚨 **9:25 AM: JEROME ON SOME BULLSHIT TAKE PROFITS** 🚨 
+
+**3/4 ANOTHER UPDATE 7:15 AM: OIL CALL FLOW WAS CORRECT OPEC+ MEGA BOOOLISH RHETORIC LEAKING BUY BUY BUY**
+
+**3/4 update:** Most profits taken on EPD when it went above 23. All those calls went ITM this week. Chillin now while awaiting Powell
+
+**Another 3/3 update**
+
+Taking oil profits and sitting the rest of the day out, going to read up a bit on current index price action and see whatsup tomorrow.  I’ll post anything interesting I find. 
+
+**Clarification**: not selling EPD
+
+**3/3 mid day update:**
+
+Looks like the EPD call and 3/2 oil Update were on the right track. Holding off on buying any of the tech for Rambo rn while letting those run. Closed out any ded tech. 
+
+**Night shift RAMBO update 3/2**
+
+All the news coming out about OPEC+ is bearish, but I keep on seeing repeat OTM 3/19 call buying on all oil tickers.  *My spidey sense tingles*. 
+
+**The State of our DD: Update 3/2**
+
+Shitty market movement but nothing unexpected on our underlyings. Tech zoomed Monday— DOCU was a one day hold, but **remember to check the events scheduled on ones like CRM and NVDA for when you want to enter**. These are volatile times for tech and we’re playing pops. 
+
+**We got concerning news on Energy with Saudi’s saying they’ll loosen oil supply**. Tomorrow is the ESG portion of EPD and XOM is having an investor day— I’m going to let XOM movement determine if I am scared or not since it will be a litmus for Thursday EPD event. 
+
+BIDU doing its thing let’s hope it keeps up. CRM sucks ass as always but it’s the schedule I’m gonna play, not the stonk. 
+
+So far I am okay with things have played out after a big Monday, and luckily we have far dates on deez bitches
+
+****
+
+[Welcome back to the casino](https://i.imgur.com/rWUea2Z.jpg). 
+
+**Last week’s 1x-to-multi-baggers:** SPOT SNAP BA 
+**Last week’s losers: BIDU XPEV**
+
+**On a milk carton but our family still has hope**: JD
+
+*I use Barchart and TOS for general flow, but use Unusual Whales scanner for most of my UOA picks. Shoutout to them for giving permission to use screenshots and such that I’m playing.* 
+
+**UPDATE: DOCU CEO** speaking at Morgan Stanly TMT conference Monday AM. [This 300c 3/5 came through last week](https://i.imgur.com/dD2cqVp.jpg). Suicidal strike, but I like the sentiment. 
+
+****
+
+When the shit hits the fan and the indexes are falling, I'm in the lab trying to spot the bullish diamonds in the rough.  **Why?  Because the moment I buy a put, we are going to new all-time highs**.  I just know it.  So, I've had to work a little harder to pull out the calls, and I'm happy for those of you that got the SPOT, SNAP, and BA tendies from last week's DD.  XPEV was kind of weird too--I guess I need to take buy American.  Honestly, I'll take 3.5/5 for picks on a bloody week any day, though.
+
+**Please remember**: When things are this volatile, **choose your entries after market action seems to pick a direction AFTER the first hour of the day**, minimum, unless we're playing a specific event.  The difference between a failing play and a 30% intraday play can literally be the difference between buying at open, or buying two hours later. And don't get greedy--this is guerilla warfare right now.  Take your pop profits, unless you have PDT restriction in which case go tighter to the strike, and much longer than the whale.  **If you can’t afford it, don’t play it.** There are opportunities every day. 
+
+Anyway, I want to go in a little different direction this week, as something interesting stood out to me.  Ready? Let's roll.
+
+****
+
+**1.	The SPOT Whale: Anatomy of a carcass**
+
+On Monday, as I dined on SPOT tendies while the world burned around me, I was struck with a sense of unease amidst the clinking of champagne glasses.  On Sunday afternoon after the DD was written, some further research revealed that, at **8 AM on Monday 2/22, SPOT was hosting an “investor day”**.  Investor day was indeed the whale's bet, and boy did it pay off with that 8% intraday pop.
+
+I hadn't heard the term investor day or analyst day thrown around in tech for a bit, so my spidey sense was tingling.
+
+Then, the next interesting hits came.  Last week's Whales to Watch had SNAP picked as another play to follow based on OTM call activity and repeat betting.  On Tuesday and Wednesday, amidst the storm, SNAP indeed went nuts with intraday pops.  TWTR, which I'd made a note of the week prior, had the same activity.  **What was the seemingly invisible string tying these three tech plays together?  Investor/analyst days.**
+
+It was time to get to work.
+
+****
+
+**2.	The investigation**
+
+I wanted to see if these investor and analyst days were a recycled and growing phenonemon or something we just haven't paid much attention to.  The results were interesting in two ways.
+
+1) [SNAP](https://investor.snap.com/overview/default.aspx) [SPOT](https://investors.spotify.com/home/default.aspx) and [TWTR](https://investor.twitterinc.com/events-and-presentations/default.aspx) **investor relations pages show these events in 2021, but not in 2020 or 2019**.  Earnings? Sure.  Annual meetings? Indubitably.  Conferences? Yes.  Investor/analyst days?  Nay.  Small sample size obviously, but coming from these three within the same quarter after not having hosted any of these events over the past two years--I'd call it significant.
+
+2) **SNAP SPOT and TWTR investor/analyst days all came shortly after their Earnings Reports** (this is important later).  SNAP ER was 2/4, Investor Day was 2/23.  SPOT ER was 2/5, Investor Day was 2/22.  TWTR ER 2/9, Analyst Day was 2/25.
+
+*All three* of these tickers had OTM Whale bets with expirations the week of the investor/analyst events.  *All three* of these came within a month of their ER.  *All three* of these pumped due to events specifically designed to do just that--pump. 
+
+*NOTE: I did some quick searching of recent pumped tech, and PYPL employed the same strategy.  No ""investor day"" in 2020, yet after their ER on 2/3/21 they hosted an investor day on 2/11*
+
+These companies may as well have held up neon fucking signs that said ""WE ARE HAVING A VIRTUAL EVENT WHERE WE ARE GOING TO PAUMP OUR BRAINS OUT"".
+
+****
+
+**3.	Defining RAMBO**
+
+As I continued to poke around I saw more and more similar examples.  **Simple searches of OTM whale activity for specific dates on the tickers, which is then checked against the upcoming investor relations, conferences, and meetings on their corporate sites, gives valuable input for what may be brewing.**
+
+I also saw that [Morgan Stanley is hosting its annual Technology, Media, and Telecom conference](https://esn.net/morgan-stanley-technology-media-and-telecom-conference-march-1-2021/). Among others, our favorite FSLY is set to present 😬 😉.
+
+**Given that these plays coincide with investor relations, meetings/conferences, and are blatant pumps, I’ll refer to it as RAMBO: Relations and Meeting Buy Opportunities.**
+
+****
+
+**4. Theorizing recent increases of RAMBO** 
+
+**What stuck out to me was that these recent tech RAMBOs were scheduled to come shortly after their earnings reports**.  SPOT, if you're going to change the world with podcasts in Sierra Leone or whatever, *why not* announce it during the ER you had a couple weeks priorbefore?  **The same can be asked of others like PYPL, SNAP, TWTR, etc.**
+
+**My theory is that the current ER environment—where your stock plummets unless your forward guidance calls for a 10,000% estimate beat, means that companies are working around these unrealistic expectations by saving their best news for afterwards**.  In a way, they are hedging against their own reporting with news coming out during a less volatile time.  After seeing the success of this manuever this past week, I wouldn't be surprised if we witnessed a new normal where earnings reports are almost always scheduled with a traling investor day, analyst day, or key meeting/conference. 
+
+**5. So what am I saying?**
+
+I'm saying that, given the volatile environment around earnings reports and troubling market conditions, **we are likely to see an uptrend in OTM whale calls coinciding with RAMBO, separate from earnings reports**.  One of the first things I will be doing when I see a call flow or whale activity that I like is check it against the companies' investor relations page and seeing what events they may be taking advantage of.
+
+**Hunting for RAMBO: Picks I’ll test this on (in light of JNJ vaccine this weekend, wait on price action to settle for Tech calls)**
+
+[EPD](https://i.imgur.com/U18rGpb.jpg) 🚀 🚀 
+
+Dipping a toe in with this nice, boring, boomer midstream oil giant.  They pay a fat ass dividend yield of 8.3% but let's be real--I couldn't care less about that because this DD is about the hunt for glory, not my retirement income.
+
+The real opportunity is in the fact that, on Friday, two separate bets were placed for EPD in the near future, including a 23c for 3/26.  [They coincided with upcoming RAMBO, as EPD is holding an investor day on March 4th, with an ESG discussion preceding it on March 3rd](https://www.enterpriseproducts.com/investors/presentations).  They are also holding a Q and A session to field questions from both events.
+
+You know who else scheduled a Q and A to discuss their investor day?  SPOT did last week.  I see this as a confidence move, and I see the whale probably thinking their little investor daycould, potentially, be newsworthy.  I'll roll the dice here but keep it safe, and drop if the news is a dud.  As a side note, though, oil is just a good long term play for 2021.  My XOM and RDS leaps have been puh-rinting.
+
+As always pick a good entry point.
+
+[BIDU](https://i.imgur.com/G5XaBOD.jpg) 🚀 🚀 
+
+**EDIT**: the BIDU stock split isn’t the traditional one folks go crazy for but is instead a pre-HK listing split with a neutral effect (affect? Whatever. ) on NASDAQ share prices . Whales and call flow likely related to the HK listing more so than split benefits outright 
+
+Yeah yeah I know, I will be shilling BIDU to the grave.  But, I saw some more interesting call activity on them (it never stops), and a nice little 420 3/26c that piqued my interest.  **I hopped over to the investor relations page looking for summadat RAMBO and found this**:
+
+>BEIJING, Jan. 22, 2021 /PRNewswire/ -- Baidu, Inc. (Nasdaq: BIDU) (""Baidu"" or the ""Company""), a leading Internet platform and AI company, today announced that it will hold an extraordinary general meeting of shareholders (the ""EGM"") at 11:00 a.m. on March 1, 2021 (Beijing time) at the address of No. 10 Shangdi 10th Street, Haidian District, Beijing, the People's Republic of China.
+A proposal of changing the Company's authorized share capital by one-to-eighty subdivision of shares (""Share Subdivision"") will be submitted to Baidu's shareholders to be considered and voted upon at the EGM.
+
+Yes, that's right. BIDU is voting on a stock split Monday.  This is also coming ahead of their HK listing to happen soon.  Do I need to remind you what happens in the lead up to a company's split date?  Remember TSLA?  Remember AAPL?  Well, this ain't ether of those lol, but I like the news and dammit, I like the stock!  Can I tell you exactly what they do?  NO.  Can I tell you how much of my life savings is going in?  ALOT.
+
+[CRM](https://i.imgur.com/25AMtPg.jpg) 🚀 😬 
+
+CRM has been beaten to within an inch of its life recently, and you know I love a good falling knife.  Outside of that nearing bottom, though, they've got an interesting slate of speaking arrangements lined up with this 4/9 275c.  [They're trotting out every executive they have for shilling this coming week, alone](https://investor.salesforce.com/events-and-presentations/default.aspx).  I'll play it a little safer, a little longer, but I'm in for fishing the bottom here.
+
+[ZNGA](https://i.imgur.com/cTLGZLk.jpg) 🚀 😬 
+
+Whale came through with a conservative bet, but I'll be curious to see what they have to say at upcoming conferences after their CEO essentially begged for somebody to buy them out after ER lol (not really, but yeah kinda).  [They're speaking at the Morgan Stanley Tech Conference on March 5th, 8:25 AM PST](https://investor.zynga.com/news-releases/news-release-details/zynga-present-morgan-stanley-technology-media-telecom-conference)
+
+[NVDA](https://i.imgur.com/TFrRmTn.jpg) 🚀 🚀 
+
+I'm as sick of hearing about the damn chip shortage as you are, but NVDA has their annual investor day coming up on 4/12 and calls are starting to trickle in.  Going to feel out this tech dip then probably go with some call spreads near the 600 range for May--outright call premiums are just insane for this ticker, I don't care how rich you are.
+
+**Ticker I just like this week**: **JNJ** because I’m a bandwagon hopper 🤷🏿‍♂️  and **PDD** ER lotto gamble
+
+****
+
+**TLDR**:
+Check the investor relations page if you use call flow or Unusual Options Activity scanners, as a lot of newsworthy positive developments seem to be shared via satellite events recently, not during ER.  Investor day is the new earnings report.
+
+I like tickers: **EPD BIDU CRM ZNGA JNJ NVDA**. All long, on dips, and buying in tandem with the above mentioned special datesj",🐳 🪓 Whales to Watch 3/1 Special: Hunting for RAMBO,lu1r4b,56,135,0.92,135,0,,DD,False,True,-1
+ITRM,[removed],$VISL $TRCH $NOK $ITRM,lu1pde,0,2,1.0,2,0,,Discussion,False,True,-1
+TRCH,[removed],$VISL $TRCH $NOK $ITRM,lu1pde,0,2,1.0,2,0,,Discussion,False,True,-1
+VISL,[removed],$VISL $TRCH $NOK $ITRM,lu1pde,0,2,1.0,2,0,,Discussion,False,True,-1
+CLOV,[removed],CLOV too much short seller controlling the stock price. I want to see them get squeeze,lu1293,0,1,1.0,1,0,,Meme,False,True,-1
+CLOV,[removed],CLOV been attacking by Short seller since Chamath publicly defended the GME SQUEEZE that causes HEDGE FUNDS billions of dollars.,lu0zbl,0,0,0.5,0,0,,Discussion,False,True,-1
+SQQQ,[removed],Why aren’t people talking about SQQQ more?,lu0obf,29,0,0.4,0,0,,Discussion,False,True,1
+VIAC,,Investor Day Rewatch ViacomCBS VIAC,lu0mz6,0,1,1.0,1,0,,News,False,False,1
+UK,,sooo this is no. 10 in the UK chart at the moment,lu0g3k,1,1,1.0,1,0,,Meme,False,False,-1
+SMH,[deleted],"""AMC Entertainment approves millions in bonuses to top executives"" SMH why not use the money to restructure or pay the bills",lu00lx,0,1,1.0,1,0,,News,False,False,-1
+NVDA,[removed],Why NVDA Is A Buy,ltzude,31,1,0.51,1,0,,DD,False,True,-1
+NVDA,[removed],Why NVDA Is A Buy,ltzt21,0,1,1.0,1,0,,DD,False,True,-1
+LOOP,[removed],LOOP Energy (TSX: LPEN): is it competing in the right markets? Does it have explosive growth potential?,ltzse0,0,2,1.0,2,0,,DD,False,True,-1
+HUGE,"I have been following the **GME, AMC** short squeeze, gamma squeeze closely and creating spreadsheets, collating data and performing more google searches per min than the average ape and I am really excited to reveal my conclusions of the technical analysis to you all.
+
+By adding up the number of posts and comments on this sub reddit, of people who claim to be holding shares and having diamond hands, combined with the confirmation bias of all the people making side bets of what they will do when the price hits certain technical levels, we have very clear markers for reading the next moves the market will make and how to best capitalise on them.
+
+Key reference data used in my spreadsheets (but not the only post, honest!!) https://www.reddit.com/r/wallstreetbets/comments/ls3n78/people_who_get_permabanned_if_they_dont_do/
+
+First off as soon as GME breaks the **$500** mark there will be a huge rush on the market for people needing to fill their orders for tattoos they had promised at this benchmark. This is a HUGE new demand for tattoos that if Robinhood could not predict the demand for GME how can the tattoo artists predict the demand for tattoo ink? Here we have all the market makings for a first bull run on the **tattoo industry**, so invest heavily in them!!! 
+
+Unfortunately the wise apes amongst you will already know (and I found out after one google search) there has not been an IPO for a tattoo studio so there is not a direct stock you can invest in.... Booooooo..... however all hope is NOT lost. We see clear evidence of past WSB users who fat fingering buying GMED when trying to buy GME, so the actual stock is NOT necessarily important.  The rush of Apes who will invest in the ticker **$INKAU** will be significantly high as they will likely think it is the Australian supplier of tattoo ink. 
+
+Next marker to look for is the **$1000** price break.... should GME go above this we see another flood in the tattoo industry, but also we see divergence into the ""inserting things in places the sun does not shine""... hence the next top tip ticker to watch for bull run at $1000 are the **Lubricants and Grease** manufacturing tickers **$KAI** Kadant Inc is my pick here. 
+
+By **$5000** a share things start to get a little hard to model as soo much cash will be flowing back into the retailers hands at this point, the call options to fill of: The drinking of the own users piss is outweighed by the pure tendies spilling out of fellow apes pockets from the stonk being close to the moon. Hence I theorise that a movement will have formed off the internet that will drive up the demand for... **$TSLA, $KFC and $WENDY** as it will become ""the fashion"" to drive around in a Tesla while eating a family size bucked of KFC tendies in a Wendys parking lot.
+
+Beyond that I can not model accurately enough to share anything worthwhile, but there is one AI program that has spat out an interesting result possibility now on two separate test runs that I want you to just hold as food for thought.
+
+When a simulation was run at a price mark of **$42069.00 and $69420.00** per share the **Festo Octopusgripper AI robot** indicated that there was going to be a huge run on Gourds. That is right the vegetable gourd as a commodity will become very popular and the simulation recommends investing in **gourd futures**.
+
+UPDATE: Fresh off the ticker tape with a 83.7% probability if the price hits **$100,000** per share then the retail investors will pool all their tendies and buy the **actual moon** and have diamond hands tattooed on the surface to be visible from earth!
+
+Needless to say there is not a wrinkle in my brain left so I'm gonna jump the gun and open my long positions now, I am not a financial advisor but do with this information what you will.
+
+Space Ape out
+
+TLDR: 
+
+* $500 - Tattoo Ink from Australia $INKAU
+* $1000 - Lubricants and Grease $KAI
+* $5000 - Tesla, tendies in Wendys parking lot
+* $42069 and $69420 - Future Gourds
+* $100,000 - WSB will buy the actual moon
+
+EDIT: Fresh data in.... Added Wendys and the 100k moon prediction","When GME, AMC go to the moon. DD on where to invest next.",ltzrbg,115,732,0.87,732,0,,DD,False,True,-1
+INKAU,"I have been following the **GME, AMC** short squeeze, gamma squeeze closely and creating spreadsheets, collating data and performing more google searches per min than the average ape and I am really excited to reveal my conclusions of the technical analysis to you all.
+
+By adding up the number of posts and comments on this sub reddit, of people who claim to be holding shares and having diamond hands, combined with the confirmation bias of all the people making side bets of what they will do when the price hits certain technical levels, we have very clear markers for reading the next moves the market will make and how to best capitalise on them.
+
+Key reference data used in my spreadsheets (but not the only post, honest!!) https://www.reddit.com/r/wallstreetbets/comments/ls3n78/people_who_get_permabanned_if_they_dont_do/
+
+First off as soon as GME breaks the **$500** mark there will be a huge rush on the market for people needing to fill their orders for tattoos they had promised at this benchmark. This is a HUGE new demand for tattoos that if Robinhood could not predict the demand for GME how can the tattoo artists predict the demand for tattoo ink? Here we have all the market makings for a first bull run on the **tattoo industry**, so invest heavily in them!!! 
+
+Unfortunately the wise apes amongst you will already know (and I found out after one google search) there has not been an IPO for a tattoo studio so there is not a direct stock you can invest in.... Booooooo..... however all hope is NOT lost. We see clear evidence of past WSB users who fat fingering buying GMED when trying to buy GME, so the actual stock is NOT necessarily important.  The rush of Apes who will invest in the ticker **$INKAU** will be significantly high as they will likely think it is the Australian supplier of tattoo ink. 
+
+Next marker to look for is the **$1000** price break.... should GME go above this we see another flood in the tattoo industry, but also we see divergence into the ""inserting things in places the sun does not shine""... hence the next top tip ticker to watch for bull run at $1000 are the **Lubricants and Grease** manufacturing tickers **$KAI** Kadant Inc is my pick here. 
+
+By **$5000** a share things start to get a little hard to model as soo much cash will be flowing back into the retailers hands at this point, the call options to fill of: The drinking of the own users piss is outweighed by the pure tendies spilling out of fellow apes pockets from the stonk being close to the moon. Hence I theorise that a movement will have formed off the internet that will drive up the demand for... **$TSLA, $KFC and $WENDY** as it will become ""the fashion"" to drive around in a Tesla while eating a family size bucked of KFC tendies in a Wendys parking lot.
+
+Beyond that I can not model accurately enough to share anything worthwhile, but there is one AI program that has spat out an interesting result possibility now on two separate test runs that I want you to just hold as food for thought.
+
+When a simulation was run at a price mark of **$42069.00 and $69420.00** per share the **Festo Octopusgripper AI robot** indicated that there was going to be a huge run on Gourds. That is right the vegetable gourd as a commodity will become very popular and the simulation recommends investing in **gourd futures**.
+
+UPDATE: Fresh off the ticker tape with a 83.7% probability if the price hits **$100,000** per share then the retail investors will pool all their tendies and buy the **actual moon** and have diamond hands tattooed on the surface to be visible from earth!
+
+Needless to say there is not a wrinkle in my brain left so I'm gonna jump the gun and open my long positions now, I am not a financial advisor but do with this information what you will.
+
+Space Ape out
+
+TLDR: 
+
+* $500 - Tattoo Ink from Australia $INKAU
+* $1000 - Lubricants and Grease $KAI
+* $5000 - Tesla, tendies in Wendys parking lot
+* $42069 and $69420 - Future Gourds
+* $100,000 - WSB will buy the actual moon
+
+EDIT: Fresh data in.... Added Wendys and the 100k moon prediction","When GME, AMC go to the moon. DD on where to invest next.",ltzrbg,115,732,0.87,732,0,,DD,False,True,-1
+TSLA,"I have been following the **GME, AMC** short squeeze, gamma squeeze closely and creating spreadsheets, collating data and performing more google searches per min than the average ape and I am really excited to reveal my conclusions of the technical analysis to you all.
+
+By adding up the number of posts and comments on this sub reddit, of people who claim to be holding shares and having diamond hands, combined with the confirmation bias of all the people making side bets of what they will do when the price hits certain technical levels, we have very clear markers for reading the next moves the market will make and how to best capitalise on them.
+
+Key reference data used in my spreadsheets (but not the only post, honest!!) https://www.reddit.com/r/wallstreetbets/comments/ls3n78/people_who_get_permabanned_if_they_dont_do/
+
+First off as soon as GME breaks the **$500** mark there will be a huge rush on the market for people needing to fill their orders for tattoos they had promised at this benchmark. This is a HUGE new demand for tattoos that if Robinhood could not predict the demand for GME how can the tattoo artists predict the demand for tattoo ink? Here we have all the market makings for a first bull run on the **tattoo industry**, so invest heavily in them!!! 
+
+Unfortunately the wise apes amongst you will already know (and I found out after one google search) there has not been an IPO for a tattoo studio so there is not a direct stock you can invest in.... Booooooo..... however all hope is NOT lost. We see clear evidence of past WSB users who fat fingering buying GMED when trying to buy GME, so the actual stock is NOT necessarily important.  The rush of Apes who will invest in the ticker **$INKAU** will be significantly high as they will likely think it is the Australian supplier of tattoo ink. 
+
+Next marker to look for is the **$1000** price break.... should GME go above this we see another flood in the tattoo industry, but also we see divergence into the ""inserting things in places the sun does not shine""... hence the next top tip ticker to watch for bull run at $1000 are the **Lubricants and Grease** manufacturing tickers **$KAI** Kadant Inc is my pick here. 
+
+By **$5000** a share things start to get a little hard to model as soo much cash will be flowing back into the retailers hands at this point, the call options to fill of: The drinking of the own users piss is outweighed by the pure tendies spilling out of fellow apes pockets from the stonk being close to the moon. Hence I theorise that a movement will have formed off the internet that will drive up the demand for... **$TSLA, $KFC and $WENDY** as it will become ""the fashion"" to drive around in a Tesla while eating a family size bucked of KFC tendies in a Wendys parking lot.
+
+Beyond that I can not model accurately enough to share anything worthwhile, but there is one AI program that has spat out an interesting result possibility now on two separate test runs that I want you to just hold as food for thought.
+
+When a simulation was run at a price mark of **$42069.00 and $69420.00** per share the **Festo Octopusgripper AI robot** indicated that there was going to be a huge run on Gourds. That is right the vegetable gourd as a commodity will become very popular and the simulation recommends investing in **gourd futures**.
+
+UPDATE: Fresh off the ticker tape with a 83.7% probability if the price hits **$100,000** per share then the retail investors will pool all their tendies and buy the **actual moon** and have diamond hands tattooed on the surface to be visible from earth!
+
+Needless to say there is not a wrinkle in my brain left so I'm gonna jump the gun and open my long positions now, I am not a financial advisor but do with this information what you will.
+
+Space Ape out
+
+TLDR: 
+
+* $500 - Tattoo Ink from Australia $INKAU
+* $1000 - Lubricants and Grease $KAI
+* $5000 - Tesla, tendies in Wendys parking lot
+* $42069 and $69420 - Future Gourds
+* $100,000 - WSB will buy the actual moon
+
+EDIT: Fresh data in.... Added Wendys and the 100k moon prediction","When GME, AMC go to the moon. DD on where to invest next.",ltzrbg,115,732,0.87,732,0,,DD,False,True,-1
+AMD,"# Typically, covered calls provide a laughable premium while capping your potential gains.
+
+Let’s use AMD as an example as it looked Friday at close. Going by the book for covered calls, I selected an option with an expiration date just over 28 days away with a delta close to 0.40. This is an 87.50C that expires 26 March 2021. AMD closed at $84.51 when the mid price for this option was $3.07. Purchasing 100 shares of AMD for $8451 and selling this option for $307 costs us $8144 and caps our max gains at $606 or 7.4%. You might as well put your money in a CD or buy a treasury bond, amiright?
+
+Now let’s run the numbers for GME ($101.74) using an option with the same expiration and similar delta. This is a 280C which had a mid price of $20.03 at close. Purchasing 100 shares of GME for $10174 and selling the 280C for $2003 costs us $8171 and caps our max profit at $19829 or 242.7%.
+
+Here's a table for some reason.
+
+&#x200B;
+
+https://preview.redd.it/1i8xsv5wu3k61.png?width=1191&format=png&auto=webp&s=0d955bbeedd0451c1feaf19040d1675468ea1301
+
+Options quotes can be found [here](https://oic.ivolatility.com/oic_adv_options.j;jsessionid=b7t3rFfOTY9h).
+
+# What’s the downside?
+
+1. $19.8k is not the moon
+2. $8171 is a high entry point vs buying FDs
+3. Paper handing the shares before the call expires is risky unless you buy/close the call
+
+# What’s the upside?
+
+1. This creates upward buying pressure with less money
+2. You paid $8171 for $10174 worth of shares
+3. Dividends pay out 15 March
+
+# Additional Considerations
+
+1. GameStop’s earnings report is projected to release on 1 April but could release as early as 25 March
+2. A squeeze could happen and the price could dip before your call is exercised
+3. I have no idea what I’m doing and I'm not recommending this as a strategy
+
+None of this is financial advice. I just started trading stocks this week and don’t understand why the colorful lines aren’t moving on my screen today.
+
+EDIT: Fixed link to find options quotes.
+
+Edit 2: Fixed table. Also, Please keep roasting this idea. That's how we all learn.",Using Covered Calls to Buy Volatile Stocks like GEE EM EE at a Steep Discount,ltzb4d,56,41,0.72,41,0,,DD,False,True,-1
+CD,"# Typically, covered calls provide a laughable premium while capping your potential gains.
+
+Let’s use AMD as an example as it looked Friday at close. Going by the book for covered calls, I selected an option with an expiration date just over 28 days away with a delta close to 0.40. This is an 87.50C that expires 26 March 2021. AMD closed at $84.51 when the mid price for this option was $3.07. Purchasing 100 shares of AMD for $8451 and selling this option for $307 costs us $8144 and caps our max gains at $606 or 7.4%. You might as well put your money in a CD or buy a treasury bond, amiright?
+
+Now let’s run the numbers for GME ($101.74) using an option with the same expiration and similar delta. This is a 280C which had a mid price of $20.03 at close. Purchasing 100 shares of GME for $10174 and selling the 280C for $2003 costs us $8171 and caps our max profit at $19829 or 242.7%.
+
+Here's a table for some reason.
+
+&#x200B;
+
+https://preview.redd.it/1i8xsv5wu3k61.png?width=1191&format=png&auto=webp&s=0d955bbeedd0451c1feaf19040d1675468ea1301
+
+Options quotes can be found [here](https://oic.ivolatility.com/oic_adv_options.j;jsessionid=b7t3rFfOTY9h).
+
+# What’s the downside?
+
+1. $19.8k is not the moon
+2. $8171 is a high entry point vs buying FDs
+3. Paper handing the shares before the call expires is risky unless you buy/close the call
+
+# What’s the upside?
+
+1. This creates upward buying pressure with less money
+2. You paid $8171 for $10174 worth of shares
+3. Dividends pay out 15 March
+
+# Additional Considerations
+
+1. GameStop’s earnings report is projected to release on 1 April but could release as early as 25 March
+2. A squeeze could happen and the price could dip before your call is exercised
+3. I have no idea what I’m doing and I'm not recommending this as a strategy
+
+None of this is financial advice. I just started trading stocks this week and don’t understand why the colorful lines aren’t moving on my screen today.
+
+EDIT: Fixed link to find options quotes.
+
+Edit 2: Fixed table. Also, Please keep roasting this idea. That's how we all learn.",Using Covered Calls to Buy Volatile Stocks like GEE EM EE at a Steep Discount,ltzb4d,56,41,0.72,41,0,,DD,False,True,-1
+AAPL,[removed],Is AAPL toast fellas??,ltz79i,0,1,1.0,1,0,,Discussion,False,True,-1
+GO,,"I didn't eat yesterday so I could make this, ""Melvin Capital needs tough love"" gg APES GO BLASTOFF",ltz2lb,66,1540,0.92,1540,0,,Meme,False,False,-1

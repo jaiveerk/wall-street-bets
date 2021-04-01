@@ -22,7 +22,9 @@ def getTickers():
         else:
             stringSplit = ticker.split('|')
             tickerName = stringSplit[0]
-            if tickerName == 'EDIT' or tickerName == 'HA' or tickerName == 'PSA' or tickerName == 'DD': # we're gonna ignore tickers that look like words
+            invalidTickers = ['EDIT', 'HA', 'PSA', 'DD', 'YOLO', 'HUGE', 'LMAO', 'CEO', 'CFO', 'MIND', 'GO', 'ON', 'LOL', 'UK', 'USA', 'SHIP', 'MOON', 'CAN', 'STAY', 'WISH', 'LIVE', 'TRUE', 'EYES', 'GAIN', 'MOVE', 'TIL', 'LOVE', 'LIVE', 'GOOD', 'EM', 'APPS']
+            invalidTickers = set(invalidTickers)
+            if tickerName in invalidTickers: # we're gonna ignore tickers that look like words
                 return
             
             tickers.append(tickerName)
@@ -59,7 +61,7 @@ def getPosts(lim=900, mode="w"):
     subreddit = list(api.search_submissions(before=end_epoch,
                             subreddit='wallstreetbets',
                             filter=desiredAttributes,
-                            limit=1000))
+                            limit=30000))
 
     # ----------------------------------------------------------------- #
 
@@ -111,62 +113,72 @@ def getPosts(lim=900, mode="w"):
                 sub_dict['is_locked'].append(post.locked)
                 sub_dict['is_self'].append(post.is_self) # whether or not the post is just text (ie if no, then contains some media)
 
-                # now, let's figure out the signal
-                dateWindow = 20
-                ticker = yf.Ticker(tickerName)
+                # now, let's figure out the signal, and if there's an error, just don't consider that row
 
-                # get differences in prices
-                tenDaysPrior = postCreatedDate + timedelta(days=-10)
-                tenDaysLater = postCreatedDate + timedelta(days=10)
+                try:
+                    dateWindow = 20
+                    ticker = yf.Ticker(tickerName)
 
-                tenDaysPriorString = tenDaysPrior.isoformat()
-                tenDaysLaterString = tenDaysLater.isoformat()
+                    # get differences in prices
+                    tenDaysPrior = postCreatedDate + timedelta(days=-10)
+                    tenDaysLater = postCreatedDate + timedelta(days=10)
 
-                maxHist = ticker.history(period='max')
-                isPriorDate = maxHist.index==tenDaysPriorString
-                isLaterDate = maxHist.index==tenDaysLaterString
-
-                histPriorDate = maxHist[isPriorDate]
-
-                while histPriorDate.empty: # if 10 days prior is a weekend, keep subtracting 2 days until we reach a non empty day
-                    tenDaysPrior = tenDaysPrior + timedelta(days=-2)
                     tenDaysPriorString = tenDaysPrior.isoformat()
-                    isPriorDate = maxHist.index==tenDaysPriorString
-                    histPriorDate = maxHist[isPriorDate]
-                    dateWindow += 2
-                
-                priorOpeningPrice = histPriorDate['Open'].array[0]
-                
-                histLaterDate = maxHist[isLaterDate]
-
-                while histLaterDate.empty: # if 10 days after is a weekend, keep adding 2 days until we reach a non empty day
-                    tenDaysLater = tenDaysLater + timedelta(days=2)
                     tenDaysLaterString = tenDaysLater.isoformat()
+
+                    maxHist = ticker.history(period='max')
+                    isPriorDate = maxHist.index==tenDaysPriorString
                     isLaterDate = maxHist.index==tenDaysLaterString
+
+                    histPriorDate = maxHist[isPriorDate]
+
+                    while histPriorDate.empty: # if 10 days prior is a weekend, keep subtracting 2 days until we reach a non empty day
+                        tenDaysPrior = tenDaysPrior + timedelta(days=-2)
+                        tenDaysPriorString = tenDaysPrior.isoformat()
+                        isPriorDate = maxHist.index==tenDaysPriorString
+                        histPriorDate = maxHist[isPriorDate]
+                        dateWindow += 2
+                    
+                    priorOpeningPrice = histPriorDate['Open'].array[0]
+                    
                     histLaterDate = maxHist[isLaterDate]
-                    dateWindow += 2
-                
-                priorOpeningPrice = histPriorDate['Open'].array[0]
-                laterClosingPrice = histLaterDate['Close'].array[0]
+
+                    while histLaterDate.empty: # if 10 days after is a weekend, keep adding 2 days until we reach a non empty day
+                        tenDaysLater = tenDaysLater + timedelta(days=2)
+                        tenDaysLaterString = tenDaysLater.isoformat()
+                        isLaterDate = maxHist.index==tenDaysLaterString
+                        histLaterDate = maxHist[isLaterDate]
+                        dateWindow += 2
+                    
+                    priorOpeningPrice = histPriorDate['Open'].array[0]
+                    laterClosingPrice = histLaterDate['Close'].array[0]
 
 
-                priceDifference = laterClosingPrice - priorOpeningPrice
-                percentageChange = priceDifference / priorOpeningPrice
+                    priceDifference = laterClosingPrice - priorOpeningPrice
+                    percentageChange = priceDifference / priorOpeningPrice
 
-                print(f"Prior price was {priorOpeningPrice}, later price was {laterClosingPrice}, delta was {percentageChange}")
-
-
+                    print(f"Prior price was {priorOpeningPrice}, later price was {laterClosingPrice}, delta was {percentageChange}")
 
 
-                # calculate growth rate
-                snpGrowthRate = (1.1 ** (dateWindow/365)) - 1 # based on snp generally giving 10% annualized returns, this is how much growth we should expect in dateWindow days
 
-                if percentageChange >= snpGrowthRate:
-                    sub_dict['signal'].append(1)
-                elif percentageChange > 0 and percentageChange < snpGrowthRate:
-                    sub_dict['signal'].append(0)
-                else:
-                    sub_dict['signal'].append(-1)
+
+                    # calculate growth rate
+                    snpGrowthRate = (1.1 ** (dateWindow/365)) - 1 # based on snp generally giving 10% annualized returns, this is how much growth we should expect in dateWindow days
+
+                    if percentageChange >= snpGrowthRate:
+                        sub_dict['signal'].append(1)
+                    elif percentageChange > 0 and percentageChange < snpGrowthRate:
+                        sub_dict['signal'].append(0)
+                    else:
+                        sub_dict['signal'].append(-1)
+                except:
+                    print(f'Error fetching signal for post about ticker {tickerName}, moving on...')
+
+                    for key in sub_dict:
+                        if key == 'signal':
+                            continue
+                        else:
+                            sub_dict[key] = sub_dict[key][:-1] # remove the last entry if we failed to label that row
 
     
     new_df = pd.DataFrame(sub_dict)

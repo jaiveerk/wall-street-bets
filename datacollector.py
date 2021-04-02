@@ -22,7 +22,7 @@ def getTickers():
         else:
             stringSplit = ticker.split('|')
             tickerName = stringSplit[0]
-            invalidTickers = ['EDIT', 'HA', 'PSA', 'DD', 'YOLO', 'HUGE', 'LMAO', 'CEO', 'CFO', 'MIND', 'GO', 'ON', 'LOL', 'UK', 'USA', 'SHIP', 'MOON', 'CAN', 'STAY', 'WISH', 'LIVE', 'TRUE', 'EYES', 'GAIN', 'MOVE', 'TIL', 'LOVE', 'LIVE', 'GOOD', 'EM', 'APPS']
+            invalidTickers = ['EDIT', 'HA', 'PSA', 'DD', 'YOLO', 'HUGE', 'LMAO', 'CEO', 'CFO', 'MIND', 'GO', 'ON', 'LOL', 'UK', 'USA', 'SHIP', 'MOON', 'CAN', 'STAY', 'WISH', 'LIVE', 'TRUE', 'EYES', 'GAIN', 'MOVE', 'TIL', 'LOVE', 'LIVE', 'GOOD', 'EM', 'APPS', 'PLS']
             invalidTickers = set(invalidTickers)
             if tickerName in invalidTickers: # we're gonna ignore tickers that look like words
                 return

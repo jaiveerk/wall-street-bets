@@ -8,32 +8,34 @@ csv = 'data/quantfeatures.csv'
 
 if __name__ == '__main__':
 
-    df = pd.read_csv(csv)
-    data = df.to_numpy()
-    print(f'Dataframe columns are {df.columns}')
+# NOW -- HAVE THIS CALL THE FUNCTINOS FROM QUANTFEATURES AND GET X AND Y FROM THERE RATHER THAN RE GENERATING IT HERE
 
-    data = np.delete(data, [0, 1, 2], 1) # delete columns for ticker, ID on axis 1 ==> MAKE THIS COMPATIBLE ONCE IT HAS THE DATE
+    # df = pd.read_csv(csv)
+    # data = df.to_numpy()
+    # print(f'Dataframe columns are {df.columns}')
 
-
-    y = data[:, 7] # signal is 8th column (so index 7)
-    X = np.delete(data, 7, 1) # X will be everything else
+    # data = np.delete(data, [0, 1, 2], 1) # delete columns for ticker, ID on axis 1 
 
 
-    scaler = preprocessing.StandardScaler().fit(X)
-    X_scaled = scaler.transform(X)
-
-    # So columns are ['num_comments', 'score', 'upvote_ratio', 'ups', 'downs', 'is_locked',
-    # 'is_self', 'compound_sentiment', 'selftext_length',
-    # 'title_length', 'num_emojis', 'num_rockets', 'is_Gain', 'is_DD',
-    # 'is_Discussion', 'is_News', 'is_Technical Analysis', 'is_Meme',
-    # 'is_YOLO', 'is_Loss', 'is_Daily Discussion', 'is_Chart', 'is_Shitpost']
+    # y = data[:, 7] # signal is 8th column (so index 7)
+    # X = np.delete(data, 7, 1) # X will be everything else
 
 
-    length = X_scaled.shape[0]
+    # scaler = preprocessing.StandardScaler().fit(X)
+    # X_scaled = scaler.transform(X)
 
-    # normalize the y
-    y = y+1
-    y=y.astype('int')
+    # # So columns are ['num_comments', 'score', 'upvote_ratio', 'ups', 'downs', 'is_locked',
+    # # 'is_self', 'compound_sentiment', 'selftext_length',
+    # # 'title_length', 'num_emojis', 'num_rockets', 'is_Gain', 'is_DD',
+    # # 'is_Discussion', 'is_News', 'is_Technical Analysis', 'is_Meme',
+    # # 'is_YOLO', 'is_Loss', 'is_Daily Discussion', 'is_Chart', 'is_Shitpost']
+
+
+    # length = X_scaled.shape[0]
+
+    # # normalize the y
+    # y = y+1
+    # y=y.astype('int')
 
 
     clf = LogisticRegression(max_iter = 1000)

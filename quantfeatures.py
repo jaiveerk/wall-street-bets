@@ -55,7 +55,7 @@ def getNumEmojis(row, specificEmoji=""):
 
 
 
-if __name__ == '__main__':
+def dataToNumpy():
     nltk.downloader.download('vader_lexicon')
     sia = SentimentIntensityAnalyzer()
     csv = 'data/postsWithDate.csv'
@@ -79,9 +79,34 @@ if __name__ == '__main__':
 
     df = df.drop(columns=['selftext', 'title', 'is_distinguished', 'link_flair_text'])
 
+        data = df.to_numpy()
     print(f'Dataframe columns are {df.columns}')
 
-    df.to_csv(csvOut, index=False)
+    data = np.delete(data, [0, 1, 2], 1) # delete columns for ticker, ID on axis 1 
 
 
-    # now write it to the correct csv file
+    y = data[:, 7] # signal is 8th column (so index 7)
+    X = np.delete(data, 7, 1) # X will be everything else
+
+    scaler = preprocessing.StandardScaler().fit(X)
+    X_scaled = scaler.transform(X)
+
+    # So columns are ['num_comments', 'score', 'upvote_ratio', 'ups', 'downs', 'is_locked',
+    # 'is_self', 'compound_sentiment', 'selftext_length',
+    # 'title_length', 'num_emojis', 'num_rockets', 'is_Gain', 'is_DD',
+    # 'is_Discussion', 'is_News', 'is_Technical Analysis', 'is_Meme',
+    # 'is_YOLO', 'is_Loss', 'is_Daily Discussion', 'is_Chart', 'is_Shitpost']
+
+
+    length = X_scaled.shape[0]
+
+    # normalize the y
+    y = y+1
+    y=y.astype('int')
+
+    # instead of having this write to a CSV, maybe have it input a CSV (aka the regular data) and then it just ouputs the numpy X and Y? That means that we can call log reg from backtester just by
+    # calling the log reg file - basically make log reg only take in an X and a Y, and that way we can replicate the "logreg" file in the backtester since all it's doing is fitting a model and not any
+    # of the preprocessing -- that can all be handled here
+
+    return X, y
+

@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
-import math
 import emoji
 
 
@@ -59,7 +58,8 @@ def getNumEmojis(row, specificEmoji=""):
 if __name__ == '__main__':
     nltk.downloader.download('vader_lexicon')
     sia = SentimentIntensityAnalyzer()
-    csv = 'data/posts.csv'
+    csv = 'data/postsWithDate.csv'
+    csvOut = 'data/quantfeatures.csv'
     df = pd.read_csv(csv)
 
     # engineer additional features, starting with sentiment and lengths of selftext and title
@@ -79,20 +79,9 @@ if __name__ == '__main__':
 
     df = df.drop(columns=['selftext', 'title', 'is_distinguished', 'link_flair_text'])
 
-    print(f'Dataframe columns are {df.columns[2:]}')
+    print(f'Dataframe columns are {df.columns}')
 
-    data = df.to_numpy()
-    data = np.delete(data, [0, 1], 1) # delete columns for ticker, ID
-    y = data[:, 7] # signal is 8th column (so index 7)
-    X = np.delete(data, 7, 1) # X will be everything else
+    df.to_csv(csvOut, index=False)
 
-    # So columns are ['num_comments', 'score', 'upvote_ratio', 'ups', 'downs', 'is_locked',
-    # 'is_self', 'compound_sentiment', 'selftext_length',
-    # 'title_length', 'num_emojis', 'num_rockets', 'is_Gain', 'is_DD',
-    # 'is_Discussion', 'is_News', 'is_Technical Analysis', 'is_Meme',
-    # 'is_YOLO', 'is_Loss', 'is_Daily Discussion', 'is_Chart', 'is_Shitpost']
 
-    print(X[3])
-    print(y[3])
-
-    # number of emojis?
+    # now write it to the correct csv file

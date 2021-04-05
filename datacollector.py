@@ -47,11 +47,11 @@ def getPosts(lim=900, mode="w"):
     # "Microsoft Corporation" and "Papa John's Pizza"
 
     sub_dict = {
-        'ticker': [], 'selftext': [], 'title': [], 'id': [],
+        'date': [], 'ticker': [], 'selftext': [], 'title': [], 'id': [],
         'num_comments': [], 'score': [], 'upvote_ratio': [], 'ups': [], 'downs': [], 'is_distinguished': [], 'link_flair_text': [], 'is_locked': [], 'is_self': [], 'signal': []}
     
     # gonna need to toString the date arguments?
-    csv = 'data/posts.csv'
+    csv = 'data/postsWithDate.csv'
 
 
     # ---------------------- USING PSAW ------------------------------ #
@@ -99,6 +99,7 @@ def getPosts(lim=900, mode="w"):
                 print(f'Processing post: {contentString}')
                 print(f'Found ticker: {tickerName}')
 
+                sub_dict['date'].append(post.created_utc)
                 sub_dict['ticker'].append(tickerName)
                 sub_dict['selftext'].append(post.selftext)
                 sub_dict['title'].append(post.title)

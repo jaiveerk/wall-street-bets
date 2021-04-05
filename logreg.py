@@ -1,45 +1,41 @@
 import pandas as pd
 import numpy as np
-from sklearn import preprocessing
+
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import log_loss, confusion_matrix
+from quantfeatures import dataToNumpy
 
 csv = 'data/quantfeatures.csv'
 
+def getModelFromNumpy(X, y):
+    clf = LogisticRegression(max_iter = 1000)
+    clf.fit(X, y)
+    return clf
+
+
+def getModelFromDataframe(df): # method to be used in backtester
+    X_scaled,y = dataToNumpy(df)
+    return getModelFromNumpy(X_scaled, y)
+
+def getModelFromCSV(csv='data/postsWithDate.csv'): 
+    df = pd.read_csv(csv)
+    getModelFromDataframe(df)
+
+
+def trainAndTestFromDataframes(trainDf, testDf):
+    model = getModelFromDataframe(trainDf)
+    testX, testY = dataToNumpy(testDf)
+    predictions = model.predict(testX)
+    return predictions
+
 if __name__ == '__main__':
 
-# NOW -- HAVE THIS CALL THE FUNCTINOS FROM QUANTFEATURES AND GET X AND Y FROM THERE RATHER THAN RE GENERATING IT HERE
+    X_scaled, y = dataToNumpy('data/postsWithDate.csv')
+    clf = getModelFromNumpy(X_scaled, y)
 
-    # df = pd.read_csv(csv)
-    # data = df.to_numpy()
-    # print(f'Dataframe columns are {df.columns}')
+    length = X_scaled.shape[0]
 
-    # data = np.delete(data, [0, 1, 2], 1) # delete columns for ticker, ID on axis 1 
-
-
-    # y = data[:, 7] # signal is 8th column (so index 7)
-    # X = np.delete(data, 7, 1) # X will be everything else
-
-
-    # scaler = preprocessing.StandardScaler().fit(X)
-    # X_scaled = scaler.transform(X)
-
-    # # So columns are ['num_comments', 'score', 'upvote_ratio', 'ups', 'downs', 'is_locked',
-    # # 'is_self', 'compound_sentiment', 'selftext_length',
-    # # 'title_length', 'num_emojis', 'num_rockets', 'is_Gain', 'is_DD',
-    # # 'is_Discussion', 'is_News', 'is_Technical Analysis', 'is_Meme',
-    # # 'is_YOLO', 'is_Loss', 'is_Daily Discussion', 'is_Chart', 'is_Shitpost']
-
-
-    # length = X_scaled.shape[0]
-
-    # # normalize the y
-    # y = y+1
-    # y=y.astype('int')
-
-
-    clf = LogisticRegression(max_iter = 1000)
-    clf.fit(X_scaled, y)
+    # MANUAL TUNING DONE HERE
     predictions = clf.predict(X_scaled)
     predictions_proba = clf.predict_proba(X_scaled)
 
@@ -116,4 +112,3 @@ if __name__ == '__main__':
     print(f"true two prediction zero average probabilities = {averageTrueTwoPredictionZeroProba / trueTwoPredictionZero}")
     print(f"true two prediction two average probabilities = {averageTrueTwoPredictionTwoProba / 80}")
 
-    # number of emojis?

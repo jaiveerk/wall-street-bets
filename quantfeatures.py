@@ -4,6 +4,7 @@ import numpy as np
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 import emoji
+from sklearn import preprocessing
 
 
 # we probably just care about compound sentiment -- other options are neg, neu, pos
@@ -55,12 +56,10 @@ def getNumEmojis(row, specificEmoji=""):
 
 
 
-def dataToNumpy():
+def dataToNumpy(df=pd.read_csv('data/postsWithDate.csv')):
     nltk.downloader.download('vader_lexicon')
     sia = SentimentIntensityAnalyzer()
-    csv = 'data/postsWithDate.csv'
-    csvOut = 'data/quantfeatures.csv'
-    df = pd.read_csv(csv)
+
 
     # engineer additional features, starting with sentiment and lengths of selftext and title
     df['compound_sentiment'] = df.apply(lambda row: getCompoundSentiment(row, sia), axis=1)
@@ -79,7 +78,7 @@ def dataToNumpy():
 
     df = df.drop(columns=['selftext', 'title', 'is_distinguished', 'link_flair_text'])
 
-        data = df.to_numpy()
+    data = df.to_numpy()
     print(f'Dataframe columns are {df.columns}')
 
     data = np.delete(data, [0, 1, 2], 1) # delete columns for ticker, ID on axis 1 
@@ -98,8 +97,6 @@ def dataToNumpy():
     # 'is_YOLO', 'is_Loss', 'is_Daily Discussion', 'is_Chart', 'is_Shitpost']
 
 
-    length = X_scaled.shape[0]
-
     # normalize the y
     y = y+1
     y=y.astype('int')
@@ -108,5 +105,4 @@ def dataToNumpy():
     # calling the log reg file - basically make log reg only take in an X and a Y, and that way we can replicate the "logreg" file in the backtester since all it's doing is fitting a model and not any
     # of the preprocessing -- that can all be handled here
 
-    return X, y
-
+    return X_scaled, y

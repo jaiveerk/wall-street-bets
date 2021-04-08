@@ -22,7 +22,7 @@ df = pd.read_csv(csv)
 lastDate = df['date'].max()
 currentStartTrainDate = df['date'].min()
 
-currentEndTrainDate = date.fromtimestamp(currentStartTrainDate) + timedelta(days=trainingWindow)
+currentEndTrainDate = date.fromtimestamp(currentStartTrainDate) + timedelta(days=trainingWindow) # MAKE A SMARTER TRAIN AND TEST WINDOW
 currentStartTestDate = currentEndTrainDate + timedelta(days=1)
 currentEndTestDate = currentStartTestDate + timedelta(days=testingWindow)
 

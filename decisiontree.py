@@ -6,7 +6,7 @@ from sklearn.metrics import log_loss, confusion_matrix
 from quantfeatures import dataToNumpy
 
 csv = 'data/quantfeatures.csv'
-MAX_DEPTH = 10
+MAX_DEPTH = 6
 
 def getModelFromNumpy(X, y):
     clf = DecisionTreeClassifier(max_depth= MAX_DEPTH)

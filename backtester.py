@@ -10,6 +10,7 @@ import pandas as pd
 from datetime import date, datetime, timedelta
 import time
 from logreg import trainAndTestFromDataframes
+import decisiontree
 
 
 trainingWindow = 90 # let's say it's a 90 day window idk
@@ -50,7 +51,7 @@ while currentEndTestDate < lastDate:
     testWindow = df[isInTestWindow]
 
     # get predictions from training over train window, testing over test window --> maybe add if statements for different models? doing log for now
-    testPredictions = trainAndTestFromDataframes(trainWindow, testWindow)
+    testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
 
     # now, for each buy, we want to track how much assets appreciated, and for each sell, we want to track how much assets depreciated
 

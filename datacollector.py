@@ -39,19 +39,14 @@ def getTickers():
     
     return tickers[:-1] # remove performance description
 
-def getPosts(mode="w"):  
+def getPosts():  
     
     nasdaqTickers = getTickers()
-
-    # might not actually pick up anything, but worth a shot? For instance, unlikely that "Microsoft Corporation" will be in a post
-    # but between short name and ticker I think we should get just about everything... no way to isolate the common name right? Hard to make a general solution that would work for both
-    # "Microsoft Corporation" and "Papa John's Pizza"
 
     blank_sub_dict = {
         'date': [], 'ticker': [], 'selftext': [], 'title': [], 'id': [],
         'num_comments': [], 'score': [], 'upvote_ratio': [], 'ups': [], 'downs': [], 'is_distinguished': [], 'link_flair_text': [], 'is_locked': [], 'is_self': [], 'signal': []}
     
-    # gonna need to toString the date arguments?
     csv = 'data/bigOne.csv'
 
     # ---------------------- USING PSAW ------------------------------ #
@@ -83,9 +78,6 @@ def getPosts(mode="w"):
 
         # ----------------------------------------------------------------- #
         print(f'Collecting information from r/wallstreetbets...')
-
-        # Set csv_loaded to True if csv exists (can't evaluate truth on a dataframe)
-
         
         for i in tqdm(range(len(subreddit))):
             post = subreddit[i]
@@ -162,7 +154,6 @@ def getPosts(mode="w"):
                             # print(f"Prior price was {priorOpeningPrice}, later price was {laterClosingPrice}, delta was {percentageChange}")
 
                         # if it doesn't time out while getting info about the ticker, then we can just add the info to the dictionary
-                        # first calculate growth rate
                         if gotInfo: # if it actually worked and we executed everything, then add info about post to csv
                             snpGrowthRate = (1.1 ** (dateWindow/365)) - 1 # based on snp generally giving 10% annualized returns, this is how much growth we should expect in dateWindow days
 
@@ -191,9 +182,6 @@ def getPosts(mode="w"):
 
                     except:
                         print(f'Error fetching signal for post about ticker {tickerName}, moving on...')
-
-    
-
 
         # write everything to the csv at each iteration to save progress -- will overwrite the file at each iteration
         new_df = pd.DataFrame(sub_dict)

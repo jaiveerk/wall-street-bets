@@ -56,7 +56,10 @@ def getNumEmojis(row, specificEmoji=""):
 
 
 
-def dataToNumpy(df=pd.read_csv('data/postsWithDate.csv')):
+def dataToNumpy(df, dfName=""):
+    if not dfName == "":
+        print(f'processing {dfName}')
+
     nltk.downloader.download('vader_lexicon')
     sia = SentimentIntensityAnalyzer()
 
@@ -71,15 +74,16 @@ def dataToNumpy(df=pd.read_csv('data/postsWithDate.csv')):
     df['num_rockets'] = df.apply(lambda row: getNumEmojis(row, "rocket"), axis=1)
 
 
-    uniqueFlairs = df['link_flair_text'].unique()
+
+    uniqueFlairs = ['Discussion', 'DD', 'Chart', 'YOLO', 'Meme', 'News', 'Loss', 'Gain', 'Shitpost']
 
     for flair in uniqueFlairs:
         df[f"is_{flair}"] = df.apply(lambda row: 1 if row['link_flair_text'] == flair else 0, axis=1)
-
+    
     df = df.drop(columns=['selftext', 'title', 'is_distinguished', 'link_flair_text'])
 
     data = df.to_numpy()
-    print(f'Dataframe columns are {df.columns}')
+
 
     data = np.delete(data, [0, 1, 2], 1) # delete columns for ticker, ID on axis 1 
 
@@ -106,3 +110,8 @@ def dataToNumpy(df=pd.read_csv('data/postsWithDate.csv')):
     # of the preprocessing -- that can all be handled here
 
     return X_scaled, y
+
+if __name__ == '__main__':
+    # use for testing
+    csv = 'data/bigOne.csv'
+    dataToNumpy(pd.read_csv(csv))

@@ -5,7 +5,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import log_loss, confusion_matrix
 from quantfeatures import dataToNumpy
 
-csv = 'data/quantfeatures.csv'
 MAX_DEPTH = 6
 
 def getModelFromNumpy(X, y):
@@ -15,23 +14,23 @@ def getModelFromNumpy(X, y):
 
 
 def getModelFromDataframe(df): # method to be used in backtester
-    X_scaled,y = dataToNumpy(df)
+    X_scaled,y = dataToNumpy(df, 'training df')
     return getModelFromNumpy(X_scaled, y)
 
-def getModelFromCSV(csv='data/postsWithDate.csv'): 
+def getModelFromCSV(csv): 
     df = pd.read_csv(csv)
     getModelFromDataframe(df)
 
 
 def trainAndTestFromDataframes(trainDf, testDf):
     model = getModelFromDataframe(trainDf)
-    testX, testY = dataToNumpy(testDf)
+    testX, testY = dataToNumpy(testDf, 'testing df')
     predictions = model.predict(testX)
     return predictions
 
 if __name__ == '__main__':
 
-    X_scaled, y = dataToNumpy('data/postsWithDate.csv')
+    X_scaled, y = dataToNumpy('data/bigOne.csv')
     clf = getModelFromNumpy(X_scaled, y)
 
     length = X_scaled.shape[0]

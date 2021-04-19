@@ -9,7 +9,7 @@ import yfinance as yf
 import pandas as pd
 from datetime import date, datetime, timedelta
 import time
-from logreg import trainAndTestFromDataframes
+from decisiontree import trainAndTestFromDataframes
 import decisiontree
 from tqdm import tqdm
 from interruptingcow import timeout
@@ -38,7 +38,9 @@ currentEndTestDate = time.mktime(currentEndTestDate.timetuple())
 
 performanceDicts = []
 
+MODEL_NAME = "DECISION_TREE"
 
+print(f'Model name is {MODEL_NAME}')
 
 while currentEndTestDate < lastDate:
     print(f'Starting train window at {date.fromtimestamp(currentStartTrainDate).isoformat()}')
@@ -53,7 +55,12 @@ while currentEndTestDate < lastDate:
     testWindow = testWindow.copy()
 
     # get predictions from training over train window, testing over test window --> maybe add if statements for different models? doing log for now
-    testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
+    testPredictions = []
+
+    if MODEL_NAME == "DECISION_TREE":
+        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
+    elif MODEL_NAME == "SELFTEXT_MODEL":
+        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow) # change from tree to Neural Net
 
     # now, for each buy, we want to track how much assets appreciated, and for each sell, we want to track how much assets depreciated
 
@@ -107,8 +114,8 @@ while currentEndTestDate < lastDate:
                 priceDifference = appreciationDatePrice - datePostedPrice
                 percentageChange = priceDifference / datePostedPrice
 
-                itWorked = True
-                prediction = testPredictions[i]
+            itWorked = True
+            prediction = testPredictions[i]
         except:
             print(f"Error assessing {tickerName} on post made on {currentRow['date']}")
             print(f'Post info: {currentRow}')

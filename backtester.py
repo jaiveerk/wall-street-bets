@@ -9,7 +9,7 @@ import yfinance as yf
 import pandas as pd
 from datetime import date, datetime, timedelta
 import time
-from decisiontree import trainAndTestFromDataframes
+import logreg
 import decisiontree
 from tqdm import tqdm
 from interruptingcow import timeout
@@ -44,7 +44,7 @@ print(f'Model name is {MODEL_NAME}')
 
 while currentEndTestDate < lastDate:
     print(f'Starting train window at {date.fromtimestamp(currentStartTrainDate).isoformat()}')
-    performanceDict = {'appreciationOfBuys': [], 'appreciationOfHolds': [], 'depreciationOfSells': []}
+    performanceDict = {'appreciationOfBuys': [], 'appreciationOfHolds': [], 'appreciationOfSells': []}
 
     # now let's filter for the correct dates in the dataframe
     trainWindow = df.query(f'date >= {currentStartTrainDate} & date <= {currentEndTrainDate}')
@@ -58,7 +58,9 @@ while currentEndTestDate < lastDate:
     testPredictions = []
 
     if MODEL_NAME == "DECISION_TREE":
-        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
+        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow, max_depth=15, min_samples_leaf=0.001)
+    elif MODEL_NAME == "LOGREG":
+        testPredictions = logreg.trainAndTestFromDataframes(trainWindow, testWindow)
     elif MODEL_NAME == "SELFTEXT_MODEL":
         testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow) # change from tree to Neural Net
 

@@ -13,6 +13,7 @@ from logreg import trainAndTestFromDataframes
 import decisiontree
 from tqdm import tqdm
 from interruptingcow import timeout
+import neuralnet
 
 
 
@@ -38,7 +39,14 @@ currentEndTestDate = time.mktime(currentEndTestDate.timetuple())
 
 performanceDicts = []
 
+# Model type - the variable is equal to the label in the header of the dataframe. if TITLE_MODEL, 
+# then the cou
+TITLE_MODEL = 'title'
+SELFTEXT_MODEL = 'selftext'
 
+# Declare model - 
+modelName = TITLE_MODEL
+#modelName = SELFTEXT_MODEL
 
 while currentEndTestDate < lastDate:
     print(f'Starting train window at {date.fromtimestamp(currentStartTrainDate).isoformat()}')
@@ -54,6 +62,8 @@ while currentEndTestDate < lastDate:
 
     # get predictions from training over train window, testing over test window --> maybe add if statements for different models? doing log for now
     testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
+    
+    testPredictions = neuralnet.train_test_predict(trainWindow, testWindow, modelName)
 
     # now, for each buy, we want to track how much assets appreciated, and for each sell, we want to track how much assets depreciated
 

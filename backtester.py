@@ -39,12 +39,12 @@ currentEndTestDate = time.mktime(currentEndTestDate.timetuple())
 
 performanceDicts = []
 
-# Model type - the variable is equal to the label in the header of the dataframe. if TITLE_MODEL, 
-# then the cou
+# Model type - the variable is equal to the label in the header of the dataframe. If TITLE_MODEL, 
+# then the column used for the dataframe is 'title'
 TITLE_MODEL = 'title'
 SELFTEXT_MODEL = 'selftext'
 
-# Declare model - 
+# Declare model, use comment to select which column to use
 modelName = TITLE_MODEL
 #modelName = SELFTEXT_MODEL
 
@@ -61,9 +61,11 @@ while currentEndTestDate < lastDate:
     testWindow = testWindow.copy()
 
     # get predictions from training over train window, testing over test window --> maybe add if statements for different models? doing log for now
-    testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
+    #testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
     
+    print('Training model...')
     testPredictions = neuralnet.train_test_predict(trainWindow, testWindow, modelName)
+    print('Done training model and making predictions.')
 
     # now, for each buy, we want to track how much assets appreciated, and for each sell, we want to track how much assets depreciated
 

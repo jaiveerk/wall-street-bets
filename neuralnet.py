@@ -92,7 +92,7 @@ def baseline_model():
     model.add(Dense(3, activation='softmax'))
     # Compile model
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    return model
+    ret
 
 
 def train_test_predict(train, test, column):

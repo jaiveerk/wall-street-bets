@@ -9,7 +9,7 @@ import yfinance as yf
 import pandas as pd
 from datetime import date, datetime, timedelta
 import time
-from logreg import trainAndTestFromDataframes
+import logreg
 import decisiontree
 from tqdm import tqdm
 from interruptingcow import timeout
@@ -39,6 +39,7 @@ currentEndTestDate = time.mktime(currentEndTestDate.timetuple())
 
 performanceDicts = []
 
+<<<<<<< HEAD
 # Model type - the variable is equal to the label in the header of the dataframe. If TITLE_MODEL, 
 # then the column used for the dataframe is 'title'
 TITLE_MODEL = 'title'
@@ -47,10 +48,15 @@ SELFTEXT_MODEL = 'selftext'
 # Declare model, use comment to select which column to use
 modelName = TITLE_MODEL
 #modelName = SELFTEXT_MODEL
+=======
+MODEL_NAME = "DECISION_TREE"
+
+print(f'Model name is {MODEL_NAME}')
+>>>>>>> 35cc5b51b750a5a94e1fb35a0534e0aee3ef4625
 
 while currentEndTestDate < lastDate:
     print(f'Starting train window at {date.fromtimestamp(currentStartTrainDate).isoformat()}')
-    performanceDict = {'appreciationOfBuys': [], 'appreciationOfHolds': [], 'depreciationOfSells': []}
+    performanceDict = {'appreciationOfBuys': [], 'appreciationOfHolds': [], 'appreciationOfSells': []}
 
     # now let's filter for the correct dates in the dataframe
     trainWindow = df.query(f'date >= {currentStartTrainDate} & date <= {currentEndTrainDate}')
@@ -61,11 +67,22 @@ while currentEndTestDate < lastDate:
     testWindow = testWindow.copy()
 
     # get predictions from training over train window, testing over test window --> maybe add if statements for different models? doing log for now
+<<<<<<< HEAD
     #testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
     
     print('Training model...')
     testPredictions = neuralnet.train_test_predict(trainWindow, testWindow, modelName)
     print('Done training model and making predictions.')
+=======
+    testPredictions = []
+
+    if MODEL_NAME == "DECISION_TREE":
+        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow, max_depth=15, min_samples_leaf=0.001)
+    elif MODEL_NAME == "LOGREG":
+        testPredictions = logreg.trainAndTestFromDataframes(trainWindow, testWindow)
+    elif MODEL_NAME == "SELFTEXT_MODEL":
+        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow) # change from tree to Neural Net
+>>>>>>> 35cc5b51b750a5a94e1fb35a0534e0aee3ef4625
 
     # now, for each buy, we want to track how much assets appreciated, and for each sell, we want to track how much assets depreciated
 
@@ -119,8 +136,8 @@ while currentEndTestDate < lastDate:
                 priceDifference = appreciationDatePrice - datePostedPrice
                 percentageChange = priceDifference / datePostedPrice
 
-                itWorked = True
-                prediction = testPredictions[i]
+            itWorked = True
+            prediction = testPredictions[i]
         except:
             print(f"Error assessing {tickerName} on post made on {currentRow['date']}")
             print(f'Post info: {currentRow}')

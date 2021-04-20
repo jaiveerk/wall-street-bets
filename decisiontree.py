@@ -6,24 +6,25 @@ from sklearn.metrics import log_loss, confusion_matrix
 from quantfeatures import dataToNumpy
 
 MAX_DEPTH = 6
+MIN_SAMPLES_LEAF = 0.0
 
-def getModelFromNumpy(X, y):
-    clf = DecisionTreeClassifier(max_depth= MAX_DEPTH)
+def getModelFromNumpy(X, y, maxDepth=MAX_DEPTH, minSamplesLeaf=MIN_SAMPLES_LEAF):
+    clf = DecisionTreeClassifier(max_depth= maxDepth, min_samples_leaf=minSamplesLeaf)
     clf.fit(X, y)
     return clf
 
 
-def getModelFromDataframe(df): # method to be used in backtester
-    X_scaled,y = dataToNumpy(df, 'training df')
-    return getModelFromNumpy(X_scaled, y)
+def getModelFromDataframe(df, max_depth=MAX_DEPTH, min_samples_leaf=MIN_SAMPLES_LEAF): 
+    X_scaled,y = dataToNumpy(df)
+    return getModelFromNumpy(X_scaled, y, maxDepth=max_depth, minSamplesLeaf=min_samples_leaf)
 
 def getModelFromCSV(csv): 
     df = pd.read_csv(csv)
     getModelFromDataframe(df)
 
 
-def trainAndTestFromDataframes(trainDf, testDf):
-    model = getModelFromDataframe(trainDf)
+def trainAndTestFromDataframes(trainDf, testDf, max_depth=MAX_DEPTH, min_samples_leaf=MIN_SAMPLES_LEAF): # method to be used in backtester
+    model = getModelFromDataframe(trainDf, max_depth=max_depth, min_samples_leaf=min_samples_leaf)
     testX, testY = dataToNumpy(testDf, 'testing df')
     predictions = model.predict(testX)
     return predictions

@@ -39,20 +39,12 @@ currentEndTestDate = time.mktime(currentEndTestDate.timetuple())
 
 performanceDicts = []
 
-<<<<<<< HEAD
-# Model type - the variable is equal to the label in the header of the dataframe. If TITLE_MODEL, 
-# then the column used for the dataframe is 'title'
-TITLE_MODEL = 'title'
-SELFTEXT_MODEL = 'selftext'
 
-# Declare model, use comment to select which column to use
-modelName = TITLE_MODEL
-#modelName = SELFTEXT_MODEL
-=======
-MODEL_NAME = "DECISION_TREE"
+#MODEL_NAME = "DECISION_TREE"
+MODEL_NAME = "SELFTEXT_MODEL"
+
 
 print(f'Model name is {MODEL_NAME}')
->>>>>>> 35cc5b51b750a5a94e1fb35a0534e0aee3ef4625
 
 while currentEndTestDate < lastDate:
     print(f'Starting train window at {date.fromtimestamp(currentStartTrainDate).isoformat()}')
@@ -67,13 +59,12 @@ while currentEndTestDate < lastDate:
     testWindow = testWindow.copy()
 
     # get predictions from training over train window, testing over test window --> maybe add if statements for different models? doing log for now
-<<<<<<< HEAD
     #testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
     
     print('Training model...')
     testPredictions = neuralnet.train_test_predict(trainWindow, testWindow, modelName)
     print('Done training model and making predictions.')
-=======
+
     testPredictions = []
 
     if MODEL_NAME == "DECISION_TREE":

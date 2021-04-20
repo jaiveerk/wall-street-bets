@@ -41,8 +41,8 @@ performanceDicts = []
 
 
 #MODEL_NAME = "DECISION_TREE"
-MODEL_NAME = "SELFTEXT_MODEL"
-
+#MODEL_NAME = "SELFTEXT_MODEL"
+MODEL_NAME = "TITLE_MODEL"
 
 print(f'Model name is {MODEL_NAME}')
 
@@ -72,8 +72,9 @@ while currentEndTestDate < lastDate:
     elif MODEL_NAME == "LOGREG":
         testPredictions = logreg.trainAndTestFromDataframes(trainWindow, testWindow)
     elif MODEL_NAME == "SELFTEXT_MODEL":
-        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow) # change from tree to Neural Net
->>>>>>> 35cc5b51b750a5a94e1fb35a0534e0aee3ef4625
+        testPredictions = neuralnet.train_test_predict(trainWindow, testWindow, 'selftext')
+    elif MODEL_NAME == "TITLE_MODEL":
+        testPredictions = neuralnet.train_test_predict(trainWindow, testWindow, 'title')
 
     # now, for each buy, we want to track how much assets appreciated, and for each sell, we want to track how much assets depreciated
 

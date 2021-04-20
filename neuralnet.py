@@ -84,6 +84,16 @@ def predictions_to_categorical(predictions):
             choices.append([0,0,1])
     return np.array(choices)
 
+def baseline_model():
+    # create model
+    model = Sequential()
+    model.add(Dense(10, input_dim=10, activation='relu'))
+    model.add(Dense(10, activation='relu'))
+    model.add(Dense(3, activation='softmax'))
+    # Compile model
+    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    return model
+
 
 def train_test_predict(train, test, column):
     

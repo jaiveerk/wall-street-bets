@@ -58,7 +58,7 @@ while currentEndTestDate < lastDate:
     testPredictions = []
 
     if MODEL_NAME == "DECISION_TREE":
-        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow, max_depth=15, min_samples_leaf=0.001)
+        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow, max_depth=15, min_samples_leaf=0.02)
     elif MODEL_NAME == "LOGREG":
         testPredictions = logreg.trainAndTestFromDataframes(trainWindow, testWindow)
     elif MODEL_NAME == "SELFTEXT_MODEL":

@@ -13,6 +13,7 @@ import logreg
 import decisiontree
 from tqdm import tqdm
 from interruptingcow import timeout
+import neuralnet
 
 
 
@@ -38,7 +39,10 @@ currentEndTestDate = time.mktime(currentEndTestDate.timetuple())
 
 performanceDicts = []
 
-MODEL_NAME = "DECISION_TREE"
+
+#MODEL_NAME = "DECISION_TREE"
+#MODEL_NAME = "SELFTEXT_MODEL"
+MODEL_NAME = "TITLE_MODEL"
 
 print(f'Model name is {MODEL_NAME}')
 
@@ -55,6 +59,12 @@ while currentEndTestDate < lastDate:
     testWindow = testWindow.copy()
 
     # get predictions from training over train window, testing over test window --> maybe add if statements for different models? doing log for now
+    #testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
+    
+    print('Training model...')
+    testPredictions = neuralnet.train_test_predict(trainWindow, testWindow, modelName)
+    print('Done training model and making predictions.')
+
     testPredictions = []
 
     if MODEL_NAME == "DECISION_TREE":
@@ -62,7 +72,9 @@ while currentEndTestDate < lastDate:
     elif MODEL_NAME == "LOGREG":
         testPredictions = logreg.trainAndTestFromDataframes(trainWindow, testWindow)
     elif MODEL_NAME == "SELFTEXT_MODEL":
-        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow) # change from tree to Neural Net
+        testPredictions = neuralnet.train_test_predict(trainWindow, testWindow, 'selftext')
+    elif MODEL_NAME == "TITLE_MODEL":
+        testPredictions = neuralnet.train_test_predict(trainWindow, testWindow, 'title')
 
     # now, for each buy, we want to track how much assets appreciated, and for each sell, we want to track how much assets depreciated
 

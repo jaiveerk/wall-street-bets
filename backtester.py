@@ -40,9 +40,9 @@ currentEndTestDate = time.mktime(currentEndTestDate.timetuple())
 performanceDicts = []
 
 
-#MODEL_NAME = "DECISION_TREE"
+MODEL_NAME = "DECISION_TREE"
 #MODEL_NAME = "SELFTEXT_MODEL"
-MODEL_NAME = "TITLE_MODEL"
+# MODEL_NAME = "TITLE_MODEL"
 
 print(f'Model name is {MODEL_NAME}')
 

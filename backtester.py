@@ -40,9 +40,10 @@ currentEndTestDate = time.mktime(currentEndTestDate.timetuple())
 performanceDicts = []
 
 
-#MODEL_NAME = "DECISION_TREE"
-MODEL_NAME = "SELFTEXT_MODEL"
-#MODEL_NAME = "TITLE_MODEL"
+
+MODEL_NAME = "DECISION_TREE"
+#MODEL_NAME = "SELFTEXT_MODEL"
+# MODEL_NAME = "TITLE_MODEL"
 
 print(f'Model name is {MODEL_NAME}')
 
@@ -61,12 +62,11 @@ while currentEndTestDate < lastDate:
     # get predictions from training over train window, testing over test window --> maybe add if statements for different models? doing log for now
     #testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow)
     
-   
 
     testPredictions = []
 
     if MODEL_NAME == "DECISION_TREE":
-        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow, max_depth=15, min_samples_leaf=0.001)
+        testPredictions = decisiontree.trainAndTestFromDataframes(trainWindow, testWindow, max_depth=15, min_samples_leaf=0.02)
     elif MODEL_NAME == "LOGREG":
         testPredictions = logreg.trainAndTestFromDataframes(trainWindow, testWindow)
     elif MODEL_NAME == "SELFTEXT_MODEL":

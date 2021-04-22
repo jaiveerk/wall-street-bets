@@ -22,7 +22,8 @@ from nltk.tokenize import word_tokenize
 
 
 def d2v_model(texts):
-    tagged_data = [TaggedDocument(words=word_tokenize(_d.lower()), tags=[str(i)]) for i, _d in enumerate(texts)]
+  
+    tagged_data = [TaggedDocument(words=word_tokenize(str(_d).lower()), tags=[str(i)]) for i, _d in enumerate(texts)]
     
     max_epochs = 100
     vec_size = 10
@@ -46,8 +47,10 @@ def d2v_model(texts):
     return model
     
 
+
 def vec_for_learning(model, docs):
-    vectors = [model.infer_vector(word_tokenize( doc.lower())) for doc in docs     ]
+    print(docs)
+    vectors = [model.infer_vector(word_tokenize( str(doc).lower())) for doc in docs     ]
     return np.array(vectors)
     
 def to_categorical(y):
@@ -77,11 +80,11 @@ def predictions_to_categorical(predictions):
     choices = []
     for pred in predictions:
         if max(pred) == pred[0]:
-            choices.append([1,0,0])
+            choices.append(0)
         elif max(pred) == pred[1]:
-            choices.append([0,1,0])
+            choices.append(1)
         else:
-            choices.append([0,0,1])
+            choices.append(2)
     return np.array(choices)
 
 def baseline_model():
@@ -92,7 +95,7 @@ def baseline_model():
     model.add(Dense(3, activation='softmax'))
     # Compile model
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    ret
+    return model
 
 
 def train_test_predict(train, test, column):
